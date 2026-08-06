@@ -4,7 +4,7 @@ Project: vibration_plate_US
 
 Product: HTM Vibration Machine
 
-Task ID: VP-US-001-VISUAL-v1.2
+Task ID: VP-US-001-PI-v1.3
 
 Collection Date: 2026-08-06
 
@@ -30,6 +30,8 @@ Source: Current and prior owner task briefs.
 
 Source Type: Owner Confirmed
 
+Source Role: Product Truth, Validation
+
 Source Confidence: High
 
 Asset Location: Unavailable — no owner-provided image.
@@ -44,11 +46,13 @@ Source: https://www.amazon.com/dp/B0FP2HTK9V
 
 Source Type: Amazon Listing Asset
 
+Source Role: Product Truth for Amazon child, Visual Source, Customer Insight, Validation
+
 Source Confidence: High for ASIN B0FP2HTK9V itself; Low/Rejected for target-product attribution because identity conflicts.
 
 Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
 
-Verification Status: Conflict / Need Owner Review
+Verification Status: Amazon selected child resolved; Variant Difference / Target TikTok Variant Need Owner Review
 
 Conflict Evidence:
 
@@ -68,6 +72,8 @@ Source: https://www.kalodata.com/product
 
 Source Type: Kalodata Product Asset
 
+Source Role: Market Signal, Content Insight, Visual Source if exact match is established
+
 Source Confidence: Medium if an exact match is later established; currently Not Established.
 
 Asset Location: Unavailable
@@ -84,6 +90,8 @@ Source: https://shop.tiktok.com/us/pdp/1732361047881191995
 
 Source Type: TikTok Shop Product Asset
 
+Source Role: Product Truth at listing level, Visual Source, Market Signal, Validation
+
 Source Confidence: High for the exact Product ID if accessible.
 
 Asset Location: Unavailable
@@ -99,6 +107,8 @@ Information: Supplier product, detail, package, accessory, and dimension images.
 Source: Current project files.
 
 Source Type: Supplier Asset
+
+Source Role: Product Truth, Visual Source
 
 Source Confidence: High if owner/supplier provenance is later provided; currently Not Established.
 
@@ -235,3 +245,47 @@ Source Confidence: High if accessible
 Asset Location: Unavailable
 
 Verification Status: Access Blocked — Security Check
+
+## v1.3 Amazon Variant and Customer Sources
+
+### SRC-006 — Amazon Black Child Variant
+
+Source: https://www.amazon.com/dp/B0FP2LHR1X
+
+Source Type: Owner Provided Marketplace Reference — Amazon child variant
+
+Source Role: Visual Source, Validation, Customer Insight
+
+Source Confidence: High for B0FP2LHR1X; target TikTok mapping unresolved
+
+Verification Status: Black FFR1801 child verified; Variant Difference / Need Owner Review
+
+Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/black_B0FP2LHR1X_main.jpg`
+
+### SRC-007 — Amazon White Child Variant
+
+Source: https://www.amazon.com/dp/B0FP2J1TDF
+
+Source Type: Owner Provided Marketplace Reference — Amazon child variant
+
+Source Role: Visual Source, Validation, Customer Insight
+
+Source Confidence: High for B0FP2J1TDF; target TikTok mapping unresolved
+
+Verification Status: White FFR1801 child verified; Variant Difference / Need Owner Review
+
+Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/white_B0FP2J1TDF_main.jpg`
+
+### SRC-008 — Amazon Visible Review Sample
+
+Source: Amazon listing review modules for Parent ASIN B0FP2JPLZ6 family
+
+Source Type: Marketplace Customer Reviews
+
+Source Role: Customer Insight
+
+Source Confidence: Medium — 13 visible Verified Purchase reviews, not the complete 221-review corpus
+
+Verification Status: Sample verified and variant-tagged; not Product Truth
+
+Information Covered: Rating 4.5/5, review count 221, positive/negative patterns, customer language, purchase motivations, usage scenarios, and evidence-backed objections.

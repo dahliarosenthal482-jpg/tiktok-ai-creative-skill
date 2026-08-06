@@ -14,6 +14,22 @@ TikTok Shop Product ID: 1732361047881191995
 
 Market: United States
 
+## Marketplace Identity Resolution
+
+Owner Provided Marketplace Reference: Amazon ASIN B0FP2HTK9V
+
+Amazon Parent ASIN: B0FP2JPLZ6
+
+Amazon Selected Variant: Silver / B0FP2HTK9V / FFR1801
+
+Amazon Visible Color Variants:
+
+- Silver — B0FP2HTK9V
+- Black — B0FP2LHR1X
+- White — B0FP2J1TDF
+
+Target TikTok-to-Amazon Mapping: Need Verification. Black and White are color candidates, but the Amazon FFR1801 family differs from the TikTok target listing in dimensions, weight, programs, and control type. Do not transfer Amazon family specifications or visuals into the target Product Facts until Owner Review.
+
 ## Product Visual Identity
 
 Colors / TikTok SKU Options:
@@ -89,6 +105,7 @@ Price Verification Note: Dynamic current price requires re-verification before p
 - Resistance Bands visual appearance, quantity, color, handles, and attachment method.
 - Remote control, power cable, manual, or any other included accessory.
 - Exact physical contour, surface pattern, button layout, display placement, logo placement, and underside structure.
+- Whether the TikTok target belongs to Amazon Parent ASIN B0FP2JPLZ6 / FFR1801 or a different HTM product family.
 
 ## Visual Lock
 

@@ -8,7 +8,7 @@ Market: United States
 
 Current Phase: Product Visual Intelligence Review
 
-Current Task: VP-US-001-VISUAL-v1.2 — Visual Asset Collection
+Current Task: VP-US-001-PI-v1.3 — Product Intelligence Completion
 
 Status: WAITING_REVIEW
 
@@ -16,4 +16,4 @@ Owner: ChatGPT Strategy Brain
 
 Executor: WORK-PRODUCT-001
 
-Next Action: Owner/ChatGPT reviews the Amazon ASIN B0FP2HTK9V identity conflict and supplies exact-SKU Black/White assets before Product Profile Approval.
+Next Action: ChatGPT/Owner reviews Amazon Parent B0FP2JPLZ6 Variant Differences, confirms the TikTok target mapping, and approves or rejects candidate Black/White assets.

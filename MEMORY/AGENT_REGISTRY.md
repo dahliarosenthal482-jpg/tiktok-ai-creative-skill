@@ -38,9 +38,9 @@ Capability:
 
 Current Project: vibration_plate_US
 
-Current Task: VP-US-001-VISUAL-v1.2
+Current Task: VP-US-001-PI-v1.3
 
-Current Assignment: HTM Vibration Machine visual asset collection v1.2
+Current Assignment: HTM Vibration Machine Product Intelligence v1.3 completion
 
 Status: Waiting Review
 
@@ -83,9 +83,9 @@ Capability:
 
 Current Project: vibration_plate_US
 
-Current Task: VP-US-001
+Current Task: VP-US-001-PI-v1.3
 
-Current Assignment: Build verified HTM Vibration Machine US-market product knowledge base
+Current Assignment: Complete HTM Vibration Machine Product Intelligence v1.3 package
 
 Status: Waiting Review
 

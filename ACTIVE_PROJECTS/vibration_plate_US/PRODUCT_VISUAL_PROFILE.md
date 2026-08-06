@@ -75,6 +75,8 @@ Relative Size: Need Verification. No approved exact-SKU human-scale, package, or
 | Asset | Source | Location | Identity Status | Verification Status |
 |---|---|---|---|---|
 | Amazon Product Main Image | Amazon ASIN B0FP2HTK9V | `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg` | Conflicts with target profile | Conflict / Need Owner Review |
+| Amazon Black Variant Main Image | Amazon ASIN B0FP2LHR1X | `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/black_B0FP2LHR1X_main.jpg` | Target-color candidate; FFR1801 identity unresolved | Variant Difference / Need Owner Review |
+| Amazon White Variant Main Image | Amazon ASIN B0FP2J1TDF | `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/white_B0FP2J1TDF_main.jpg` | Target-color candidate; FFR1801 identity unresolved | Variant Difference / Need Owner Review |
 | Product Front View | All applicable sources checked | Unavailable | Not assessable | Unavailable |
 | Product Side View | All applicable sources checked | Unavailable | Not assessable | Unavailable |
 | Product Detail Images | Amazon assets excluded by identity conflict; other sources unavailable/restricted | Unavailable | Not assessable | Unavailable |
@@ -86,6 +88,8 @@ Relative Size: Need Verification. No approved exact-SKU human-scale, package, or
 | Supplier Assets | No supplier files in project | Unavailable | Not assessable | Unavailable |
 
 No Amazon conflict asset may be promoted into the approved target asset set without Owner Review.
+
+Amazon Black and White candidate assets also remain unapproved because color agreement does not resolve the dimension, weight, program, model, and control differences.
 
 ## AI Video Lock
 
