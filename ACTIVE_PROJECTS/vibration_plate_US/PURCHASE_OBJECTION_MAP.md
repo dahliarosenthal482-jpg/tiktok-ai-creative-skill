@@ -4,7 +4,7 @@ Project: vibration_plate_US
 
 Evidence Base: 13 visible Amazon Verified Purchase reviews across the HTM FFR1801 family, collected 2026-08-06.
 
-Status: WAITING_REVIEW
+Status: APPROVED FOR CREATIVE STRATEGY INPUT — WAITING_REVIEW
 
 ## Objection 1 — Will it become noisy?
 
@@ -18,7 +18,7 @@ Resolution Strategy: Do not promise silence. Demonstrate actual sound, level pla
 
 Suggested Video Angle: Transparent sound-and-stance demonstration.
 
-Verification Status: Recurring review-supported objection; applicability to unresolved TikTok target requires review.
+Verification Status: Approved product-family customer insight for future video-angle planning.
 
 ## Objection 2 — Is the platform comfortable?
 
@@ -46,7 +46,7 @@ Resolution Strategy: Show verified dimensions and a real storage location only a
 
 Suggested Video Angle: Pull out, short routine, store away.
 
-Verification Status: Recurring motivation/objection-resolution signal; target dimensions unresolved.
+Verification Status: Approved product-family customer insight; use only verified TikTok dimensions in future content.
 
 ## Objection 4 — Is it easy to use consistently?
 
@@ -74,4 +74,4 @@ Resolution Strategy: Show a verified beginner control sequence for the approved 
 
 Suggested Video Angle: Controls explained in one clear walkthrough.
 
-Verification Status: Recurring customer signal; target control layout unresolved.
+Verification Status: Approved product-family customer insight; future demonstrations must follow the production Visual Lock.

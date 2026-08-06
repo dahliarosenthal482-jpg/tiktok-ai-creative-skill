@@ -16,19 +16,16 @@ Market: United States
 
 ## Marketplace Identity Resolution
 
-Owner Provided Marketplace Reference: Amazon ASIN B0FP2HTK9V
-
 Amazon Parent ASIN: B0FP2JPLZ6
 
-Amazon Selected Variant: Silver / B0FP2HTK9V / FFR1801
+Amazon Family Validation: APPROVED by Owner. Amazon Parent ASIN B0FP2JPLZ6 is the same product family.
 
-Amazon Visible Color Variants:
+TikTok Shop Selling SKU / AI Video Target SKU:
 
-- Silver — B0FP2HTK9V
-- Black — B0FP2LHR1X
-- White — B0FP2J1TDF
+- Black
+- White
 
-Target TikTok-to-Amazon Mapping: Need Verification. Black and White are color candidates, but the Amazon FFR1801 family differs from the TikTok target listing in dimensions, weight, programs, and control type. Do not transfer Amazon family specifications or visuals into the target Product Facts until Owner Review.
+Amazon child-variant specifications must remain variant-scoped and must not overwrite the verified TikTok target facts below.
 
 ## Product Visual Identity
 
@@ -36,17 +33,16 @@ Colors / TikTok SKU Options:
 
 - Black
 - White
-- Silver is not an approved SKU color and must not be used.
 
-Appearance: Slim, compact vibration plate form factor. Exact contour and decorative details: Need Verification from product images.
+Appearance: Slim, compact oval vibration-plate form shown in the approved Black and White visual references.
 
-Structure: Single vibration platform. Exact housing, foot placement pattern, and underside structure: Need Verification.
+Structure: Single textured vibration platform with the original housing, control-panel/display placement, logo placement, base, and resistance-band attachment relationship shown in the approved Black and White visual references.
 
 Controls: Push buttons.
 
 Display: LED display.
 
-Accessories visible in verified product images: Unavailable. Resistance Bands inclusion is Owner Confirmed, but no accessory image is available.
+Accessories visible in approved product-family images: Resistance Bands. Inclusion is Owner Confirmed; their production appearance must follow the approved Black/White reference.
 
 ## Product Specifications
 
@@ -102,20 +98,18 @@ Price Verification Note: Dynamic current price requires re-verification before p
 - Manufacturer model number or seller SKU.
 - Wattage.
 - Maximum user weight.
-- Resistance Bands visual appearance, quantity, color, handles, and attachment method.
 - Remote control, power cable, manual, or any other included accessory.
-- Exact physical contour, surface pattern, button layout, display placement, logo placement, and underside structure.
-- Whether the TikTok target belongs to Amazon Parent ASIN B0FP2JPLZ6 / FFR1801 or a different HTM product family.
+- Exact seller SKU/model code used by TikTok for the Black and White selling variants.
 
 ## Visual Lock
 
-AI-generated video must preserve the selected approved SKU color (Black or White), compact vibration-platform form, push-button control system, LED display, and all verified structural details visible in the approved source image. Black and White are separate SKU variants and must not be blended.
+AI-generated video must preserve the selected approved Black or White reference image: product shape, SKU color, original control panel, original display, original structure, logo placement, surface pattern, proportions, and Resistance Bands. Black and White are separate SKU variants and must not be blended.
 
 ## Video Usage Rules
 
 - Use only Black or White; never generate Silver or another color.
 - Do not change the product silhouette, platform proportions, housing, control layout, display, surface pattern, logo placement, or accessory set from an approved source image.
-- Resistance Bands are Owner Confirmed as included; do not invent or show their specific appearance until an exact accessory image is approved.
+- Resistance Bands are Owner Confirmed as included; when shown, follow their appearance and attachment relationship in the approved Black/White product-family reference.
 - Do not invent Bluetooth, speakers, app control, handles, wheels, batteries, extra motors, or other unverified functions.
 - Do not make medical, automatic fat-loss, or guaranteed weight-loss claims.
 - Treat $49.99 only as a temporary promotional price and re-verify it before use.
@@ -124,4 +118,5 @@ AI-generated video must preserve the selected approved SKU color (Black or White
 
 - User task brief for VP-US-001, received 2026-08-06.
 - Owner task brief for VP-US-001-VISUAL, received 2026-08-06; confirms Resistance Bands, Black/White SKU colors, and `$49.99` as a TikTok Promotional Price.
+- Owner task brief for VP-US-001-FINALIZE, received 2026-08-06; approves product identity, validates the Amazon parent family, and selects Black/White as the only selling and AI-video target SKUs.
 - TikTok Shop US PDP: https://shop.tiktok.com/us/pdp/1732361047881191995 (listing data indexed/crawled approximately three months before research date; accessed 2026-08-06).

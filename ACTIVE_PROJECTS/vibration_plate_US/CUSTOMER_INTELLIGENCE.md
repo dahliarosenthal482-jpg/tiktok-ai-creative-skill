@@ -10,7 +10,7 @@ Research Status: WAITING_REVIEW
 
 Evidence Window: 13 visible Verified Purchase reviews on the Amazon listing page, collected 2026-08-06. Sample composition: 7 Black, 4 White, 2 Silver; 8 US, 5 Canada.
 
-Boundary: These findings describe the Amazon FFR1801 review sample. They do not prove facts or outcomes for the unresolved TikTok target product.
+Boundary: These comments represent Amazon parent-level product-family customer feedback. They may inform later Script Strategy, but they are not Product Facts and do not prove product outcomes.
 
 # Positive Signals
 
