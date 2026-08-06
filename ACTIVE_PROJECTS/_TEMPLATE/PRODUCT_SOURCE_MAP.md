@@ -12,6 +12,12 @@ Source Level:
 
 Source Type:
 
+Source Confidence:
+
+Asset Type:
+
+Asset Location:
+
 Source Name:
 
 URL or File Location:

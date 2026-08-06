@@ -1,4 +1,4 @@
-# Product Intelligence Standard v1.0
+# Product Intelligence Standard v1.1
 
 ## Purpose
 
@@ -71,6 +71,64 @@ Amazon、TikTok Shop 等 Marketplace Listing。必须记录具体 Listing 和采
 每项视觉资料必须记录来源、文件位置、提取日期、使用权限状态、与产品身份的一致性以及验证结果。缺失资产必须明确标记，不得使用推测或生成图替代已验证资料。
 
 视觉资料输出文件：`PRODUCT_VISUAL_PROFILE.md`。
+
+## Visual Asset Source Priority v1.1
+
+视觉资产按以下优先级选择和验证：
+
+### Level 1 — Owner Provided Assets
+
+用户提供的图片、视频和供应商确认素材。
+
+### Level 2 — Official Brand Assets
+
+品牌官网和品牌官方发布的视觉素材。
+
+### Level 3 — Amazon Listing Assets
+
+Amazon ASIN 页面中的产品图片、详情图和尺寸图。用于产品视觉锁定；必须确认 Listing 与目标产品精确匹配。
+
+### Level 4 — Kalodata Product Assets
+
+TikTok Shop 生态数据来源，包括商品图片、商品封面和关联素材。用于补充 TikTok 生态视觉理解；必须记录具体来源和匹配状态。
+
+### Level 5 — TikTok Shop Product Assets
+
+TikTok 商品页面中的视觉素材。由于 Security Check、动态加载或页面限制，允许作为辅助来源，不得因页面不可访问而停止视觉采集。
+
+### Level 6 — Supplier Assets
+
+供应商提供且可追踪到目标产品的视觉素材。
+
+### Level 7 — Third-party Assets
+
+第三方参考素材，只能作为低置信度补充来源。
+
+## Visual Source Fallback Rule
+
+如果主来源不可访问，不得直接判定 `Visual Asset Unavailable`。必须记录访问失败，并继续尝试其他尚未检查的视觉来源。
+
+示例回退路径：
+
+`TikTok Shop unavailable → Amazon → Kalodata → Supplier`
+
+只有完成适用来源的逐级尝试并记录结果后，才能将资产标记为不可用。
+
+## Source Confidence
+
+每个来源必须在 `PRODUCT_SOURCE_MAP.md` 中记录 `Source Confidence`：
+
+- `High`：Owner、Official 或 Exact Marketplace Match。
+- `Medium`：已经验证匹配的 ecosystem source。
+- `Low`：Third-party reference。
+
+Source Confidence 表示来源可信程度，不替代 Fact Verification、Visual Verification 或使用权限检查。
+
+## Visual Conflict Resolution
+
+不同来源的图片出现冲突时，必须记录 Conflict，禁止自动覆盖任何已记录资产或将其中一个版本自动设为已确认。
+
+例如 Amazon 显示 Black、TikTok Shop 显示 White 时，必须记录来源、冲突属性和各版本证据，并将状态设为 `Waiting Owner Review`。只有 Owner Review 明确确认后，才能更新 Visual Lock 或批准相关视觉资产。
 
 ## Approval Gates
 
