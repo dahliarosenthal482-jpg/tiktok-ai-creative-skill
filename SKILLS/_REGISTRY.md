@@ -58,6 +58,48 @@ Required Capability: Evidence Verification and Repository Audit
 
 Status: Planned
 
+## Market Intelligence Skill
+
+Skill Name: Market Intelligence Skill
+
+Purpose: Combine commerce, video, customer, and opportunity intelligence into an evidence-backed market assessment.
+
+Input: Market sources, commerce data, video data, customer signals, Evidence Summary, and Risk Items
+
+Output: Commerce Intelligence, Video Intelligence, Customer Intelligence, and Opportunity Analysis
+
+Required Capability: Market Research and Evidence Verification
+
+Status: Planned
+
+## Video Intelligence Skill
+
+Skill Name: Video Intelligence Skill
+
+Purpose: Analyze video metadata, performance, hooks, scenes, product appearance, CTA, captions, and audio patterns.
+
+Input: Verified video URLs, metadata, performance data, and product links
+
+Output: Video Intelligence and Creative Breakdown
+
+Required Capability: Video Research and Creative Analysis
+
+Status: Planned
+
+## Commerce Intelligence Skill
+
+Skill Name: Commerce Intelligence Skill
+
+Purpose: Analyze Orders or Units Sold, GMV, pricing, sales periods, rankings, and channel contribution.
+
+Input: Verified marketplace and commerce data
+
+Output: Commerce Intelligence with transaction and channel evidence
+
+Required Capability: Commerce Data Analysis and Source Verification
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:

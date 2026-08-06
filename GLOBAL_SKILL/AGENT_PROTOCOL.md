@@ -69,6 +69,19 @@ Product Intelligence Agent 的完整输出必须包含：
 
 使用 Marketplace 来源前必须完成 Parent Product、Variants、SKU、Selected Variant 和 Visual Match 解析，禁止默认使用页面当前 Variant 作为产品身份。
 
+## Market Intelligence 执行规则
+
+所有 Market Agent 必须遵守 `SYSTEM_CORE/MARKET_INTELLIGENCE_STANDARD.md`。完整输出必须包含：
+
+1. Commerce Intelligence
+2. Video Intelligence
+3. Customer Intelligence
+4. Opportunity Analysis
+5. Evidence Summary
+6. Risk Items
+
+Market Agent 禁止只输出竞品列表。必须同时提供成交数据、内容数据、消费者信号和证据支持的策略机会；缺失模块必须明确标记为不完整。
+
 ## Work 完成流程
 
 任务完成后，必须：
