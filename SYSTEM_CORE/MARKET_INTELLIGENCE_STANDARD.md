@@ -1,4 +1,4 @@
-# Market Intelligence Framework v1.0
+# TikTok Shop Content Commerce Intelligence Framework v1.1
 
 ## Purpose
 
@@ -104,6 +104,73 @@ GMV 或 Orders 缺失时必须明确标记，不得反推或捏造。
 
 Opportunity Analysis 必须引用前三个模块的证据，不得将无数据支持的假设作为市场机会。
 
+## Module 5 — Competitive Position Intelligence
+
+### Purpose
+
+分析 Premium、Core 和 Entry 价格层级中的竞争位置、价值主张和可执行对策。
+
+### Price Segments
+
+- Premium
+- Core
+- Entry
+
+### Required Fields
+
+- Price Segment
+- Competitor Position
+- Value Proposition
+- Premium Advantage
+- Premium Weakness
+- Entry Advantage
+- Entry Weakness
+- Competitive Opportunity
+- Counter Strategy
+
+高价产品不仅是竞争对象，也可能是市场教育来源。分析必须识别 Premium 产品已经建立的用户认知、信任标准和价值语言，并评估其他价格层级如何合法利用该市场教育，而不是简单复制其产品、定价或内容。
+
+Competitive Opportunity 和 Counter Strategy 必须引用 Commerce、Video 或 Customer Intelligence 证据。
+
+## Module 6 — Trend Piggyback Intelligence
+
+### Purpose
+
+分析如何将已有市场趋势迁移到目标产品语境，以获得相关流量和注意力。
+
+### Required Fields
+
+- Trend Pattern
+- Original Content Pattern
+- Audience
+- Emotion Trigger
+- Why It Gets Attention
+- Adaptation Strategy
+- Risk
+
+禁止复制竞品内容、镜头、文案或品牌表达。必须分析趋势背后的注意力机制和迁移条件，形成原创 Adaptation Strategy，并记录品牌错配、受众错配、版权、平台合规和趋势衰退风险。
+
+## Module 7 — Content Conversion Intelligence
+
+### Purpose
+
+分析内容如何从注意力推进到购买行为，并区分播放逻辑与购买逻辑。
+
+### Content Funnel
+
+`Attention → Interest → Desire → Action`
+
+### Required Fields
+
+- Attention Trigger
+- Desire Trigger
+- Trust Trigger
+- Purchase Trigger
+- Objection Removal
+- CTA Trigger
+
+播放逻辑不等于购买逻辑。高播放、高互动或趋势参与不能自动证明购买转化；必须结合 Orders、GMV、商品链接、CTA、信任证据和异议消除机制判断 Content Conversion。
+
 ## Market Intelligence Source Requirements
 
 所有来源必须登记到 `MARKET_SOURCE_MATRIX.md`，并记录 Source ID、Source Type、Source URL、Source Role、Evidence、Information Covered、Confidence 和 Status。
@@ -125,9 +192,12 @@ Opportunity Analysis 必须引用前三个模块的证据，不得将无数据�
 1. Commerce Intelligence
 2. Video Intelligence
 3. Customer Intelligence
-4. Opportunity Analysis
-5. Evidence Summary
-6. Risk Items
+4. Competitive Position Intelligence
+5. Trend Piggyback Intelligence
+6. Content Conversion Intelligence
+7. Opportunity Analysis
+8. Evidence Summary
+9. Risk Items
 
 ## Quality Gate
 
@@ -137,5 +207,12 @@ Market Intelligence 不得只输出竞品列表。通过质量门槛必须同时
 2. 内容数据，包括视频表现与 Creative Breakdown。
 3. 消费者信号，包括购买动机、触发因素、正负反馈和异议。
 4. 策略机会，包括证据支持的 Market Gap、Content Opportunity 和 Suggested Strategy。
+5. 竞争位置，包括 Premium、Core、Entry 的价值差异与 Counter Strategy。
+6. 趋势迁移，包括注意力机制、原创 Adaptation Strategy 和风险。
+7. 内容转化，包括 Attention、Interest、Desire、Action 的购买链路证据。
 
 任一模块缺失时，输出必须标记为不完整并列入 Risk Items，不得声称 Market Intelligence 已完成。
+
+## Data Boundary
+
+本 Framework 只保存可适用于所有 TikTok Shop 产品的方法、字段、门禁和验证规则。真实项目数据、产品事实、竞品名称、价格、平台采集结果、用户评论和具体脚本方向不得写入本文件。

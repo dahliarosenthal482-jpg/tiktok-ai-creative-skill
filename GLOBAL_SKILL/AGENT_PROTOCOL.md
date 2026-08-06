@@ -76,11 +76,14 @@ Product Intelligence Agent 的完整输出必须包含：
 1. Commerce Intelligence
 2. Video Intelligence
 3. Customer Intelligence
-4. Opportunity Analysis
-5. Evidence Summary
-6. Risk Items
+4. Competitive Position Intelligence
+5. Trend Piggyback Intelligence
+6. Content Conversion Intelligence
+7. Opportunity Analysis
+8. Evidence Summary
+9. Risk Items
 
-Market Agent 禁止只输出竞品列表。必须同时提供成交数据、内容数据、消费者信号和证据支持的策略机会；缺失模块必须明确标记为不完整。
+Market Agent 禁止只输出竞品列表。必须同时提供成交数据、内容数据、消费者信号、价格层级竞争、趋势迁移、内容转化和证据支持的策略机会；缺失模块必须明确标记为不完整。
 
 ## Work 完成流程
 

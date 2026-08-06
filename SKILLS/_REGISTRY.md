@@ -100,6 +100,20 @@ Required Capability: Commerce Data Analysis and Source Verification
 
 Status: Planned
 
+## Content Commerce Intelligence Skill
+
+Skill Name: Content Commerce Intelligence Skill
+
+Purpose: Analyze competitive position, trend transferability, and the Attention-to-Action content conversion path for TikTok Shop markets.
+
+Input: Commerce Intelligence, Video Intelligence, Customer Intelligence, verified trend evidence, Evidence Summary, and Risk Items
+
+Output: Competitive Position Intelligence, Trend Piggyback Intelligence, Content Conversion Intelligence, and Opportunity Analysis
+
+Required Capability: Content Commerce Analysis and Evidence Verification
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:
