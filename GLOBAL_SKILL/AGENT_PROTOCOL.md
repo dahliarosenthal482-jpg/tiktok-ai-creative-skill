@@ -36,6 +36,16 @@
 
 禁止多个 Agent 同时修改同一个任务。Agent 开始任务前必须登记占用状态，完成或释放任务后必须及时更新 Agent Registry、Task Queue 和 Session 信息。
 
+## Product Intelligence 执行规则
+
+所有 Product Intelligence 任务必须遵守 `SYSTEM_CORE/PRODUCT_INTELLIGENCE_STANDARD.md`：
+
+1. 必须先完成 Source Collection，再进入 Fact Extraction。
+2. 必须建立 Product Source Map，并为产品事实保留可追踪来源。
+3. 必须完成 Visual Asset Extraction 和 Visual Verification。
+4. 未完成 Visual Verification，禁止进入 Video Production。
+5. 禁止将 AI 推测作为已确认事实写入 Product Profile。
+
 ## Work 完成流程
 
 任务完成后，必须：
