@@ -90,3 +90,41 @@ Current Assignment: None
 Status: Available
 
 Last Update: 2026-08-06
+
+## WORK-MARKET-001
+
+Agent ID: WORK-MARKET-001
+
+Role: Market Intelligence Agent
+
+Capability:
+
+- Commerce Intelligence
+- Market Intelligence
+- Competitive Analysis
+- Video Intelligence Preparation
+- Opportunity Analysis
+
+Scope: PROJECT_EXECUTION only
+
+Permission:
+
+- Read project data
+- Analyze project data
+- Produce project market analysis
+
+Restrictions:
+
+- Must not modify `SYSTEM_CORE/`
+- Must not modify `GLOBAL_SKILL/`
+- Must not modify `SKILLS/_REGISTRY.md`
+
+Current Project: None
+
+Current Task: None
+
+Current Assignment: None
+
+Status: Active
+
+Last Update: 2026-08-06

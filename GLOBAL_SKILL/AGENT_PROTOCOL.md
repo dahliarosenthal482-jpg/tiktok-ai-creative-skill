@@ -71,6 +71,20 @@ Product Intelligence Agent 的完整输出必须包含：
 
 ## Market Intelligence 执行规则
 
+### Market Intelligence Session Record
+
+Every Market Intelligence task must create a Session record before execution begins. The record must contain:
+
+- Session ID
+- Agent ID
+- Task ID
+- Project ID
+- Execution Scope
+- Evidence Summary
+- Risk Items
+
+The Session Agent must match both the Task Executor and Commit Author. A missing Session record or identity mismatch prevents final approval and must enter Supervisor `NEEDS_REVISION`.
+
 所有 Market Agent 必须遵守 `SYSTEM_CORE/MARKET_INTELLIGENCE_STANDARD.md`。完整输出必须包含：
 
 1. Commerce Intelligence

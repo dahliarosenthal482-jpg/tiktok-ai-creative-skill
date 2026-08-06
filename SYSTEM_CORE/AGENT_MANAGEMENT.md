@@ -38,3 +38,15 @@ Supervisor 发现任一身份不一致时，必须记录：
 `IDENTITY_MISMATCH`
 
 存在 `IDENTITY_MISMATCH` 的任务必须进入 `NEEDS_REVISION`，在完成 Agent Registry、Session、Task Queue 和提交归属修正前不得批准。
+
+## Market Intelligence Agent Governance
+
+Market Intelligence Agent may execute only project-scoped work authorized by its Registry entry. It may read and analyze project data and produce project market-analysis outputs, but it must not modify `SYSTEM_CORE/`, `GLOBAL_SKILL/`, or `SKILLS/_REGISTRY.md`.
+
+Every Market Intelligence task must satisfy:
+
+`Task Executor = Session Agent = Commit Author`
+
+Agent A must not execute work that Agent B commits. Any mismatch must be recorded as `IDENTITY_MISMATCH` and the Supervisor decision must be `NEEDS_REVISION` until the identity chain is corrected and verifiable.
+
+Before assignment, the Market Intelligence Agent must be registered in `MEMORY/AGENT_REGISTRY.md` with an active status, explicit capability, execution scope, and permissions.
