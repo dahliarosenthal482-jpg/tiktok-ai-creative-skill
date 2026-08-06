@@ -1,12 +1,12 @@
-# Market Intelligence Report
+# Market Intelligence Report v1.1
 
 Project: vibration_plate_US
 
-Task ID: VP-US-002
+Task ID: VP-US-002-UPGRADE-v1.1
 
 Executor: WORK-MARKET-001
 
-Execution Type: Existing-data organization only
+Task Type: PROJECT_EXECUTION
 
 Task Status: EXECUTED
 
@@ -14,59 +14,67 @@ Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
 
 ## Data Available
 
-- Kalodata 30-day ranking for 30 product links in the US TikTok Shop vibration-plate market.
-- Average selling price, GMV and Video/Live/Product Card GMV for all 30 links.
-- Units sold, growth, creator count and creator order rate for ranks 11–30.
-- Verified merchant-level summaries for Merach fitness and HOPHORSE FITNESS in the existing report.
-- Preliminary Hook, Scene, CTA and Selling Angle patterns derived from the existing Kalodata analysis.
-- Amazon customer intelligence based on 13 visible Verified Purchase reviews from the HTM parent family.
-- Approved HTM Product Production Ready facts, SKU restrictions and claims boundaries.
+- Existing 30-day Kalodata ranking for 30 US TikTok Shop vibration-plate product links, 2026-07-06 to 2026-08-04.
+- ASP, GMV, Video GMV, Live GMV and Product Card GMV for all 30 links.
+- Units sold, growth and creator fields for ranks 11–30; ranks 1–10 do not retain units.
+- Existing pattern summaries for hooks, scenes, CTA and selling angles.
+- Amazon customer intelligence from 13 visible Verified Purchase reviews across the HTM parent family.
+- Approved HTM product facts and production restrictions in `PRODUCT_PRODUCTION_READY.md`.
 
 ## Data Missing
 
-- Units sold/orders for Kalodata ranks 1–10.
-- Product IDs and direct product URLs for the 30 ranked links.
-- Complete merchant verification for ANCHEER, ROTAI, GetMod, HOTWAVE, RELIFE Sports and LifePro.
-- Raw competitor video URLs, Video IDs, creators, product links and publish dates.
-- Per-video likes, comments, shares, traffic type, GMV and orders.
-- Per-video first frame, scene timeline, product appearance time, caption style, audio pattern and CTA timing.
+- Raw competitor Video URLs/IDs, creators, product links, publish dates and complete engagement/per-video commerce records.
+- First-frame, scene-timeline, product-appearance, caption/audio and CTA timing annotations.
+- Units/orders for ranks 1–10 and direct product URLs/IDs for the 30 ranked links.
+- Complete seller verification for ANCHEER, ROTAI, GetMod, HOTWAVE, RELIFE Sports and LifePro.
 - TikTok comment/customer-language sample.
-- Project-level `MARKET_SOURCE_MATRIX.md` required by the system standard.
-- A subtotal conflict: the legacy narrative report states approximately $394.2K for ranks 11–30, while the structured CSV sums to $380,744.49.
+- Project-level `MARKET_SOURCE_MATRIX.md`.
+- Resolution of the legacy narrative $394.2K subtotal versus the structured rank11–30 CSV sum of $380,744.49; v1.1 continues to use the structured sum.
 
 ## Confidence Level
 
-Overall: MEDIUM
+- Commerce Intelligence: MEDIUM.
+- Competitive Position: MEDIUM for price/channel position; LOW–MEDIUM for creative strengths.
+- Video Intelligence: LOW–MEDIUM.
+- Customer Intelligence: MEDIUM for Amazon parent-family signals; LOW for TikTok-specific language.
+- Content Conversion: PROVISIONAL/LOW–MEDIUM.
+- Opportunity Analysis: MEDIUM, inheriting the above gaps.
 
-- Commerce Intelligence: MEDIUM. Channel GMV coverage is strong, but top-10 orders and product URLs are absent.
-- Competitor Map: MEDIUM. Merach and HOPHORSE are well supported; several seller identities remain pending.
-- Video Intelligence: LOW–MEDIUM. Pattern summaries exist, but raw video evidence is missing.
-- Customer Intelligence: MEDIUM for Amazon parent-family signals; LOW for TikTok-specific customer language because no TikTok comments are stored.
-- Opportunity Analysis: MEDIUM. It is evidence-backed but inherits Video Intelligence and source-matrix gaps.
+## Trend Piggyback Intelligence
+
+This is market-cognition piggybacking, not a current 3-day/7-day trend scan. No new trend collection was authorized.
+
+|Trend Pattern|Audience Emotion|Attention Trigger|Why Audience Watches|Competitor Pattern|Adaptation Strategy|Risk|
+|---|---|---|---|---|---|---|
+|Low-friction home movement|Relief and possibility|“No time for the gym?” / short routine|Viewer recognizes a time/energy barrier|Low-effort and daily-habit openings|Make the format concrete: a 5-minute HTM routine|Could imply effortless outcomes; keep it about starting a routine|
+|First-use reaction|Surprise and curiosity|Visible vibration immediately|Unexpected motion creates a sensory question|Reaction/intensity openings|Use an honest first-use moment with the exact product|Exaggerated reactions reduce trust|
+|Routine stacking|Familiarity and attainability|Morning, TV or low-energy-day context|Viewer can imagine inserting the product into daily life|Home/morning routine scenes|Show one repeatable routine rather than a generic machine demo|Customer scenarios are Amazon-derived, not universal instructions|
+|Specification reassurance|Control and competence|Visible controls/settings|Features reduce uncertainty after attention is earned|Speed/capacity/program framing|Use only approved 120 listed levels, 5 programs, LED and push buttons|Feature overload or unverified superiority claims|
+|Multi-movement value|Discovery and value|Bands plus stance/movement changes|Viewer sees more than one use in a compact format|3-in-1/accessory/value framing|Demonstrate included Resistance Bands within the 5-minute routine|Do not claim equivalence to competitor “3-in-1” definitions|
+|Category legitimacy from premium products|Confidence|Recognizable home-fitness equipment in use|Higher-priced offers signal the category is worth considering|Brand, premium hardware, live explanation|Borrow clear education and trust, then offer a lower-commitment entry|Do not imply premium hardware, warranty, eligibility or capacity parity|
+
+### Piggyback conclusion
+
+Competitors have already taught the market that a vibration plate can be considered home-fitness equipment. HTM should not re-argue the entire category or copy premium claims. It should convert that awareness into a simpler decision: a visible 5-minute routine, included bands, a consistent Black/White product and a reverified entry-price offer.
+
+## Observed Patterns vs Future Tests
+
+Observed/retained: channel GMV, price position, available units, and summarized hook/scene/CTA categories.
+
+Future tests: exact first frame, duration, script wording, scene sequence, audio, trust proof and CTA timing. The creative matrix is not a real competitor-video database.
 
 ## Recommended Next Step
 
-Targeted video-data supplementation is required before the Market Intelligence Framework quality gate can be considered complete.
-
-Recommended bounded scope after Supervisor approval:
-
-1. Retain direct URLs and metadata for a focused set of high-relevance video-led products, especially HOPHORSE ranks 9/12/13 and Merach Slim rank 1.
-2. Capture creator, publish date, duration, views, likes, comments, shares, GMV, orders and product link.
-3. Add per-video first-frame, timeline, product-appearance and CTA annotations.
-4. Register Kalodata, Amazon, Product Production Ready and future video sources in `MARKET_SOURCE_MATRIX.md`.
-
-No broad market recollection is recommended. The gap is targeted competitor-video evidence, not another product-ranking scrape.
+Proceed to Supervisor Review for the v1.1 project analysis. Before declaring a winning creative system, collect a targeted—not broad—video evidence set for the most relevant video-led links, especially HOPHORSE ranks 9/12/13, ROTAI rank 15 and Merach Slim rank 1.
 
 ## Quality Gate
 
-Commerce data: PARTIAL PASS
+- Commerce data: PARTIAL PASS
+- Competitive Position: PROVISIONAL PASS
+- Trend Piggyback: PROVISIONAL PASS based on existing market cognition, not current trend surveillance
+- Content Conversion: PROVISIONAL PASS
+- Video data: FAIL — raw records missing
+- Customer data: PARTIAL PASS
+- Overall Market Intelligence: INCOMPLETE
 
-Video data: FAIL — raw records missing
-
-Customer data: PARTIAL PASS — Amazon evidence available; TikTok comments missing
-
-Opportunity analysis: PROVISIONAL PASS
-
-Overall Market Intelligence: INCOMPLETE
-
-Execution status remains `EXECUTED`, not `APPROVED`.
+Execution remains `EXECUTED`, not `APPROVED`.

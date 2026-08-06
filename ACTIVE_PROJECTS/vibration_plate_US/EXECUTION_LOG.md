@@ -157,3 +157,58 @@ Remaining uncertainty: TikTok internal image export remains unavailable because 
 Risk control: Use only the approved Black/White production assets and `PRODUCT_PRODUCTION_READY.md`; do not use Silver or infer missing TikTok internal assets.
 
 Result: The five Supervisor issues were repaired without changing Product Facts, Selling SKU, Visual Lock, Customer Intelligence, Purchase Objection Map content, or Creative Strategy. Revision status is EXECUTED, not APPROVED; Supervisor re-review is required.
+
+## 2026-08-06 — VP-US-002-UPGRADE-v1.1 Market Intelligence Upgrade
+
+Date: 2026-08-06
+
+Task ID: VP-US-002-UPGRADE-v1.1
+
+Task Type: PROJECT_EXECUTION
+
+Executor: WORK-MARKET-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Start Basis: User assignment plus existing project VP-US-002 outputs. `WORK-MARKET-001` is not present in the global Agent Registry; the registry was not modified because this task forbids global/system changes.
+
+Actions: Read Market Intelligence Framework v1.1, system rules, Agent Protocol, required project state/task/product-entry files and existing Commerce/Video/Customer/Opportunity/Report outputs; segmented competitors into Premium/Core/Entry by observed ASP; analyzed channel contribution rather than GMV alone; created premium and similar-price competitive counter-positioning; separated playback reasons from purchase triggers; added market-cognition Trend Piggyback analysis; updated project state and task records.
+
+Results: Added `COMPETITIVE_STRATEGY_MAP.md` and `CONTENT_COMMERCE_ANALYSIS.md`; upgraded Market Intelligence Report, Market Opportunity Analysis and Customer Intelligence; retained status EXECUTED pending Supervisor Review.
+
+Generated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/COMPETITIVE_STRATEGY_MAP.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/CONTENT_COMMERCE_ANALYSIS.md`
+
+Updated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/MARKET_INTELLIGENCE_REPORT.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/MARKET_OPPORTUNITY_ANALYSIS.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/CUSTOMER_INTELLIGENCE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/TASK_QUEUE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/PROJECT_STATE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/EXECUTION_LOG.md`
+
+### Evidence Summary
+
+- Commerce: 30 existing Kalodata links, all with ASP/GMV/channel GMV; units retained only for ranks 11–30. Top-30 structured total remains $2,232,644.49.
+- Competitive position: Premium >$100, Core $60–$100, Entry <$60; position and channel mix are evidence-backed, while purchase reasons are labeled inference.
+- Video: Existing summarized Hook/Scene/CTA patterns only; no raw URLs, creators, dates, engagement, timelines or complete per-video GMV/orders.
+- Customer: 13 visible Amazon Verified Purchase reviews across the parent family; no TikTok comments and no customer statement promoted to Product Fact.
+- Product: HTM temporary $49.99 promotion, Black/White SKUs, included Resistance Bands and 5-Minute Home Workout Routine were read from the approved product entry and not modified.
+
+### Risk Items
+
+- `WORK-MARKET-001` is user-assigned but absent from the global Agent Registry; global registration requires a separately authorized system/governance task.
+- Raw competitor-video evidence is missing, so exact creative causality and conversion triggers remain provisional.
+- Units are missing for top-10 Kalodata links; several seller identities remain unverified.
+- `MARKET_SOURCE_MATRIX.md` remains absent.
+- Trend Piggyback is based on retained category patterns, not a new 3-day/7-day or cross-platform trend scan.
+- Temporary `$49.99` must be reverified before publication.
+
+Problems: The current task boundary prevents global Agent Registry/Project Registry/session mutation; these governance records remain unsynchronized with the user-assigned Market Agent.
+
+Next Step: Supervisor reviews the v1.1 analysis and governance gap. After approval, perform a bounded raw-video supplement before treating any creative pattern as validated.

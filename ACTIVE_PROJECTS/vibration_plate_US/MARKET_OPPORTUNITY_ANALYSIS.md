@@ -1,8 +1,8 @@
-# Market Opportunity Analysis
+# Market Opportunity Analysis v1.1
 
 Project: vibration_plate_US
 
-Task ID: VP-US-002
+Task ID: VP-US-002-UPGRADE-v1.1
 
 Market: United States TikTok Shop
 
@@ -83,6 +83,13 @@ Evidence: Existing Kalodata top10 and rank11–30 CSV files. Confidence: Medium.
 - Several value competitors rely on health-adjacent or outcome-heavy language that creates compliance risk.
 - Some lower-ranked brands have unverified merchant identity and falling 30-day performance.
 
+## Competitive Position Opportunity
+
+- Premium competitors educate the market through brand reassurance, technical differentiation, creator/live explanation and higher perceived capability. HTM can borrow the education structure—clear demonstration, simple explanation and visible trust—but cannot borrow their hardware, warranty, eligibility or capacity claims.
+- Core competitors validate a mainstream category price above HTM. HTM should counter with lower commitment and a clearer routine, not claim specification parity.
+- Entry competitors validate near-$50 video commerce. HTM should avoid a pure price race and instead make the offer easier to understand through one 5-minute routine, Black/White consistency and included Resistance Bands.
+- Similar-price HOPHORSE/ROTAI links are more relevant short-video references than high-GMV live-led premium links. Exact creative causes remain unverified because raw videos are absent.
+
 ## Market Gap
 
 - A clear, entry-price vibration plate offer built around verified home-workout facts rather than medical or automatic-weight-loss promises.
@@ -95,6 +102,8 @@ Evidence: Existing Kalodata top10 and rank11–30 CSV files. Confidence: Medium.
 - Demonstrate the product immediately, then show simple standing movements and Resistance Bands as included accessories.
 - Use beginner-friendly, low-setup and home-routine framing supported by Amazon customer signals.
 - Test short reaction/routine hooks against longer instructional demonstrations, while treating all current hook patterns as hypotheses until per-video evidence is collected.
+- Separate playback from purchase: use visible motion or a time-pain premise to earn attention, then routine fit, accurate controls, included bands and a reverified deal to earn action.
+- Piggyback on existing category awareness rather than copying competitor claims: “home fitness equipment is worth considering” becomes “here is a lower-commitment 5-minute way to start.”
 
 ## Product Opportunity
 
@@ -110,6 +119,16 @@ Evidence: Existing Kalodata top10 and rank11–30 CSV files. Confidence: Medium.
 3. Prioritize video-led benchmark links from HOPHORSE and Merach Slim over live-led or product-card-led links.
 4. Treat the 5-minute routine as a content format, not an outcome guarantee.
 5. Do not import unverified competitor claims or Amazon-only variant attributes into HTM production.
+6. Build the first creative test matrix around distinct conversion jobs: attention, routine desire, trust, objection removal and CTA—not around GMV ranking alone.
+7. Use premium education cues for trust, entry-price cues for conversion and HTM's approved accessory/routine facts for differentiation.
+
+## v1.1 Strategic Choice
+
+Recommended position: **Entry-price routine specialist**, not “cheap premium equivalent.”
+
+Recommended promise: a clear, beginner-readable 5-minute home-movement format using the verified HTM product and included Resistance Bands.
+
+Recommended conversion path: immediate product motion → one easy-to-follow routine → visible controls/bands → honest objection handling → current-deal CTA after price reverification.
 
 ## Evidence Summary
 
@@ -126,4 +145,6 @@ Evidence: Existing Kalodata top10 and rank11–30 CSV files. Confidence: Medium.
 - Amazon customer data is parent-family evidence across Black, White and Silver; it may inform strategy but does not change TikTok product facts.
 - `$49.99` is temporary and requires re-verification before publication.
 - Video Intelligence does not yet pass the full framework quality gate.
+- Competitive content advantages and conversion triggers are provisional inferences until raw video evidence is retained.
+- Trend Piggyback analysis uses existing category patterns only; it is not a current 3-day/7-day or cross-platform trend scan.
 - The legacy narrative report's ranks 11–30 subtotal conflicts with the structured CSV; this analysis uses the direct CSV sum.
