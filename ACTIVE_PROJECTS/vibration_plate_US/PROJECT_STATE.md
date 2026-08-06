@@ -8,7 +8,7 @@ Market: United States
 
 Current Phase: Product Visual Intelligence Review
 
-Current Task: VP-US-001-VISUAL — Visual Asset Extraction + Verification
+Current Task: VP-US-001-VISUAL-v1.2 — Visual Asset Collection
 
 Status: WAITING_REVIEW
 
@@ -16,4 +16,4 @@ Owner: ChatGPT Strategy Brain
 
 Executor: WORK-PRODUCT-001
 
-Next Action: ChatGPT reviews `PRODUCT_SOURCE_MAP.md`, `PRODUCT_VISUAL_PROFILE.md`, `PRODUCT_VERIFICATION_REPORT.md`, and updated `PRODUCT_PROFILE.md`; obtain exact-SKU visual assets before Product Profile Approval.
+Next Action: Owner/ChatGPT reviews the Amazon ASIN B0FP2HTK9V identity conflict and supplies exact-SKU Black/White assets before Product Profile Approval.

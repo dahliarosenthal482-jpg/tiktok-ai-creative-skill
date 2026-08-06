@@ -4,159 +4,234 @@ Project: vibration_plate_US
 
 Product: HTM Vibration Machine
 
+Task ID: VP-US-001-VISUAL-v1.2
+
 Collection Date: 2026-08-06
 
 Collected By: WORK-PRODUCT-001
 
-## Source Classification Summary
+## Source Collection Order
 
-| Classification | Availability | Use in this task |
+| Level | Source | Result |
 |---|---|---|
-| Owner Confirmed | Available | Used |
-| Official Source | Unavailable | Not used |
-| Marketplace Source | TikTok PDP available as a listing reference; product images inaccessible | Textual listing facts only |
-| Supplier Asset | Unavailable | Not used |
-| Third-party | Not accepted as product evidence | Not used |
+| 1 | Owner Provided Assets | Unavailable — no user image exists in the project |
+| 2 | Amazon Listing Assets | Collected one main image as conflict evidence; ASIN identity does not match target profile |
+| 3 | Kalodata Product Assets | Access Restricted — exact Product ID search requires login; no matching asset verified |
+| 4 | TikTok Shop Product Assets | Access Blocked — Security Check; no product asset exposed |
+| 5 | Supplier Assets | Unavailable — no supplier image exists in the project |
 
-## SRC-001 — Owner Task Brief
+## Source Records
 
-Information: Product/project identity; Black and White SKU colors; Silver prohibited; Resistance Bands included; TikTok Shop $49.99 promotional price; visual verification rules.
+### SRC-001 — Owner Confirmed Information
 
-Source: VP-US-001-VISUAL task brief supplied by the product owner in the current work session.
+Information: Black and White approved; Silver rejected; Resistance Bands included; `$49.99` is a TikTok Promotional Price, not a long-term selling price.
+
+Source: Current and prior owner task briefs.
 
 Source Type: Owner Confirmed
 
-Source Level: Level 1
+Source Confidence: High
 
-URL or File Location: Current task assignment; no external file.
+Asset Location: Unavailable — no owner-provided image.
 
-Owner or Publisher: Product Owner / task assigner
+Verification Status: Owner facts confirmed; Owner visual assets Unavailable.
 
-Collection Date: 2026-08-06
+### SRC-002 — Amazon ASIN B0FP2HTK9V
 
-Collected By: WORK-PRODUCT-001
+Information: Amazon listing title, selected Silver variant, main image, product family color options, dimensions, weight, programs, controls, accessories, model number, and capacity.
 
-Usage Permission Status: Authorized for project documentation; image rights not applicable because no image was supplied.
+Source: https://www.amazon.com/dp/B0FP2HTK9V
 
-Verification Status: Owner Confirmed
+Source Type: Amazon Listing Asset
 
-Notes: Confirms inclusion of Resistance Bands but provides no accessory image, quantity, color, shape, or attachment details. Confirms $49.99 only as a TikTok Promotional Price, not a long-term price.
+Source Confidence: High for ASIN B0FP2HTK9V itself; Low/Rejected for target-product attribution because identity conflicts.
 
-## SRC-002 — TikTok Shop US Product Detail Page
+Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
 
-Information: HTM brand; listing title; Black/White color options; 22 × 13 × 5 in; 14 lb; ABS plastic; push-button controls; LED display; corded electric; automatic operation; 120 levels; maximum 120 RPM; 5 programs; product ID 1732361047881191995.
+Verification Status: Conflict / Need Owner Review
+
+Conflict Evidence:
+
+- Amazon selected variant: Silver; target approved colors: Black and White; Silver rejected.
+- Amazon dimensions: 18.9 × 11 × 4 in; target listing: 22 × 13 × 5 in.
+- Amazon weight: 5.2 kg; target listing: 14 lb.
+- Amazon programs: 9; target listing: 5.
+- Amazon controls: Remote + Touch; target listing: Push Button.
+- Amazon model: FFR1801; target model/SKU remains unknown.
+- Amazon main image visually shows a Silver housing, remote, two bands, oval platform, top control panel, front power switch/port, and suction feet. None are approved for the target visual lock.
+
+### SRC-003 — Kalodata Product Check
+
+Information: Attempted exact lookup for TikTok Product ID 1732361047881191995 and target product identity.
+
+Source: https://www.kalodata.com/product
+
+Source Type: Kalodata Product Asset
+
+Source Confidence: Medium if an exact match is later established; currently Not Established.
+
+Asset Location: Unavailable
+
+Verification Status: Access Restricted / No Exact Match Verified
+
+Notes: The public US product table loaded, but exact Product ID search triggered a login/sign-up gate without returning a verifiable matching record. No product image, cover, or related visual was collected. No market analysis was performed.
+
+### SRC-004 — TikTok Shop Product ID 1732361047881191995
+
+Information: Target TikTok Shop product page visual assets.
 
 Source: https://shop.tiktok.com/us/pdp/1732361047881191995
 
-Source Type: Marketplace Source
+Source Type: TikTok Shop Product Asset
 
-Source Level: Level 3
+Source Confidence: High for the exact Product ID if accessible.
 
-Owner or Publisher: TikTok Shop marketplace listing / HTM fitness seller listing
+Asset Location: Unavailable
 
-Collection Date: 2026-08-06
+Verification Status: Access Blocked — Security Check
 
-Collected By: WORK-PRODUCT-001
+Notes: Direct access returned `Security Check` with no product images in the page asset inventory. CAPTCHA/security images are prohibited and were not saved.
 
-Usage Permission Status: Listing reference only; image reuse rights not established.
+### SRC-005 — Supplier Asset Check
 
-Verification Status: Partially Verified — exact PDP identity is traceable, but direct access currently stops at a TikTok Security Check and exposes no product imagery.
+Information: Supplier product, detail, package, accessory, and dimension images.
 
-Notes: The accessible security page exposed two CAPTCHA-interface images only. They are not product assets and were rejected. No TikTok product image was downloaded.
-
-## SRC-003 — Amazon Exact-listing Check
-
-Information: Search for an Amazon listing exactly matching the HTM TikTok product identity/SKU.
-
-Source: Amazon marketplace search/discovery attempt; no exact listing URL established.
-
-Source Type: Marketplace Source
-
-Source Level: Level 3
-
-URL or File Location: Unavailable
-
-Owner or Publisher: Amazon
-
-Collection Date: 2026-08-06
-
-Collected By: WORK-PRODUCT-001
-
-Usage Permission Status: Not applicable; no asset collected.
-
-Verification Status: Unavailable — no Amazon listing could be positively matched to TikTok Product ID 1732361047881191995 or a confirmed manufacturer SKU.
-
-Notes: Similar HTM products and search-result images are excluded and must not be used.
-
-## SRC-004 — Official Product Source
-
-Information: Brand/manufacturer-maintained product page or official visual assets.
-
-Source: Unavailable
-
-Source Type: Official Source
-
-Source Level: Level 2
-
-URL or File Location: Unavailable
-
-Owner or Publisher: HTM / manufacturer — Need Verification
-
-Collection Date: 2026-08-06
-
-Collected By: WORK-PRODUCT-001
-
-Usage Permission Status: Unavailable
-
-Verification Status: Unavailable
-
-Notes: No official source was found or supplied.
-
-## SRC-005 — Supplier Assets
-
-Information: Supplier product images, package images, accessory images, and dimension images.
-
-Source: Unavailable
+Source: Current project files.
 
 Source Type: Supplier Asset
 
-Source Level: Level 4
+Source Confidence: High if owner/supplier provenance is later provided; currently Not Established.
 
-URL or File Location: Unavailable
-
-Owner or Publisher: Need Verification
-
-Collection Date: 2026-08-06
-
-Collected By: WORK-PRODUCT-001
-
-Usage Permission Status: Unavailable
+Asset Location: Unavailable
 
 Verification Status: Unavailable
 
-Notes: No supplier file or asset was supplied.
+Notes: No supplier image or supplier visual package exists in the current project.
 
-## SRC-006 — Third-party Sources
+## Visual Asset Records
 
-Information: Third-party reviews, databases, media, or user-generated imagery.
+### ASSET-001 — Product Main Image
 
-Source: Not used
+Asset Type: Product Main Image
 
-Source Type: Third-party
+Source: Amazon ASIN B0FP2HTK9V
 
-Source Level: Level 5
+Source Type: Amazon Listing Asset
 
-URL or File Location: Not applicable
+Source Confidence: High for the Amazon ASIN; rejected for target attribution
 
-Owner or Publisher: Not applicable
+Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
 
-Collection Date: 2026-08-06
+Verification Status: Conflict / Need Owner Review
 
-Collected By: WORK-PRODUCT-001
+### ASSET-002 — Product Front View
 
-Usage Permission Status: Not applicable
+Asset Type: Product Front View
 
-Verification Status: Rejected as primary product evidence
+Source: Owner, Amazon, Kalodata, TikTok Shop, and supplier sources checked
 
-Notes: The task prohibits substituting similar-product or competitor images. No third-party fact or image was added to the visual profile.
+Source Type: Multi-source Check
 
+Source Confidence: Not Established
+
+Asset Location: Unavailable
+
+Verification Status: Unavailable for target product
+
+### ASSET-003 — Product Side View
+
+Asset Type: Product Side View
+
+Source: Owner, Amazon, Kalodata, TikTok Shop, and supplier sources checked
+
+Source Type: Multi-source Check
+
+Source Confidence: Not Established
+
+Asset Location: Unavailable
+
+Verification Status: Unavailable for target product
+
+### ASSET-004 — Product Detail Images
+
+Asset Type: Product Detail Images
+
+Source: Amazon conflict listing; Kalodata access restricted; TikTok access blocked; owner/supplier unavailable
+
+Source Type: Multi-source Check
+
+Source Confidence: Not Established for target product
+
+Asset Location: Unavailable
+
+Verification Status: Unavailable / Conflict
+
+### ASSET-005 — Package Images
+
+Asset Type: Package Images
+
+Source: All required levels checked
+
+Source Type: Multi-source Check
+
+Source Confidence: Not Established
+
+Asset Location: Unavailable
+
+Verification Status: Unavailable
+
+### ASSET-006 — Accessory Images
+
+Asset Type: Accessory Images
+
+Source: Owner confirms Resistance Bands; Amazon ASIN B0FP2HTK9V shows bands and remote but conflicts with target identity
+
+Source Type: Owner Confirmed + Amazon Listing Asset
+
+Source Confidence: High for inclusion; Not Established for target appearance
+
+Asset Location: Target accessory image Unavailable; Amazon conflict evidence at `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
+
+Verification Status: Resistance Bands Owner Confirmed; appearance Need Owner Review
+
+### ASSET-007 — Dimension Images
+
+Asset Type: Dimension Images
+
+Source: Amazon ASIN dimensions conflict with target listing; other levels unavailable/restricted
+
+Source Type: Amazon Listing Asset + Multi-source Check
+
+Source Confidence: High for Amazon ASIN; rejected for target attribution
+
+Asset Location: Unavailable for target product
+
+Verification Status: Conflict / Need Owner Review
+
+### ASSET-008 — Kalodata Product Cover and Related Visuals
+
+Asset Type: Product Image / Product Cover / Related Visual Assets
+
+Source: Kalodata Product search
+
+Source Type: Kalodata Product Asset
+
+Source Confidence: Not Established
+
+Asset Location: Unavailable
+
+Verification Status: Access Restricted / No Exact Match Verified
+
+### ASSET-009 — TikTok Shop Product Assets
+
+Asset Type: Product Images / Product Cover
+
+Source: TikTok Product ID 1732361047881191995
+
+Source Type: TikTok Shop Product Asset
+
+Source Confidence: High if accessible
+
+Asset Location: Unavailable
+
+Verification Status: Access Blocked — Security Check

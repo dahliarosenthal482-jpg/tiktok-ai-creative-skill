@@ -38,9 +38,9 @@ Capability:
 
 Current Project: vibration_plate_US
 
-Current Task: VP-US-001-VISUAL
+Current Task: VP-US-001-VISUAL-v1.2
 
-Current Assignment: HTM Vibration Machine visual asset extraction and verification
+Current Assignment: HTM Vibration Machine visual asset collection v1.2
 
 Status: Waiting Review
 

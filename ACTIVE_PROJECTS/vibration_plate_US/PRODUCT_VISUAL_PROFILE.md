@@ -2,96 +2,111 @@
 
 Project: vibration_plate_US
 
-Product: HTM Vibration Machine
+Task ID: VP-US-001-VISUAL-v1.2
+
+Standard: Product Intelligence Standard v1.1
 
 Extraction Date: 2026-08-06
 
 Extractor: WORK-PRODUCT-001
 
+Status: WAITING_REVIEW
+
 ## Product Identity
 
-Product Name: HTM Slim Vibration Plate Exercise Machine
+Product: HTM Slim Vibration Plate Exercise Machine
 
 Brand: HTM
 
 SKU Colors:
 
-- Black — Owner Confirmed; marketplace listing text also identifies Black.
-- White — Owner Confirmed; marketplace listing text also identifies White.
-- Silver — Forbidden; not an approved SKU color.
+- Black — Owner Confirmed
+- White — Owner Confirmed
+- Silver — Rejected
 
-TikTok Shop Product ID: 1732361047881191995
+TikTok Product ID: 1732361047881191995
 
 Manufacturer Model/SKU: Need Verification
 
-## Shape
+Amazon ASIN supplied for review: B0FP2HTK9V — Conflict / Need Owner Review; not accepted as the target SKU.
 
-Overall Shape: Textually described as a slim, compact, single vibration-platform form. Exact silhouette, curvature, edge profile, and proportions beyond the listed dimensions are Unavailable for visual verification.
+## Visual Appearance
 
-Material Appearance: Unavailable. The marketplace listing states ABS plastic, but finish, gloss, texture, and color rendering were not visually verified.
+Shape: Exact target-product shape remains unavailable. Marketplace text describes a slim, compact vibration plate, but no exact-SKU target image passed verification.
 
-Structure: Single vibration platform is supported by the product category/listing description. Platform surface pattern, housing seams, feet, underside, cable routing, and Resistance Band attachment points are Unavailable.
+Material Appearance: Need Verification. ABS plastic is stated textually; finish, gloss, texture, and color rendering are not visually confirmed.
 
-## Controls
+Color: Black and White are approved by Owner Confirmation. No exact-SKU Black or White image was collected. Silver is prohibited. The Amazon evidence image shows Silver and is quarantined as a conflict, not accepted as target-product appearance.
 
-Display: LED display is confirmed by marketplace listing text. Position, shape, color, displayed content, and visual treatment are Unavailable.
+## Structure
 
-Buttons: Push-button control type is confirmed by marketplace listing text. Button count, labels, icons, colors, layout, and position are Unavailable.
+Display: LED display is confirmed textually. Exact location, shape, color, icons, and screen content remain Need Verification.
 
-Ports: Unavailable.
+Buttons: Push buttons are confirmed by the target TikTok listing text. Count, labels, icons, colors, and layout remain Need Verification.
+
+Controls: Target profile states push-button controls. Amazon ASIN B0FP2HTK9V states Remote + Touch and visually shows a remote, creating a structural conflict.
+
+Ports: Need Verification. The Amazon conflict image shows power/control features on the Silver model, but they must not be attributed to the target product.
+
+Original Structure: Unavailable pending an exact-SKU approved image.
 
 ## Accessories
 
-Confirmed Accessories: Resistance Bands — Owner Confirmed.
+Confirmed:
 
-Accessory Visual Details: Unavailable. Quantity, band color, length, handles, clips, anchor points, and packaging are not visually verified.
+- Resistance Bands — Owner Confirmed
 
-Other Accessories: Unavailable / Need Verification.
+Resistance Bands: Inclusion is confirmed by the owner. Quantity, color, handles, clips, length, anchor points, and packaging remain Need Verification for the target product.
 
-## Size Relationship
+Amazon conflict evidence visually shows two handled bands and a remote; these belong only to ASIN B0FP2HTK9V unless the owner resolves the product-identity conflict.
 
-Relative Scale: Unavailable from verified imagery. Marketplace listing dimensions are 22 in D × 13 in W × 5 in H, but no person/product comparison or dimension image was available.
+Other Accessories: Need Verification.
 
-## Visual Asset Inventory
+## Scale
 
-| Asset Type | Source | File Location | Extraction Date | Usage Permission | Identity Consistency | Verification Status |
-|---|---|---|---|---|---|---|
-| Product Main Image | TikTok Shop PDP attempted | Unavailable | 2026-08-06 | Not established | Could not assess | Unavailable — Security Check blocked product content |
-| Product Front View | No verified source | Unavailable | 2026-08-06 | Unavailable | Could not assess | Unavailable |
-| Product Side View | No verified source | Unavailable | 2026-08-06 | Unavailable | Could not assess | Unavailable |
-| Product Detail Images | TikTok Shop PDP attempted | Unavailable | 2026-08-06 | Not established | Could not assess | Unavailable — Security Check blocked product content |
-| Package Images | No verified source | Unavailable | 2026-08-06 | Unavailable | Could not assess | Unavailable |
-| Accessory Images | Owner confirms Resistance Bands, but supplied no image | Unavailable | 2026-08-06 | Unavailable | Could not assess | Unavailable |
-| Dimension Images | No verified source | Unavailable | 2026-08-06 | Unavailable | Could not assess | Unavailable |
+Dimensions: 22 in D × 13 in W × 5 in H — target TikTok listing text. Amazon ASIN B0FP2HTK9V states 18.9 in D × 11 in W × 4 in H, creating a conflict.
 
-No image file has been accepted into the project. The images observed on the TikTok Security Check page were CAPTCHA-interface assets and were rejected as unrelated to the product.
+Weight: 14 lb — target TikTok listing text. Amazon ASIN B0FP2HTK9V states 5.2 kg (approximately 11.5 lb), creating a conflict.
 
-## AI Video Visual Lock
+Relative Size: Need Verification. No approved exact-SKU human-scale, package, or dimension image is available.
+
+## Collected Visual Assets
+
+| Asset | Source | Location | Identity Status | Verification Status |
+|---|---|---|---|---|
+| Amazon Product Main Image | Amazon ASIN B0FP2HTK9V | `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg` | Conflicts with target profile | Conflict / Need Owner Review |
+| Product Front View | All applicable sources checked | Unavailable | Not assessable | Unavailable |
+| Product Side View | All applicable sources checked | Unavailable | Not assessable | Unavailable |
+| Product Detail Images | Amazon assets excluded by identity conflict; other sources unavailable/restricted | Unavailable | Not assessable | Unavailable |
+| Package Images | All applicable sources checked | Unavailable | Not assessable | Unavailable |
+| Accessory Images | Amazon evidence conflicts; no target accessory image | Unavailable for target product | Not assessable | Need Owner Review |
+| Dimension Images | Amazon dimensions conflict; no target dimension image | Unavailable for target product | Not assessable | Need Owner Review |
+| Kalodata Product Image/Cover/Related Visuals | Exact search required login; no match verified | Unavailable | Not assessable | Access Restricted |
+| TikTok Shop Product Assets | Product ID 1732361047881191995 | Unavailable | Not assessable | Access Blocked — Security Check |
+| Supplier Assets | No supplier files in project | Unavailable | Not assessable | Unavailable |
+
+No Amazon conflict asset may be promoted into the approved target asset set without Owner Review.
+
+## AI Video Lock
 
 Must Keep:
 
-- Use one approved SKU color per product instance: Black or White.
-- Keep Black and White as separate variants; never blend or recolor between them.
-- Include Resistance Bands when representing confirmed box contents, but do not invent their visual design until a verified accessory image is approved.
-- Preserve the exact product shape, structure, control/display layout, surface, logo, feet, ports, cable, attachment points, and accessory appearance once an approved source image is supplied.
-- Keep the product within the listed 22 × 13 × 5 in physical proportions when a verified image establishes orientation.
+- Black
+- White
+- Original Structure — only after an exact-SKU image is approved
+- Original Accessories — Resistance Bands are included, but their appearance must follow an approved exact-SKU accessory image
 
 Forbidden:
 
-- Silver or any unapproved color.
-- Generating a product-faithful shot before at least one exact-SKU image is approved.
-- Using similar HTM products, competitor images, search-result thumbnails, CAPTCHA images, or AI-generated references as verification assets.
-- Inventing the platform curvature, surface pattern, button layout, LED placement, logo placement, ports, feet, cable location, or underside.
-- Inventing Resistance Band quantity, color, shape, handles, clips, or attachment method.
-- Adding unverified accessories or functions.
+- Silver
+- Different Shape
+- Fake Accessories
+- Using Amazon ASIN B0FP2HTK9V imagery as the target product before Owner Review
+- Copying the Silver housing, remote, touch controls, band design, platform texture, ports, dimensions, or other structure from the Amazon conflict image
+- Using Kalodata list images, TikTok CAPTCHA/security images, similar HTM models, competitors, or generated images as verification evidence
 
-## Visual Verification
+## Approval Status
 
-Identity Match: Textual product identity is traceable to the TikTok PDP; visual identity match cannot be assessed.
+Approval Decision: WAITING_REVIEW
 
-Usage Rights Status: No image-use permission established because no product image was collected.
-
-Missing Assets: Product Main Image, Front View, Side View, Detail Images, Package Images, Accessory Images, and Dimension Images.
-
-Approval Status: WAITING_REVIEW — Visual Verification incomplete; not approved for video production.
-
+Reason: Critical target-product visual assets are missing, and the supplied Amazon ASIN conflicts with the current target profile. Product Profile Approval conditions are not satisfied.
