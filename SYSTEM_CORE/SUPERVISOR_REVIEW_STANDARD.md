@@ -1,4 +1,4 @@
-# Supervisor Review Standard v1.0
+# Supervisor Review Standard v1.1
 
 ## Purpose
 
@@ -75,9 +75,24 @@ Supervisor 必须以 GitHub 中已提交的产物为审核对象。未提交的�
 
 确认数据结论具有可追踪来源，来源等级、验证状态和限制符合相关系统标准；未经确认的数据不得伪装为事实。
 
+### Owner Decision Check
+
+检查影响产品身份、下游使用或阶段准入的关键产品决策是否存在于 `OWNER_DECISION_LOG.md`，并可追踪到原始 Evidence Source。
+
+必须检查的决策包括但不限于：
+
+- SKU 选择
+- 颜色选择
+- Variant 或版本选择
+- 产品限制与禁止项
+
+派生文件中重复描述 Owner 决策不能替代原始 Owner Decision Record。Owner Decision 缺失、被 Agent 覆盖或无法追踪时，Supervisor 不得输出 `APPROVED`。
+
 ### State Transition
 
 确认 Project State、Task Queue、Agent Registry 和 Session 状态之间一致，且不存在跳过审核的阶段推进。
+
+同时确认 `PROJECTS/_REGISTRY.md` 与对应 `ACTIVE_PROJECTS/{project}/PROJECT_STATE.md` 的 Status、Current Phase 和 Assigned Agents 保持同步。
 
 ### Next-stage Gate
 

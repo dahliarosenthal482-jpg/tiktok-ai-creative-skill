@@ -44,6 +44,20 @@ Required Capability: Repository Review, Evidence Validation, and State Verificat
 
 Status: Planned
 
+## Evidence Validation Skill
+
+Skill Name: Evidence Validation Skill
+
+Purpose: Validate evidence provenance, Owner Decision records, source-schema integrity, completion outputs, and audit consistency.
+
+Input: Evidence Summary, Risk Items, Source Matrix, Owner Decision Log, commit, diff, and changed files
+
+Output: Evidence validation findings and traceability result
+
+Required Capability: Evidence Verification and Repository Audit
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:
