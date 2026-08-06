@@ -1,4 +1,4 @@
-# Product Intelligence Standard v1.1
+# Product Intelligence Standard v1.3
 
 ## Purpose
 
@@ -57,6 +57,97 @@ Amazon、TikTok Shop 等 Marketplace Listing。必须记录具体 Listing 和采
 第三方网站、数据库、媒体或用户生成内容。只能作为补充来源，必须标记其验证状态。
 
 当不同来源发生冲突时，优先级较高不代表自动正确；必须记录冲突并完成验证。禁止 AI 推测进入 Product Profile。
+
+## Marketplace Identity Resolution
+
+Marketplace URL 不等于单一产品身份。Amazon、TikTok Shop 和其他 Marketplace 来源必须先完成以下解析链：
+
+`Parent Product → Variants → SKU → Selected Variant → Visual Match`
+
+必须记录 Parent Product、可见 Variants、SKU 或平台标识、实际 Selected Variant，以及所选 Variant 与视觉资产是否匹配。禁止将页面默认 Variant 直接作为目标产品身份。
+
+品牌相同不能证明不同 Variant 的颜色、尺寸、配置、配件、规格或视觉一致。任何无法解析到目标 Variant 的信息必须保持未验证状态。
+
+## Owner Provided Marketplace Link
+
+Owner 提供的 Marketplace 链接属于 `Trusted Source Reference`，但不等于已经确认的产品身份。
+
+使用前必须解析：
+
+- Variant
+- SKU 或平台产品标识
+- 产品版本
+
+不得因为品牌相同而认定所有 Variant 一致。只有完成 Selected Variant 与目标产品的事实和视觉匹配后，链接内容才可用于对应 Product Profile。
+
+## Amazon Deep Intelligence Protocol
+
+Amazon Listing 不仅用于视觉图片。完成 Marketplace Identity Resolution 后，Product Intelligence 流程必须支持提取并验证以下信息。
+
+### Product Identity
+
+- Brand
+- ASIN
+- Parent ASIN
+- Variant
+
+### Product Facts
+
+- Title
+- Bullet Points
+- Description
+- Specifications
+- Images
+- Dimensions
+- Accessories
+
+### Customer Intelligence
+
+- Rating
+- Review Count
+- Positive Review Patterns
+- Negative Review Patterns
+- Common Complaints
+- Purchase Motivations
+
+所有字段必须关联具体 ASIN、Selected Variant、来源位置和采集时间。评论模式必须来源于可追踪证据，不得将单条评论自动概括为普遍结论。
+
+## Customer Intelligence
+
+Customer Intelligence 用于保存可追踪的消费者反馈，不得替代 Product Truth。输出文件为 `CUSTOMER_INTELLIGENCE.md`，必须区分：
+
+- Positive Signals
+- Negative Signals
+- Customer Language
+- Purchase Motivation
+- Usage Scenario
+
+消费者原始表达、归纳模式和分析结论必须分开记录。每个结论必须保留 Evidence Source，并标记样本范围和验证状态。
+
+## Purchase Objection Map
+
+将已验证的 Customer Objection 连接到 Resolution Strategy 和 Suggested Content Angle。输出文件为 `PURCHASE_OBJECTION_MAP.md`。
+
+Purchase Objection Map 只能使用 Customer Intelligence 中有证据支持的问题，不得根据 AI 推测创建消费者异议。
+
+## Product Source Matrix
+
+所有来源必须在 `PRODUCT_SOURCE_MATRIX.md` 中标明其系统角色，角色可包括：
+
+- Product Truth
+- Visual Source
+- Customer Insight
+- Market Signal
+- Validation
+- Content Insight
+
+通用角色示例：
+
+- Amazon：Product Truth、Visual Source、Customer Insight
+- TikTok：Market Signal、Validation
+- Kalodata：Market Signal、Content Insight
+
+来源角色表示允许使用的情报范围，不代表该来源中的全部信息均已验证。
 
 ## Visual Asset Extraction Standard
 
@@ -137,3 +228,5 @@ Source Confidence 表示来源可信程度，不替代 Fact Verification、Visua
 3. 未完成 Visual Verification，不得进入 Video Production。
 4. 未确认的信息必须保留在 Unverified Information，不得作为已确认事实使用。
 5. Product Profile Approval 必须留下审核状态和审核记录。
+6. Marketplace 来源未完成 Selected Variant 和 Visual Match，不得作为目标产品身份依据。
+7. Customer Intelligence 与 Purchase Objection Map 必须保留证据来源，不得由 AI 推测填充。

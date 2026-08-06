@@ -16,6 +16,20 @@ Required Capability: Product Intelligence Research and Source Verification
 
 Status: Planned
 
+## Customer Intelligence Skill
+
+Skill Name: Customer Intelligence Skill
+
+Purpose: Extract evidence-backed customer signals, language, purchase motivations, usage scenarios, and objections.
+
+Input: Verified marketplace review sources and resolved product variants
+
+Output: Customer Intelligence and Purchase Objection Map
+
+Required Capability: Customer Research and Evidence Verification
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:

@@ -58,6 +58,17 @@ Product Intelligence Agent 必须按以下顺序检查视觉来源：
 
 不得因为单一来源失败而结束视觉采集。必须记录失败原因并继续检查下一可用来源；不同来源出现视觉冲突时，禁止自动覆盖，必须等待 Owner Review。
 
+### Product Intelligence Agent 必需输出
+
+Product Intelligence Agent 的完整输出必须包含：
+
+1. Product Facts
+2. Visual Intelligence
+3. Customer Intelligence
+4. Purchase Objection Map
+
+使用 Marketplace 来源前必须完成 Parent Product、Variants、SKU、Selected Variant 和 Visual Match 解析，禁止默认使用页面当前 Variant 作为产品身份。
+
 ## Work 完成流程
 
 任务完成后，必须：
