@@ -1,5 +1,17 @@
 # Agent Protocol
 
+## System Core 启动流程
+
+任何 Work 启动时，必须按以下顺序完成系统级上下文恢复：
+
+1. 识别 System，读取根目录 `SYSTEM_VERSION.md`。
+2. 读取 `SYSTEM_CORE/` 中的系统架构、Agent 管理、任务管理和系统规则。
+3. 读取 Agent Registry：`MEMORY/AGENT_REGISTRY.md`。
+4. 读取 Project Registry：`PROJECTS/_REGISTRY.md`。
+5. 读取当前任务及其所属 Project 状态、任务队列和 Session 绑定。
+6. 按任务限制和系统规则执行。
+7. 按 Task Protocol 与 Output Standard 提交结果并写回相关记录。
+
 ## Work 启动流程
 
 任何 Work 开始任务前，必须按以下顺序完成上下文同步：
