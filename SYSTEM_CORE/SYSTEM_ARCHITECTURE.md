@@ -4,6 +4,30 @@
 
 AI TikTok Shop Operating System 由五个相互隔离、通过 GitHub 仓库同步的层组成。
 
+## Operating Layers
+
+### Layer 1 — Strategy Brain
+
+ChatGPT 负责战略、任务拆解、优先级和最终决策。
+
+### Layer 2 — Supervisor Review Layer
+
+ChatGPT Strategy Brain 根据 GitHub Commit、Diff、文件、状态和证据独立审核 Work 结果，并控制下一阶段准入。
+
+### Layer 3 — Execution Agents
+
+Work Agents 负责执行、记录、提交产物和风险披露，不拥有最终批准权限。
+
+### Layer 4 — Skills
+
+提供跨项目复用的标准能力。
+
+### Layer 5 — Projects
+
+提供相互隔离的产品工作区、任务状态、证据和输出。
+
+Memory 作为支持五层运行的长期知识平面，保存系统经验、决策与 Agent Registry，不替代任何审核证据。
+
 ## Components
 
 ### ChatGPT — Strategy Brain
@@ -33,3 +57,4 @@ AI TikTok Shop Operating System 由五个相互隔离、通过 GitHub 仓库同�
 3. Work Agent 调用适用 Skills，在指定 Project 内执行任务。
 4. Work Agent 将结果写回 Project、Session 和执行记录。
 5. 经审核可复用的经验进入 Memory；产品专属信息继续留在对应 Project。
+6. Work Agent 提交 GitHub 产物后，Supervisor Review Layer 验证结果并由 Strategy Brain 给出 Final Approval。

@@ -75,5 +75,11 @@ Product Intelligence Agent 的完整输出必须包含：
 
 1. 将执行结果写入对应项目的 `EXECUTION_LOG.md`。
 2. 更新对应项目的 `PROJECT_STATE.md`，确保状态、当前任务和下一步保持最新。
+3. 提供 Commit Hash。
+4. 提供 Changed Files。
+5. 提供 Evidence Summary。
+6. 提供 Risk Items；没有已知风险时明确填写 `None`。
+
+Work 反馈不等于 Final Approval。Work Agent 禁止自行将任务标记为 `APPROVED`。Final Approval 必须由 ChatGPT Strategy Brain 按 `SYSTEM_CORE/SUPERVISOR_REVIEW_STANDARD.md` 和 `GLOBAL_SKILL/REVIEW_CHECKLIST.md` 完成 Supervisor Review 后给出。
 
 所有跨 Work 共享上下文以 GitHub 仓库中的文件为准。

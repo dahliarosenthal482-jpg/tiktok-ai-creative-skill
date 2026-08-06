@@ -30,6 +30,20 @@ Required Capability: Customer Research and Evidence Verification
 
 Status: Planned
 
+## Supervisor Review Skill
+
+Skill Name: Supervisor Review Skill
+
+Purpose: Verify Work Agent completion claims, GitHub artifacts, file scope, evidence compliance, state transitions, and next-stage readiness.
+
+Input: Task request, commit, diff, changed files, project state, task queue, output reports, evidence summary, and risk items
+
+Output: Review Report with APPROVED, NEEDS_REVISION, or REJECTED decision
+
+Required Capability: Repository Review, Evidence Validation, and State Verification
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:
