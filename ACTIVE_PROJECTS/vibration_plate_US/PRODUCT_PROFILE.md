@@ -30,7 +30,7 @@ Controls: Push buttons.
 
 Display: LED display.
 
-Accessories visible in verified product images: Need Verification.
+Accessories visible in verified product images: Unavailable. Resistance Bands inclusion is Owner Confirmed, but no accessory image is available.
 
 ## Product Specifications
 
@@ -54,7 +54,7 @@ Material: ABS plastic
 
 ## Included Accessories
 
-Resistance Bands: Need Verification
+Resistance Bands: Owner Confirmed
 
 Other Accessories: Need Verification
 
@@ -86,7 +86,7 @@ Price Verification Note: Dynamic current price requires re-verification before p
 - Manufacturer model number or seller SKU.
 - Wattage.
 - Maximum user weight.
-- Resistance Bands inclusion.
+- Resistance Bands visual appearance, quantity, color, handles, and attachment method.
 - Remote control, power cable, manual, or any other included accessory.
 - Exact physical contour, surface pattern, button layout, display placement, logo placement, and underside structure.
 
@@ -98,7 +98,7 @@ AI-generated video must preserve the selected approved SKU color (Black or White
 
 - Use only Black or White; never generate Silver or another color.
 - Do not change the product silhouette, platform proportions, housing, control layout, display, surface pattern, logo placement, or accessory set from an approved source image.
-- Do not show Resistance Bands or other accessories until their inclusion and appearance are verified.
+- Resistance Bands are Owner Confirmed as included; do not invent or show their specific appearance until an exact accessory image is approved.
 - Do not invent Bluetooth, speakers, app control, handles, wheels, batteries, extra motors, or other unverified functions.
 - Do not make medical, automatic fat-loss, or guaranteed weight-loss claims.
 - Treat $49.99 only as a temporary promotional price and re-verify it before use.
@@ -106,4 +106,5 @@ AI-generated video must preserve the selected approved SKU color (Black or White
 ## Sources
 
 - User task brief for VP-US-001, received 2026-08-06.
+- Owner task brief for VP-US-001-VISUAL, received 2026-08-06; confirms Resistance Bands, Black/White SKU colors, and `$49.99` as a TikTok Promotional Price.
 - TikTok Shop US PDP: https://shop.tiktok.com/us/pdp/1732361047881191995 (listing data indexed/crawled approximately three months before research date; accessed 2026-08-06).

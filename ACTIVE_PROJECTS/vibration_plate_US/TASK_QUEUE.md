@@ -51,3 +51,51 @@ Output Files:
 Problems: Verified product images, exact model/SKU, wattage, capacity, and box contents were unavailable.
 
 Next Recommendation: ChatGPT review; obtain verified Black and White SKU images and box-contents evidence before video generation.
+
+## TASK_REQUEST — VP-US-001-VISUAL
+
+Task ID: VP-US-001-VISUAL
+
+Task Name: Complete VP-US-001 Product Intelligence v1.1 — Visual Asset Extraction + Verification
+
+Project: vibration_plate_US
+
+Status: WAITING_REVIEW
+
+Objective: Complete source mapping, visual asset extraction status, visual lock, and verification under Product Intelligence Standard v1.0.
+
+Executor: WORK-PRODUCT-001
+
+Scope: Product Visual Intelligence only.
+
+Restrictions:
+
+- No Kalodata, viral-video analysis, competitor analysis, video scripts, or creative strategy.
+- No similar-product or competitor image substitution.
+- Preserve Black and White; reject Silver.
+- Record unavailable assets as `Unavailable` and conflicts as `Conflict`.
+
+Expected Output:
+
+- `PRODUCT_SOURCE_MAP.md`
+- `PRODUCT_VISUAL_PROFILE.md`
+- `PRODUCT_VERIFICATION_REPORT.md`
+- Updated `PRODUCT_PROFILE.md`, `TASK_QUEUE.md`, `PROJECT_STATE.md`, and `EXECUTION_LOG.md`
+
+## TASK_RESULT — VP-US-001-VISUAL
+
+Task ID: VP-US-001-VISUAL
+
+Status: WAITING_REVIEW
+
+Completed Actions: Registered all source categories; inspected the exact TikTok PDP and its exposed page assets; rejected CAPTCHA assets; documented all required visual asset types as Unavailable; recorded Owner Confirmed Black, White, Resistance Bands, and `$49.99` promotional price; created visual lock and verification decision.
+
+Output Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/PRODUCT_SOURCE_MAP.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/PRODUCT_VISUAL_PROFILE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/PRODUCT_VERIFICATION_REPORT.md`
+
+Problems: No verified product image was obtainable; Amazon exact match, official product page, and supplier assets remain unavailable.
+
+Next Recommendation: ChatGPT review; request exact-SKU owner/supplier assets and permission records. Do not approve for video production yet.

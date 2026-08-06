@@ -6,14 +6,14 @@ Product: HTM Vibration Machine
 
 Market: United States
 
-Current Phase: Product Intelligence Review
+Current Phase: Product Visual Intelligence Review
 
-Current Task: VP-US-001 — Product Intelligence Research
+Current Task: VP-US-001-VISUAL — Visual Asset Extraction + Verification
 
 Status: WAITING_REVIEW
 
 Owner: ChatGPT Strategy Brain
 
-Executor: WORK-PRODUCT-RESEARCH-001
+Executor: WORK-PRODUCT-001
 
-Next Action: ChatGPT reviews `PRODUCT_PROFILE.md` and `OUTPUTS/product_intelligence_report_v1.md`; request verified SKU images and missing specifications.
+Next Action: ChatGPT reviews `PRODUCT_SOURCE_MAP.md`, `PRODUCT_VISUAL_PROFILE.md`, `PRODUCT_VERIFICATION_REPORT.md`, and updated `PRODUCT_PROFILE.md`; obtain exact-SKU visual assets before Product Profile Approval.
