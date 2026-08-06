@@ -127,3 +127,33 @@ Files Created: `PRODUCT_PRODUCTION_READY.md` and `SESSIONS/VP-US-001-FINALIZE-20
 Files Updated: `PRODUCT_PROFILE.md`, `PRODUCT_VISUAL_PROFILE.md`, `PRODUCT_VERIFICATION_REPORT.md`, `CUSTOMER_INTELLIGENCE.md`, `PURCHASE_OBJECTION_MAP.md`, `PRODUCT_SOURCE_MAP.md`, `TASK_QUEUE.md`, `PROJECT_STATE.md`, `EXECUTION_LOG.md`, and `MEMORY/AGENT_REGISTRY.md`.
 
 Restrictions Observed: No competitor analysis, Kalodata viral analysis, video script, creative strategy, or video production performed.
+
+## 2026-08-06 — VP-US-001-FINALIZE-REVISION Review Revision v1.1
+
+Date: 2026-08-06
+
+Session ID: VP-US-001-FINALIZE-REVISION-20260806
+
+Executor: WORK-PRODUCT-001
+
+Execution Status: EXECUTED
+
+Supervisor Input: `ACTIVE_PROJECTS/vibration_plate_US/REVIEW_REPORT.md`, decision `NEEDS_REVISION` for commit c6dd63e54a868c1eecc8398c03b0f3f500debeae.
+
+Actions: Added an immutable Owner Decision Record; normalized every Source entry to Source Schema v1.1; moved Amazon review `Information Covered` into SRC-008; linked Owner Decision VP-US-001-001 as SRC-009; removed overlapping current assignment from WORK-PRODUCT-RESEARCH-001; synchronized the Project Registry and Project State; configured the revision commit identity as WORK-PRODUCT-001; recorded Evidence Summary and Risk Items.
+
+### Evidence Summary
+
+Product Identity evidence: Owner confirmed Amazon Listing B0FP2HTK9V belongs to the same product family; preserved in `OWNER_DECISION_LOG.md`, Decision ID VP-US-001-001.
+
+Visual evidence: Amazon Black child asset `black_B0FP2LHR1X_main.jpg` and White child asset `white_B0FP2J1TDF_main.jpg`, registered separately as SRC-006 and SRC-007.
+
+Customer evidence: Amazon parent-level review patterns from 13 visible Verified Purchase reviews, registered as SRC-008; review data remains Customer Insight and not Product Truth.
+
+### Risk Items
+
+Remaining uncertainty: TikTok internal image export remains unavailable because the product page returned a Security Check.
+
+Risk control: Use only the approved Black/White production assets and `PRODUCT_PRODUCTION_READY.md`; do not use Silver or infer missing TikTok internal assets.
+
+Result: The five Supervisor issues were repaired without changing Product Facts, Selling SKU, Visual Lock, Customer Intelligence, Purchase Objection Map content, or Creative Strategy. Revision status is EXECUTED, not APPROVED; Supervisor re-review is required.

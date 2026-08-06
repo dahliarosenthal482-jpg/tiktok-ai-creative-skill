@@ -4,302 +4,154 @@ Project: vibration_plate_US
 
 Product: HTM Vibration Machine
 
-Task ID: VP-US-001-PI-v1.3
+Task ID: VP-US-001-FINALIZE-REVISION
+
+Schema: Source Schema v1.1
 
 Collection Date: 2026-08-06
 
 Collected By: WORK-PRODUCT-001
 
-## Source Collection Order
+## SRC-001
 
-| Level | Source | Result |
-|---|---|---|
-| 1 | Owner Provided Assets | Unavailable — no user image exists in the project |
-| 2 | Amazon Listing Assets | Collected one main image as conflict evidence; ASIN identity does not match target profile |
-| 3 | Kalodata Product Assets | Access Restricted — exact Product ID search requires login; no matching asset verified |
-| 4 | TikTok Shop Product Assets | Access Blocked — Security Check; no product asset exposed |
-| 5 | Supplier Assets | Unavailable — no supplier image exists in the project |
+Source ID: SRC-001
 
-## Source Records
-
-### SRC-001 — Owner Confirmed Information
-
-Information: Black and White approved; Silver rejected; Resistance Bands included; `$49.99` is a TikTok Promotional Price, not a long-term selling price.
-
-Source: Current and prior owner task briefs.
-
-Source Type: Owner Confirmed
+Source Type: Owner Confirmed Information
 
 Source Role: Product Truth, Validation
 
-Source Confidence: High
+Evidence: Owner task briefs for VP-US-001 and VP-US-001-VISUAL.
 
-Asset Location: Unavailable — no owner-provided image.
+Information Covered: Black and White SKU colors; Silver rejection; Resistance Bands inclusion; `$49.99` classified as a TikTok promotional price rather than a long-term price.
 
-Verification Status: Owner facts confirmed; Owner visual assets Unavailable.
+Confidence: High
 
-### SRC-002 — Amazon ASIN B0FP2HTK9V
+Status: Owner Confirmed
 
-Information: Amazon listing title, selected Silver variant, main image, product family color options, dimensions, weight, programs, controls, accessories, model number, and capacity.
+## SRC-002
 
-Source: https://www.amazon.com/dp/B0FP2HTK9V
+Source ID: SRC-002
 
-Source Type: Amazon Listing Asset
+Source Type: Amazon Marketplace Listing
 
-Source Role: Product Truth for Amazon child, Visual Source, Customer Insight, Validation
+Source Role: Product Truth for selected Amazon child, Visual Source, Validation
 
-Source Confidence: High for ASIN B0FP2HTK9V itself; Low/Rejected for target-product attribution because identity conflicts.
+Evidence: https://www.amazon.com/dp/B0FP2HTK9V and `ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`.
 
-Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
+Information Covered: Selected Amazon child identity, Silver color, listing title, model FFR1801, child-scoped specifications, accessories, and Silver visual evidence.
 
-Verification Status: Amazon selected child resolved; Variant Difference / Target TikTok Variant Need Owner Review
+Confidence: High for B0FP2HTK9V
 
-Conflict Evidence:
+Status: Same product family per Owner Decision VP-US-001-001; Silver rejected for AI video production; child specifications remain variant-scoped.
 
-- Amazon selected variant: Silver; target approved colors: Black and White; Silver rejected.
-- Amazon dimensions: 18.9 × 11 × 4 in; target listing: 22 × 13 × 5 in.
-- Amazon weight: 5.2 kg; target listing: 14 lb.
-- Amazon programs: 9; target listing: 5.
-- Amazon controls: Remote + Touch; target listing: Push Button.
-- Amazon model: FFR1801; target model/SKU remains unknown.
-- Amazon main image visually shows a Silver housing, remote, two bands, oval platform, top control panel, front power switch/port, and suction feet. None are approved for the target visual lock.
+## SRC-003
 
-### SRC-003 — Kalodata Product Check
+Source ID: SRC-003
 
-Information: Attempted exact lookup for TikTok Product ID 1732361047881191995 and target product identity.
+Source Type: Kalodata Product Check
 
-Source: https://www.kalodata.com/product
+Source Role: Market Signal, Content Insight
 
-Source Type: Kalodata Product Asset
+Evidence: https://www.kalodata.com/product; exact TikTok Product ID lookup reached a login gate.
 
-Source Role: Market Signal, Content Insight, Visual Source if exact match is established
+Information Covered: Availability check for exact-product assets only; no product evidence accepted.
 
-Source Confidence: Medium if an exact match is later established; currently Not Established.
+Confidence: Not Established
 
-Asset Location: Unavailable
+Status: Access Restricted / No Exact Match Verified
 
-Verification Status: Access Restricted / No Exact Match Verified
+## SRC-004
 
-Notes: The public US product table loaded, but exact Product ID search triggered a login/sign-up gate without returning a verifiable matching record. No product image, cover, or related visual was collected. No market analysis was performed.
+Source ID: SRC-004
 
-### SRC-004 — TikTok Shop Product ID 1732361047881191995
-
-Information: Target TikTok Shop product page visual assets.
-
-Source: https://shop.tiktok.com/us/pdp/1732361047881191995
-
-Source Type: TikTok Shop Product Asset
+Source Type: TikTok Shop Marketplace Listing
 
 Source Role: Product Truth at listing level, Visual Source, Market Signal, Validation
 
-Source Confidence: High for the exact Product ID if accessible.
+Evidence: https://shop.tiktok.com/us/pdp/1732361047881191995.
 
-Asset Location: Unavailable
+Information Covered: Exact TikTok Product ID and attempted product-page visual access.
 
-Verification Status: Access Blocked — Security Check
+Confidence: High for Product ID; visual evidence unavailable
 
-Notes: Direct access returned `Security Check` with no product images in the page asset inventory. CAPTCHA/security images are prohibited and were not saved.
+Status: Access Blocked — Security Check; CAPTCHA/security assets rejected.
 
-### SRC-005 — Supplier Asset Check
+## SRC-005
 
-Information: Supplier product, detail, package, accessory, and dimension images.
+Source ID: SRC-005
 
-Source: Current project files.
-
-Source Type: Supplier Asset
+Source Type: Supplier Asset Check
 
 Source Role: Product Truth, Visual Source
 
-Source Confidence: High if owner/supplier provenance is later provided; currently Not Established.
+Evidence: Current project asset inventory.
 
-Asset Location: Unavailable
+Information Covered: Supplier product, detail, package, accessory, and dimension assets.
 
-Verification Status: Unavailable
+Confidence: Not Established
 
-Notes: No supplier image or supplier visual package exists in the current project.
+Status: Unavailable
 
-## Visual Asset Records
+## SRC-006
 
-### ASSET-001 — Product Main Image
+Source ID: SRC-006
 
-Asset Type: Product Main Image
+Source Type: Amazon Visual Source — Black Child Variant
 
-Source: Amazon ASIN B0FP2HTK9V
+Source Role: Visual Source, Validation
 
-Source Type: Amazon Listing Asset
+Evidence: https://www.amazon.com/dp/B0FP2LHR1X and `ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/black_B0FP2LHR1X_main.jpg`.
 
-Source Confidence: High for the Amazon ASIN; rejected for target attribution
+Information Covered: Black child color, product shape, control-panel/display placement, structure, platform surface, branding, and visible Resistance Bands.
 
-Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
+Confidence: High
 
-Verification Status: Conflict / Need Owner Review
+Status: Approved production visual under Owner Decision VP-US-001-001.
 
-### ASSET-002 — Product Front View
+## SRC-007
 
-Asset Type: Product Front View
+Source ID: SRC-007
 
-Source: Owner, Amazon, Kalodata, TikTok Shop, and supplier sources checked
+Source Type: Amazon Visual Source — White Child Variant
 
-Source Type: Multi-source Check
+Source Role: Visual Source, Validation
 
-Source Confidence: Not Established
+Evidence: https://www.amazon.com/dp/B0FP2J1TDF and `ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/white_B0FP2J1TDF_main.jpg`.
 
-Asset Location: Unavailable
+Information Covered: White child color, product shape, control-panel/display placement, structure, platform surface, branding, and visible Resistance Bands.
 
-Verification Status: Unavailable for target product
+Confidence: High
 
-### ASSET-003 — Product Side View
+Status: Approved production visual under Owner Decision VP-US-001-001.
 
-Asset Type: Product Side View
+## SRC-008
 
-Source: Owner, Amazon, Kalodata, TikTok Shop, and supplier sources checked
+Source ID: SRC-008
 
-Source Type: Multi-source Check
-
-Source Confidence: Not Established
-
-Asset Location: Unavailable
-
-Verification Status: Unavailable for target product
-
-### ASSET-004 — Product Detail Images
-
-Asset Type: Product Detail Images
-
-Source: Amazon conflict listing; Kalodata access restricted; TikTok access blocked; owner/supplier unavailable
-
-Source Type: Multi-source Check
-
-Source Confidence: Not Established for target product
-
-Asset Location: Unavailable
-
-Verification Status: Unavailable / Conflict
-
-### ASSET-005 — Package Images
-
-Asset Type: Package Images
-
-Source: All required levels checked
-
-Source Type: Multi-source Check
-
-Source Confidence: Not Established
-
-Asset Location: Unavailable
-
-Verification Status: Unavailable
-
-### ASSET-006 — Accessory Images
-
-Asset Type: Accessory Images
-
-Source: Owner confirms Resistance Bands; Amazon ASIN B0FP2HTK9V shows bands and remote but conflicts with target identity
-
-Source Type: Owner Confirmed + Amazon Listing Asset
-
-Source Confidence: High for inclusion; Not Established for target appearance
-
-Asset Location: Target accessory image Unavailable; Amazon conflict evidence at `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CONFLICTS/amazon_B0FP2HTK9V/main_image_silver_conflict.jpg`
-
-Verification Status: Resistance Bands Owner Confirmed; appearance Need Owner Review
-
-### ASSET-007 — Dimension Images
-
-Asset Type: Dimension Images
-
-Source: Amazon ASIN dimensions conflict with target listing; other levels unavailable/restricted
-
-Source Type: Amazon Listing Asset + Multi-source Check
-
-Source Confidence: High for Amazon ASIN; rejected for target attribution
-
-Asset Location: Unavailable for target product
-
-Verification Status: Conflict / Need Owner Review
-
-### ASSET-008 — Kalodata Product Cover and Related Visuals
-
-Asset Type: Product Image / Product Cover / Related Visual Assets
-
-Source: Kalodata Product search
-
-Source Type: Kalodata Product Asset
-
-Source Confidence: Not Established
-
-Asset Location: Unavailable
-
-Verification Status: Access Restricted / No Exact Match Verified
-
-### ASSET-009 — TikTok Shop Product Assets
-
-Asset Type: Product Images / Product Cover
-
-Source: TikTok Product ID 1732361047881191995
-
-Source Type: TikTok Shop Product Asset
-
-Source Confidence: High if accessible
-
-Asset Location: Unavailable
-
-Verification Status: Access Blocked — Security Check
-
-## v1.3 Amazon Variant and Customer Sources
-
-### SRC-006 — Amazon Black Child Variant
-
-Source: https://www.amazon.com/dp/B0FP2LHR1X
-
-Source Type: Owner Provided Marketplace Reference — Amazon child variant
-
-Source Role: Visual Source, Validation, Customer Insight
-
-Source Confidence: High for B0FP2LHR1X; target TikTok mapping unresolved
-
-Verification Status: Black FFR1801 child verified; Variant Difference / Need Owner Review
-
-Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/black_B0FP2LHR1X_main.jpg`
-
-### SRC-007 — Amazon White Child Variant
-
-Source: https://www.amazon.com/dp/B0FP2J1TDF
-
-Source Type: Owner Provided Marketplace Reference — Amazon child variant
-
-Source Role: Visual Source, Validation, Customer Insight
-
-Source Confidence: High for B0FP2J1TDF; target TikTok mapping unresolved
-
-Verification Status: White FFR1801 child verified; Variant Difference / Need Owner Review
-
-Asset Location: `ACTIVE_PROJECTS/vibration_plate_US/ASSETS/CANDIDATES/amazon_B0FP2JPLZ6/white_B0FP2J1TDF_main.jpg`
-
-### SRC-008 — Amazon Visible Review Sample
-
-Source: Amazon listing review modules for Parent ASIN B0FP2JPLZ6 family
-
-Source Type: Marketplace Customer Reviews
+Source Type: Amazon Marketplace Customer Reviews
 
 Source Role: Customer Insight
 
-Source Confidence: Medium — 13 visible Verified Purchase reviews, not the complete 221-review corpus
+Evidence: Amazon review modules for Parent ASIN B0FP2JPLZ6; 13 visible Verified Purchase reviews collected 2026-08-06.
 
-Verification Status: Sample verified and variant-tagged; not Product Truth
+Information Covered: Rating 4.5/5, review count 221, positive and negative patterns, customer language, purchase motivations, usage scenarios, and evidence-backed objections.
 
-## SRC-009 — Owner Finalization Decision
+Confidence: Medium — verified visible sample, not the complete review corpus
 
-Information: Product identity approved; Amazon Parent B0FP2JPLZ6 validated as the same product family; Black and White selected as TikTok selling and AI video target SKUs; Silver rejected for production.
+Status: Verified customer-insight sample; not Product Truth.
 
-Source: Owner task brief VP-US-001-FINALIZE, received 2026-08-06
+## SRC-009
 
-Source Type: Owner Confirmed
+Source ID: SRC-009
+
+Source Type: Owner Decision Record
 
 Source Role: Product Truth, Visual Source Approval, Validation
 
-Source Confidence: High
+Evidence: `ACTIVE_PROJECTS/vibration_plate_US/OWNER_DECISION_LOG.md`, Decision ID VP-US-001-001; source conversation confirmation.
 
-Verification Status: Owner Confirmed / Applied to production profile
+Information Covered: Amazon listing belongs to the same product family; Black and White are TikTok selling and AI video target SKUs; Silver Amazon variant is rejected for AI video production.
 
-Information Covered: Rating 4.5/5, review count 221, positive/negative patterns, customer language, purchase motivations, usage scenarios, and evidence-backed objections.
+Confidence: High
+
+Status: Owner Confirmed / Immutable decision record.
