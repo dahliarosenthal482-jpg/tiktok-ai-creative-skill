@@ -162,18 +162,12 @@ Paraphrased vocabulary:
 - Signals may inform positioning and objection handling but must not modify TikTok product facts.
 - No TikTok comments, TikTok customer quotes or unsupported health outcomes are included.
 
-## v1.1 Content Entry Opportunities
+## v1.1 Source Clarification
 
-These are project strategy inputs derived from the existing Amazon sample; they are not Product Facts and not TikTok-comment evidence.
+Amazon Review Source: Amazon Parent ASIN B0FP2JPLZ6 review modules, 13 visible Verified Purchase reviews collected 2026-08-06.
 
-|Customer signal|Purchase motivation or barrier|Content entry opportunity|Boundary|
-|---|---|---|---|
-|Easy routine / low-energy day|Motivation: consistency with low setup burden|Show a short, repeatable home-routine format|Do not promise that use is effortless or produces a guaranteed result|
-|Compact storage|Motivation: fit equipment into limited space|Show realistic placement and storage only if the exact product/scene can support it|Do not invent dimensions or universal storage fit|
-|Settings/modes|Motivation: adjustable experience; possible barrier: perceived complexity|Demonstrate approved controls and one simple starting sequence|Do not convert customer mentions into unverified product specifications|
-|Resistance Bands|Motivation: more movement variety|Use included bands within the routine|Signal is only 1/13 in reviews; inclusion itself is an approved product fact|
-|Squeak/click/knock|Barrier: sound and stability concern|Use honest normal-use audio and visible stable placement|Do not guarantee silence or diagnose loading issues|
-|Hard standing surface|Barrier: comfort|Show optional shoes/thick socks as customer-described practice|Not medical or safety guidance|
-|Outcome uncertainty|Barrier: skepticism|Frame HTM as a routine tool and show what it does physically|No weight-loss, pain, lymphatic, detox or other guaranteed outcome|
+Review Scope: Parent-family feedback across 7 Black, 4 White and 2 Silver reviews; 8 US and 5 Canada reviews. Variant-specific statements are not assumed to apply universally to the TikTok selling SKU.
 
-Content priority: answer “Will this fit my routine, is it understandable, and what is included?” before making the price CTA.
+Customer Signal Classification: All motivations, scenarios, concerns and language in this document remain `Customer Insight`. They do not establish Product Facts, approved claims or guaranteed outcomes.
+
+Exclusion: No TikTok comments were collected or added. The original review conclusions above are unchanged by this revision.

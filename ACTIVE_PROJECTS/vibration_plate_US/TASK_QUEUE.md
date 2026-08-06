@@ -277,3 +277,43 @@ Evidence Boundary: No creative matrix was treated as a real competitor-video dat
 Protected Areas: `SYSTEM_CORE/`, `GLOBAL_SKILL/`, `SKILLS/` and `PRODUCT_PRODUCTION_READY.md` were not modified.
 
 Next Action: Supervisor Review; targeted competitor-video data supplementation before validating winning creative structures.
+
+## TASK_REQUEST — VP-US-002-UPGRADE-v1.1-REVISION
+
+Task ID: VP-US-002-UPGRADE-v1.1-REVISION
+
+Task Name: VP-US-002 Market Intelligence Upgrade v1.1 Revision
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Repair Supervisor `NEEDS_REVISION` findings for commit `8473a3fd42486402868c74f15018ec5db4da64d1` without restarting Market Intelligence analysis.
+
+Input: Supervisor Review, existing Market Intelligence files, Amazon Customer Intelligence and Product Production Ready.
+
+Expected Output: `MARKET_SOURCE_MATRIX.md`; Customer Intelligence source-only clarification; synchronized project-local state/task/log; Session record; explicit Evidence Summary and Risk Items.
+
+Executor: WORK-MARKET-001
+
+Session ID: VP-US-002-UPGRADE-v1.1-REVISION-20260806
+
+Status: EXECUTED
+
+Restrictions: Modify only `ACTIVE_PROJECTS/vibration_plate_US/`; no external collection; no raw Kalodata changes; no framework/global/skills/product-fact/Creative Strategy changes.
+
+## TASK_RESULT — VP-US-002-UPGRADE-v1.1-REVISION
+
+Task ID: VP-US-002-UPGRADE-v1.1-REVISION
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Completed Actions: Created unified Market Source Matrix; removed the unauthorized v1.1 Customer strategy addition and added source/scope/classification clarification only; aligned project-local phase, Agent, task and Session; added explicit Observed Evidence, Inference, Future Test Direction and Risk Items.
+
+Governance Boundary: `WORK-MARKET-001` is now registered by the Supervisor baseline. Global `PROJECTS/_REGISTRY.md` remains inconsistent but was not modified because this task permits project-directory changes only.
+
+Protected Content: Product Facts, Selling SKU, Black/White Visual Lock, Silver Reject Rule, Approved Claims, `PRODUCT_PRODUCTION_READY.md` and Creative Strategy were not modified.
+
+Next Action: Supervisor reviews this dedicated revision commit. VP-US-003 remains blocked pending approval.

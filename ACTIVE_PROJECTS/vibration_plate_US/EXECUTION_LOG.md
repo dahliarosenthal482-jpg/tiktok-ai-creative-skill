@@ -212,3 +212,58 @@ Updated Files:
 Problems: The current task boundary prevents global Agent Registry/Project Registry/session mutation; these governance records remain unsynchronized with the user-assigned Market Agent.
 
 Next Step: Supervisor reviews the v1.1 analysis and governance gap. After approval, perform a bounded raw-video supplement before treating any creative pattern as validated.
+
+## 2026-08-06 — VP-US-002-UPGRADE-v1.1-REVISION Supervisor Repair
+
+Date: 2026-08-06
+
+Session ID: VP-US-002-UPGRADE-v1.1-REVISION-20260806
+
+Task ID: VP-US-002-UPGRADE-v1.1-REVISION
+
+Task Type: PROJECT_EXECUTION
+
+Executor: WORK-MARKET-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Supervisor Input: `REVIEW_REPORT.md`, decision `NEEDS_REVISION` for commit `8473a3fd42486402868c74f15018ec5db4da64d1`.
+
+Actions: Read the complete Supervisor report and updated Agent Protocol/Registry; confirmed `WORK-MARKET-001` registration; created the project Market Source Matrix and project-local Market Session record; reverted the unauthorized v1.1 Customer strategy section and replaced it with source/scope/classification clarification only; updated project-local phase/task/state; added explicit Evidence Summary and Risk Items to the Market Intelligence Report.
+
+Results: Source compliance, Customer modification boundary, Session identity and project-local state are repaired. No new Market Intelligence analysis or external collection was performed.
+
+Generated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/MARKET_SOURCE_MATRIX.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/SESSIONS/VP-US-002-UPGRADE-v1.1-REVISION-20260806.md`
+
+Updated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/CUSTOMER_INTELLIGENCE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/MARKET_INTELLIGENCE_REPORT.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/PROJECT_STATE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/TASK_QUEUE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/EXECUTION_LOG.md`
+
+### Evidence Summary
+
+- Observed Commerce Evidence: Kalodata GMV, ASP and channel GMV for 30 links; Orders/Units for ranks 11–30 only.
+- Observed Customer Evidence: 13 Amazon Verified Purchase reviews across the parent family; Customer Insight only.
+- Observed Content Evidence: retained Hook, Scene, CTA and Selling Angle summaries; no raw video database.
+- Inference: competitive positioning, premium market education and potential content-conversion mechanisms.
+- Future Test Direction: exact Hook, timing, scenes, trust proof, objection handling and CTA require direct video records.
+
+### Risk Items
+
+- Video URL/ID, Creator, publish date, engagement and complete per-video commerce data remain missing.
+- No TikTok comment sample; no fabricated comment or video data was added.
+- Top-10 units remain missing and several seller identities remain unverified.
+- Global `PROJECTS/_REGISTRY.md` remains inconsistent; task authorization permits changes only within the active project directory.
+- VP-US-003 remains blocked pending Supervisor approval.
+
+Problems: Full global Project Registry synchronization requires a separately authorized governance change outside the permitted project directory.
+
+Next Step: Supervisor re-reviews this dedicated revision commit and decides APPROVED / NEEDS_REVISION / REJECTED.

@@ -28,7 +28,6 @@ Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
 - Units/orders for ranks 1–10 and direct product URLs/IDs for the 30 ranked links.
 - Complete seller verification for ANCHEER, ROTAI, GetMod, HOTWAVE, RELIFE Sports and LifePro.
 - TikTok comment/customer-language sample.
-- Project-level `MARKET_SOURCE_MATRIX.md`.
 - Resolution of the legacy narrative $394.2K subtotal versus the structured rank11–30 CSV sum of $380,744.49; v1.1 continues to use the structured sum.
 
 ## Confidence Level
@@ -66,6 +65,36 @@ Future tests: exact first frame, duration, script wording, scene sequence, audio
 ## Recommended Next Step
 
 Proceed to Supervisor Review for the v1.1 project analysis. Before declaring a winning creative system, collect a targeted—not broad—video evidence set for the most relevant video-led links, especially HOPHORSE ranks 9/12/13, ROTAI rank 15 and Merach Slim rank 1.
+
+## Evidence Summary
+
+### Observed Evidence
+
+- Commerce Data: Existing Kalodata records retain ASP, GMV and Video/Live/Product Card GMV for all 30 links; Orders/Units exist for ranks 11–30 only. The structured top-30 GMV total is $2,232,644.49.
+- Customer Data: 13 visible Amazon Verified Purchase reviews across the HTM parent family, classified only as Customer Insight.
+- Content Data: Existing competitor observations summarize Hook, Scene, CTA and Selling Angle patterns; their raw video records are not retained.
+- Product Data: `PRODUCT_PRODUCTION_READY.md` provides approved HTM facts and restrictions and was not modified.
+
+### Inference
+
+- Premium products may educate the market through brand, hardware differentiation and reassurance.
+- Near-price, video-led products support the hypothesis that an entry-price vibration plate can convert through short-form content.
+- Attention and purchase mechanisms in `CONTENT_COMMERCE_ANALYSIS.md` are reasoned interpretations, not demonstrated causal findings.
+
+### Future Test Direction
+
+- Test exact hook, scene order, duration, trust proof, objection handling and CTA timing only after recording direct video evidence.
+- Do not treat the creative matrix or these recommendations as a competitor-video database.
+
+## Risk Items
+
+- Missing Video URLs/IDs, Creators, publish dates, likes, comments, shares and complete per-video GMV/orders.
+- Missing first frames, scene timelines, product appearance time, caption/audio patterns and CTA timing.
+- Units unavailable for Kalodata ranks 1–10; several seller identities remain unverified.
+- No TikTok comment/customer-language sample.
+- Temporary $49.99 requires reverification before publication.
+- Trend Piggyback reflects retained category cognition, not a new 3-day/7-day or cross-platform scan.
+- Global `PROJECTS/_REGISTRY.md` still shows the prior product phase/agent; the current revision is authorized to modify only the active project directory.
 
 ## Quality Gate
 
