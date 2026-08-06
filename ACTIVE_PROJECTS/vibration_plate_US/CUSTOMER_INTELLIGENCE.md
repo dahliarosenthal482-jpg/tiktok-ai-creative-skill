@@ -90,3 +90,74 @@ Research-backed opportunities for later review; no script is generated:
 - Demonstrate included accessories only after target-SKU appearance is verified.
 
 Evidence Sources: Recurring customer signals and objections above.
+
+## VP-US-002 Market Intelligence Supplement
+
+Task ID: VP-US-002
+
+Execution Status: EXECUTED — WAITING SUPERVISOR REVIEW
+
+Scope: Structured interpretation of the existing Amazon review intelligence only. No TikTok comments were added.
+
+### Buying Reasons
+
+- Maintain an easy, repeatable home-movement routine, including low-energy days — recurring evidence in 5/13 reviews.
+- Adjust intensity through multiple settings or modes — recurring evidence in 6/13 reviews.
+- Fit equipment into limited home space and store it under a bed or in a closet — recurring evidence in 4/13 reviews.
+- Add a convenient supplement to existing exercise rather than replace conventional exercise — recurring qualitative pattern.
+- Add upper-body movement variety through Resistance Bands — present in 1/13 reviews; low-confidence single-sample signal.
+
+Source: Existing Amazon Verified Purchase review sample, Parent ASIN B0FP2JPLZ6. Confidence: Medium for recurring signals; Low for single-sample signals.
+
+### Usage Scenarios
+
+- Short daily or near-daily home sessions.
+- Use while watching television.
+- Use on low-energy days when conventional exercise feels difficult to start.
+- Storage under a bed or in a closet.
+- Small-apartment use or use around other household members.
+- Shoes or thick socks as a customer-described comfort choice.
+
+Source: Existing Amazon review sample. These scenarios are customer observations, not validated usage instructions.
+
+### Concerns
+
+- Squeak, click or knock during use — 3/13 recurring complaint.
+- Hard standing surface or bare-foot discomfort — 1/13 single-sample complaint.
+- Uncertainty about personal outcomes — low-frequency explicit skepticism; customer outcomes are not product facts.
+- Settings may appear complex to prospective users, but the retained review sample did not show a recurring setup-complexity complaint. This is a strategy consideration, not a review-derived complaint.
+
+### Negative Review Directions
+
+- Sound consistency after repeated use.
+- Foot placement/loading and resulting clicking or knocking.
+- Standing-surface comfort.
+- Gap between expected and personally experienced outcomes.
+
+No recurring evidence was retained for remote failure, delivery damage, missing accessories or setup complexity.
+
+### Customer Language
+
+Short retained expressions:
+
+- “easy to stick with”
+- “easy to store and easy to carry”
+- “squeaks terribly after a few weeks”
+- “not very comfortable to stand on”
+
+Paraphrased vocabulary:
+
+- daily routine
+- low-energy days
+- small apartment
+- under-bed storage
+- different modes
+- speed variety
+- stays in place
+- useful extra rather than an exercise replacement
+
+### Evidence Boundary
+
+- Source is Amazon parent-family feedback across Black, White and Silver variants.
+- Signals may inform positioning and objection handling but must not modify TikTok product facts.
+- No TikTok comments, TikTok customer quotes or unsupported health outcomes are included.
