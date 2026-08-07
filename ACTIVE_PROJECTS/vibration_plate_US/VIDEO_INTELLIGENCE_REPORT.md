@@ -1,5 +1,7 @@
 # VP-US-003 Video Intelligence Report
 
+> VP-US-003-R1 correction (2026-08-07): VPV-011–VPV-025 are downgraded to Tier C and must not be cited as traffic-validated. The replacement five-record traffic set and its explicit Views benchmark are in `VIDEO_VERIFIED_SET.md`. Existing caption-level interpretations remain Inference/Future Test Direction only, not winning-pattern evidence.
+
 Project: vibration_plate_US
 
 Task ID: VP-US-003

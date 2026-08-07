@@ -373,3 +373,53 @@ Completion Boundary: Collection Protocol completion gate passed for `EXECUTED`; 
 Protected Content: Product Production Ready, Product Facts, Selling SKU, Visual Lock, Approved Claims and Creative Strategy unchanged.
 
 Next Action: Supervisor Review; authorize a focused playable-video/creator/engagement supplement before production use.
+
+## TASK_REQUEST — VP-US-003-R1
+
+Task ID: VP-US-003-R1
+
+Task Name: Video Evidence Enhancement
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Repair Supervisor Review findings for VP-US-003 by creating a 10-record Verified Video Set with five commerce-validated and five traffic-validated videos, adding reviewable evidence, and downgrading unsupported Tier B records.
+
+Input: Supervisor Review `de4158a6037d99f1576544ad3367776166521d3c`; existing VP-US-003 dataset and reports; user-authorized Kalodata session.
+
+Expected Output: `VIDEO_VERIFIED_SET.md`, `VIDEO_EVIDENCE_REPORT.md`, updated source matrix/data-quality/governance records and an explicit evidence/risk boundary.
+
+Executor: WORK-MARKET-001
+
+Session ID: VP-US-003-R1-20260807
+
+Status: EXECUTED
+
+Restrictions: Project directory only; no system/global/skill/product-fact/Creative Strategy changes; no guessed visuals, inferred metrics, aggregate-as-video commerce evidence or advertisement-as-organic-viral classification.
+
+## TASK_RESULT — VP-US-003-R1
+
+Task ID: VP-US-003-R1
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Verified Set: 10 unique records — 5 commerce validated and 5 traffic validated.
+
+Downgraded: 15 original Tier B records moved to Tier C because 12–647 Views without engagement did not validate traffic value.
+
+Generated Files:
+
+- `VIDEO_VERIFIED_SET.md`
+- `VIDEO_EVIDENCE_REPORT.md`
+- `EVIDENCE/kalodata_vibration_plate_gmv_desc_20260807.png`
+- `EVIDENCE/kalodata_vibration_plate_views_desc_20260807.png`
+- `SESSIONS/VP-US-003-R1-20260807.md`
+
+Updated Files: `VIDEO_SOURCE_MATRIX.md`, `VIDEO_DATA_QUALITY_REPORT.md`, `VIDEO_DATASET.md`, `VIDEO_INTELLIGENCE_REPORT.md`, `PROJECT_STATE.md`, `TASK_QUEUE.md` and `EXECUTION_LOG.md`.
+
+Evidence Result: stable Video/Product IDs, displayed per-video commerce/performance, cover paths and ranked-table screenshots retained. Direct TikTok URL, Creator, engagement and playback remain unavailable.
+
+Next Action: Supervisor Review; obtain direct playable records before deep Hook/Scene/Product Integration analysis.

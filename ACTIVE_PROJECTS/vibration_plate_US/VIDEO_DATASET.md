@@ -1,5 +1,7 @@
 # VP-US-003 Video Dataset
 
+> VP-US-003-R1 classification override (2026-08-07): VPV-011–VPV-025 are downgraded from Tier B to Tier C. Corrected original distribution is Tier A=10, Tier B=0, Tier C=20. The replacement five-record traffic-validated set is recorded in `VIDEO_VERIFIED_SET.md`; the original section labels below are historical and no longer authoritative.
+
 Project: vibration_plate_US
 
 Collection Date: 2026-08-07
@@ -31,7 +33,7 @@ Metric window: Kalodata displayed 7-day window 2026-07-29 to 2026-08-04. GMV is 
 
 Tier A Conversion Signal: video-specific positive GMV and Orders with a specific associated Product ID. This verifies sales attribution in the displayed window, not that the caption or any particular scene caused the sale.
 
-## Tier B — Traffic Validated Within RELIFE Zero-Order Subset
+## Original Tier B — Downgraded to Tier C by VP-US-003-R1
 
 Benchmark: selected as the 15 highest-view unique zero-order records among the accessible RELIFE table after Tier A was sourced separately. Product: RELIFE Sports Vibration Plate, Product ID 1729386006181548061. Displayed GMV=$0 and Orders=0 in the product-detail window.
 
@@ -53,7 +55,7 @@ Benchmark: selected as the 15 highest-view unique zero-order records among the a
 |VPV-024|7668385765696572686|11s|Creator-name + vibration plate tags only|16|$0|0|2026-07-30|B|
 |VPV-025|7668281598072114446|54s|Day 9 / 30-day challenge question|12|$0|0|2026-07-30|B|
 
-Tier B is traffic-relative only. It is not high conversion evidence, and Likes/Comments/Shares/Saves were unavailable.
+R1 decision: all 15 records in this section are Tier C trend references only. They are not conversion or traffic validation, and Likes/Comments/Shares/Saves were unavailable.
 
 ## Tier C — Trend Reference Only
 
@@ -70,7 +72,7 @@ Tier B is traffic-relative only. It is not high conversion evidence, and Likes/C
 - Platform: TikTok data observed through licensed analytics source Kalodata.
 - Category: Vibration Plate / Home Fitness Equipment.
 - Tier A Product Link: `https://www.kalodata.com/product/detail?id={Product ID}`; exact title/shop is `Need Verification` where caption does not identify it.
-- Tier B/C Brand/Shop: RELIFE / Relife Sports; Product Link: `https://www.kalodata.com/product/detail?id=1729386006181548061`.
+- Downgraded Tier C Brand/Shop: RELIFE / Relife Sports; Product Link: `https://www.kalodata.com/product/detail?id=1729386006181548061`.
 - Video URL, Creator, Creator ID, Account and Follower Count: `Unavailable` for all 30.
 - Likes, Comments, Shares and Saves: `Unavailable` for all 30.
 - Verification Status: Video ID, source, product association and displayed performance/commerce fields verified; creative playback fields incomplete.
