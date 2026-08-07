@@ -661,3 +661,43 @@ Risk Items: framework instances remain unpopulated; role-dependent production re
 Data Boundary Check: product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
 
 Next Action: Supervisor re-review. VP-US-005D is blocked.
+
+## TASK_REQUEST — VP-US-005C-R2
+
+Task ID: VP-US-005C-R2
+
+Task Name: Creative Layer Responsibility Alignment
+
+Task Type: SYSTEM_ALIGNMENT
+
+Review Basis: Supervisor Review commit `8e4a196053290b890b598b73dc20c2e2547e2c58`, decision `NEEDS_REVISION`.
+
+Objective: Remove responsibility overlap among Creative Production Specification, Script Package and Video Production Specification and establish the only valid canonical pipeline.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005C-R2-20260807
+
+Status: EXECUTED
+
+Allowed Scope: modify the three creative-layer framework/specification files and project-local flow records; add the R2 Session.
+
+Restrictions: No Product Production Ready, Product Fact, Selling SKU, Visual Lock, Approved Claim, Video Dataset, Video Evidence, System Core, Global Skill, Skill, script, spoken copy, Hook wording, Storyboard, Prompt, Provider call or Generation Task change.
+
+## TASK_RESULT — VP-US-005C-R2
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Changed Files: revised `CREATIVE_PRODUCTION_SPECIFICATION.md`, `SCRIPT_PACKAGE_FRAMEWORK.md`, `VIDEO_PRODUCTION_SPECIFICATION_FRAMEWORK.md`; added `SESSIONS/VP-US-005C-R2-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: Creative Production Specification now owns only Strategy-to-Production Intent; Script Package consumes that approved intent and owns only Content Logic; Video Production Specification owns AI Production Requirements and uses `Generation Objective` rather than `Production Objective`. Only the final approved Video Production Specification can reach WORK-VIDEO-001.
+
+Evidence Boundary: Supervisor findings are Observed Evidence; separation benefits are Inference; workflow validation remains Future Test Direction. Creative hypotheses remain unvalidated.
+
+Risk Items: Creative Production Specification v1.1 requires approval before superseding v1.0; no populated downstream package/specification is approved; Role and packaging references may block applicable production; Video Intelligence remains PARTIAL COMPLETE / Quality A = 0; provider/model/budget/Prompt/Generation Task remain downstream.
+
+Data Boundary Check: product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
+
+Next Action: Supervisor re-review. VP-US-005D remains blocked.

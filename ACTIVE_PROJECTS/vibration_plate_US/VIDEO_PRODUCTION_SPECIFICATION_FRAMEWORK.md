@@ -8,17 +8,18 @@ Executor: WORK-CREATIVE-001
 
 Status: EXECUTED — WAITING SUPERVISOR REVIEW
 
-Scope: Provider-neutral framework that converts an approved Script Package into reviewable AI video production requirements. It is the only formal production input accepted by WORK-VIDEO-001 after Creative Review approval. It contains no HTM-specific content, real script, spoken line, Hook wording, Storyboard, Shot List, Scene timeline, Prompt, provider request, API payload or Generation Task.
+Scope: Provider-neutral framework that converts an approved Script Package Content Structure Contract into reviewable AI Production Requirements while preserving the upstream Creative Production Specification Production Intent. It is the only formal production input accepted by WORK-VIDEO-001 after Creative Review approval. It contains no HTM-specific content, real script, spoken line, Hook wording, Storyboard, Shot List, Scene timeline, Prompt, provider request, API payload or Generation Task.
 
 ## Canonical architecture
 
-`Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`
+`Creative Strategy → Creative Production Specification → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`
 
 |Layer|Responsibility|Output|Cannot Do|
 |---|---|---|---|
-|Creative Strategy|Define why production is needed: Market Goal, Audience Direction, Content Opportunity and Business Objective|Creative Strategy|Define script organization or production parameters|
+|Creative Strategy|Define strategic basis: Market Goal, Audience Direction, Content Opportunity and Business Objective|Creative Strategy|Define Script organization or AI production parameters|
+|Creative Production Specification|Convert Strategy into why this content should be produced: Creative Objective, Audience Direction, Business Objective, Content Goal, Production Intent and Content Success Direction|Production Intent Contract|Define Information Flow, Camera, Scene, Motion, Provider, Model, Prompt or Generation parameters; contact WORK-VIDEO-001|
 |Script Package|Define how information is organized: objective, flow, Hook category, proof logic, objection handling and CTA purpose|Script Package Output Contract|Select provider/model, define camera parameters, create Prompt or contact WORK-VIDEO-001|
-|Video Production Specification|Translate approved Script Package logic into bounded production requirements|Versioned Video Production Specification|Generate content, self-approve or create a Generation Task|
+|Video Production Specification|Translate approved Content Logic into AI Production Requirements|Versioned Video Production Specification|Redefine Audience, Strategy, Business Objective, Product Claims or evidence status; generate content, self-approve or create a Generation Task|
 |Creative Review|Review the exact Video Production Specification version|APPROVED / NEEDS_REVISION / REJECTED|Approve unspecified future changes|
 |WORK-VIDEO-001|Accept only an APPROVED Video Production Specification and perform separate production-admission checks|Generation Task only after all gates pass|Repair missing approval or change Strategy, Script, Product, Claim or evidence status|
 
@@ -31,6 +32,7 @@ Every instance must contain:
 |Specification ID|Stable unique identifier|
 |Version|Immutable reviewed version; material change creates a new version|
 |Source Script Package|Exact Script Package ID and version|
+|Source Creative Production Specification|Exact approved Production Intent source ID and version inherited by the Script Package|
 |Creative Strategy Reference|Exact approved Strategy source|
 |Product Reference|Exact approved Product Truth source when a real instance is created|
 |Market / Language|Inherited from approved sources; never inferred|
@@ -42,21 +44,23 @@ Every instance must contain:
 
 Missing, invalid, conflicting or unapproved required metadata sets the instance to `INCOMPLETE` and `BLOCKED`.
 
-# 2. Production Objective
+# 2. Generation Objective
 
-Production Objective translates the approved Script Objective into a production job without changing its meaning.
+Generation Objective translates the approved Script Objective and upstream Production Intent into the execution goal for AI production without changing their meaning.
 
 Required fields:
 
-- Primary Objective Type.
+- Source Production Intent reference.
+- Source Script Objective reference.
+- Primary generation job.
 - Viewer Goal.
 - Business Goal.
 - Measurement Direction.
-- Production Communication Goal.
+- Generation communication goal.
 - Required comprehension or decision outcome.
 - Elements that must not be optimized at the expense of Product Truth, claims or audience alignment.
 
-The Production Objective does not contain finished wording and cannot invent a new business objective.
+The Generation Objective must consume approved upstream objectives. It cannot redefine Strategy, Audience Direction, Business Objective, Product Claims, Script Objective or evidence status, and it contains no finished wording.
 
 # 3. Content Structure
 
@@ -183,8 +187,9 @@ The exact Video Production Specification version must pass independent Creative 
 ## Required checks
 
 - Creative Strategy alignment.
+- Creative Production Specification ID, version and Production Intent integrity.
 - Source Script Package identity and integrity.
-- Production Objective fidelity.
+- Generation Objective fidelity to Production Intent and Script Objective.
 - Content Structure preservation.
 - Production feasibility.
 - Product Lock and valid Product Reference.
@@ -203,18 +208,18 @@ The exact Video Production Specification version must pass independent Creative 
 
 ## WORK-VIDEO-001 admission rule
 
-WORK-VIDEO-001 accepts only an `APPROVED` Video Production Specification. Before creating a Generation Task it must also verify valid references, claim restrictions, source permissions, clear objective, model-selection record, budget authorization, Prompt Contract readiness and all applicable production gates. Any missing condition sets admission to `BLOCKED`.
+WORK-VIDEO-001 accepts only an `APPROVED` Video Production Specification. It is prohibited from reading either a Script Package or Creative Production Specification to create a Generation Task. Before creating a Generation Task it must also verify valid references, claim restrictions, source permissions, clear Generation Objective, model-selection record, budget authorization, Prompt Contract readiness and all applicable production gates. Any missing condition sets admission to `BLOCKED`.
 
 ## Evidence Boundary
 
 ### Observed Evidence
 
-- Supervisor Review `60fbd0f9068d7be4002a429c6f299298b9d78fcd` identifies the missing post-Script Video Production Specification and requires it as the final production contract.
+- Supervisor Review `8e4a196053290b890b598b73dc20c2e2547e2c58` requires the three-layer chain and directs Video Production Specification to consume upstream intent rather than redefine it.
 - Existing system and project records require versioned sources, independent review, Product/Role/Scene locks, claim restrictions and blocked admission when required inputs are missing.
 
 ### Inference
 
-- Separating content organization from production requirements can reduce authority ambiguity and prevent production parameters from leaking into Script Packages.
+- Separating Production Intent, Content Logic and AI Production Requirements can reduce authority ambiguity and prevent downstream layers from redefining strategy.
 
 ### Future Test Direction
 

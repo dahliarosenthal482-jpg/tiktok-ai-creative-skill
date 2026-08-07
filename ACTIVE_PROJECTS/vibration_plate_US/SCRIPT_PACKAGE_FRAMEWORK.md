@@ -8,13 +8,13 @@ Executor: WORK-CREATIVE-001
 
 Status: EXECUTED — WAITING SUPERVISOR REVIEW
 
-Scope: Reusable schema converting approved Creative Strategy into a future Script Package that becomes the content-organization input to a separate Video Production Specification. This framework contains no production parameters, real product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt or Generation Task.
+Scope: Reusable schema converting an approved Creative Production Specification Production Intent into a future Script Package Content Structure Contract for a separate Video Production Specification. This framework contains no production parameters, real product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt or Generation Task.
 
 ## Framework flow
 
-`Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`
+`Creative Strategy → Creative Production Specification → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`
 
-A Script Package is a structured content-organization record. It defines why and how information is organized, then outputs a bounded contract to the Video Production Specification layer. It cannot override Product Truth, Audience, business objective, claim restrictions or evidence classifications in approved sources. It cannot contain production parameters or be handed directly to WORK-VIDEO-001.
+A Script Package is a structured content-organization record. It consumes an approved Production Intent and defines how that intent is organized into Content Logic. It outputs a bounded Content Structure Contract to the Video Production Specification layer. It cannot redefine Product Truth, Audience Direction, Creative Objective, Business Objective, Content Goal, claim restrictions or evidence classifications. It cannot contain production parameters or be handed directly to WORK-VIDEO-001.
 
 # 1. Script Metadata
 
@@ -27,7 +27,7 @@ Every future Script Package must contain:
 |Version|Immutable reviewed version; material changes create a new version|
 |Market|Reference the approved Specification; do not infer|
 |Product Reference|Reference the approved product source; do not restate or expand facts|
-|Specification ID|Exact approved Creative Production Specification ID and version|
+|Creative Production Specification ID|Exact approved Production Intent source ID and version|
 |Language|Declared production language and locale|
 |Content Objective|Reference one approved objective category and its intended job|
 |Content Type|Reference an approved content type|
@@ -40,7 +40,7 @@ Metadata does not authorize automatic population of creative content.
 
 # 2. Script Objective
 
-Select one primary objective and declare supporting objectives only when the approved Specification requires them.
+Translate the approved Production Intent into one primary content-organization objective. Supporting objectives are allowed only when the approved Creative Production Specification requires them.
 
 |Objective Type|Viewer Goal|Business Goal|Measurement Direction|
 |---|---|---|---|
@@ -168,12 +168,13 @@ Missing required sources set the Script Package to `INCOMPLETE` and block review
 
 # 11. Script Package Output Contract
 
-The sole downstream object of a Script Package is a new, versioned `Video Production Specification`. A Script Package must not be passed directly to WORK-VIDEO-001 and cannot create, request or authorize a Generation Task.
+The sole downstream object of a Script Package is a new, versioned `Video Production Specification`. The Script Package output is a `Content Structure Contract`. It must not be passed directly to WORK-VIDEO-001 and cannot create, request or authorize a Generation Task.
 
 |Output Field|Content-Organization Value Passed Forward|
 |---|---|
 |Script Package ID / Version|Exact immutable source identifier|
-|Creative Strategy Reference|Exact approved Strategy source and version|
+|Creative Production Specification Reference|Exact approved Production Intent source ID and version|
+|Creative Strategy Reference|Traceable upstream Strategy reference inherited through the Creative Production Specification|
 |Script Objective|Primary objective, Viewer Goal, Business Goal and Measurement Direction|
 |Script Structure ID|Selected logical structure identifier|
 |Information Flow|Ordered logical functions without wording or timing parameters|
@@ -187,7 +188,7 @@ The sole downstream object of a Script Package is a new, versioned `Video Produc
 |Evidence Classification|Observed Evidence, Inference or Future Test Direction for every populated input|
 |Risk Items|Unresolved content, evidence, permission and compliance risks|
 
-The Video Production Specification layer translates this content contract into production requirements. That transformation must preserve the Script Objective, information order, proof logic, claim boundaries and evidence status without adding unsupported facts.
+The Video Production Specification layer translates this Content Structure Contract into AI Production Requirements. That transformation must preserve the upstream Creative Objective, Audience Direction, Business Objective and Production Intent as well as Script Objective, information order, proof logic, claim boundaries and evidence status without adding unsupported facts.
 
 ## Script Package prohibitions
 
@@ -236,7 +237,7 @@ Every Script Package requires independent Creative Review for the exact version.
 
 ## Decisions
 
-- `APPROVED`: the exact Script Package version may be used as source input to create a Video Production Specification. It may not enter WORK-VIDEO-001 directly.
+- `APPROVED`: the exact Script Package version, tied to an approved Creative Production Specification, may be used to create a Video Production Specification. It may not enter WORK-VIDEO-001 directly.
 - `NEEDS_REVISION`: correctable issues exist; no WORK-VIDEO-001 handoff is allowed.
 - `REJECTED`: source, strategy, claim, permission or feasibility conflict prevents handoff.
 
@@ -247,7 +248,7 @@ Execution status does not equal approval. The executor may not self-approve. Scr
 ### Observed Evidence
 
 - System standards define the Creative Production Specification as the only generation handoff and define the Script Framework as logical jobs rather than creative copy.
-- VP-US-005B Supervisor Review approved the upstream production-planning work and authorized entry to VP-US-005C; the VP-US-005C Supervisor Review then required a distinct post-Script Video Production Specification.
+- Supervisor Review `8e4a196053290b890b598b73dc20c2e2547e2c58` requires the Script Package to sit between Creative Production Specification and Video Production Specification with non-overlapping authority.
 - The approved upstream project records retain Product, Role, Scene, claim, evidence and generation-admission boundaries.
 
 ### Inference

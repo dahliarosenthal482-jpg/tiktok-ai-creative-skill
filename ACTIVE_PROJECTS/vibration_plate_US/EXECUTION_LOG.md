@@ -521,3 +521,27 @@ Risk Items: no populated production specification exists; Role/packaging referen
 Data Boundary Check: project framework/flow files only; product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
 
 Next Step: Supervisor re-review.
+
+## 2026-08-07 — VP-US-005C-R2 Creative Layer Responsibility Alignment
+
+Session ID: VP-US-005C-R2-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Review Basis: Supervisor Review commit `8e4a196053290b890b598b73dc20c2e2547e2c58`, decision `NEEDS_REVISION`.
+
+Actions: Versioned and narrowed Creative Production Specification to Production Intent only; made it the required input to Script Package; made Script Package output a Content Structure Contract; changed Video Production Specification `Production Objective` to `Generation Objective`; added the full three-layer chain and sole WORK-VIDEO-001 input rule; updated project-local governance only.
+
+Result: The only valid path is `Creative Strategy → Creative Production Specification → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`. CPS cannot contain execution parameters; Script Package cannot contain production parameters; Video Production Specification cannot redefine Audience, Strategy, Business Objective or Product Claims.
+
+Evidence Summary: Supervisor responsibility findings are Observed Evidence; expected clarity benefits are Inference; operational validation remains Future Test Direction.
+
+Risk Items: CPS v1.1 is pending approval; no populated downstream artifact is approved; reference gaps and Video Intelligence limitations persist; provider/model/budget/Prompt/Generation Task remain separate gates.
+
+Data Boundary Check: creative framework/project-flow files only; product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
+
+Next Step: Supervisor re-review.
