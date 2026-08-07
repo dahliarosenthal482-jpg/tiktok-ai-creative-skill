@@ -4,6 +4,8 @@ Status: EXECUTED — WAITING SUPERVISOR REVIEW
 
 Scope: Cross-project governance, contracts, lifecycle, provider abstraction, asset traceability, and quality gates for future AI video production. This standard does not authorize a generation task, provider call, prompt example, or project production activity.
 
+Quality and cost controls for model selection, generation budgets, retry limits, Prompt versions, scoring, and production learning are defined in `SYSTEM_CORE/AI_VIDEO_QUALITY_COST_CONTROL_STANDARD.md`.
+
 ## Pipeline Architecture
 
 `Market Intelligence Agent → Creative Production Agent → Video Production Agent → Review Agent`

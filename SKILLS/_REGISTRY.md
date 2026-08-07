@@ -142,6 +142,20 @@ Required Capability: Creative Production Governance, Provider Adapter Operation,
 
 Status: Planned
 
+## AI Video Quality & Cost Control Skill
+
+Skill Name: AI Video Quality & Cost Control Skill
+
+Purpose: Standardize model-selection decisions, generation budgets, bounded retries, immutable Prompt versions, hard-gated quality scoring, and abstract production learning.
+
+Input: Approved Creative Production Specification, Generation Decision, provider/model capability and cost information, Budget Record, Prompt lineage, generated candidate, Evidence Summary, and Risk Items
+
+Output: Model Selection Decision, budget status, Retry Record, Prompt Version record, Quality Evaluation, and reviewed abstract learning proposal
+
+Required Capability: Model Evaluation, Cost Governance, Retry Analysis, Prompt Version Governance, and Video Quality Review
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:

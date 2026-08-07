@@ -12,6 +12,18 @@ All future AI video production work must comply with `SYSTEM_CORE/AI_VIDEO_PRODU
 6. Only the Review Agent may issue the final asset decision. A failed or incomplete Review Gate prevents Final Asset admission.
 7. Every transition, Prompt version, reference asset, output asset, Evidence Summary, and Risk Item must remain traceable.
 
+## AI Video Quality and Cost Control Rules
+
+All future AI video generation tasks must also comply with `SYSTEM_CORE/AI_VIDEO_QUALITY_COST_CONTROL_STANDARD.md`.
+
+1. Model selection requires a recorded Model Selection Decision; random selection is prohibited.
+2. No provider request may start without an authorized Budget Record and sufficient remaining generation, retry, and cost allowances.
+3. Automatic retry is limited to one eligible correction in a failure chain. Product, character, claim, Specification, quality-level, or budget changes require human approval.
+4. Prompt records are immutable. Every change creates a new version linked to the previous version.
+5. Quality Score does not override Product Fidelity, Claim Compliance, source permission, Specification identity, asset provenance, or other applicable hard gates.
+6. Failed assets, attempts, costs, Prompt versions, and correction reasons must remain traceable; overwriting is prohibited.
+7. Production learning must be abstracted and independently approved before entering system rules; real project knowledge remains isolated.
+
 ## System Core 启动流程
 
 任何 Work 启动时，必须按以下顺序完成系统级上下文恢复：
