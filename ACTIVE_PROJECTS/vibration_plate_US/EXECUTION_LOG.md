@@ -544,6 +544,30 @@ Risk Items: Video Intelligence remains PARTIAL COMPLETE with Quality A = 0. Firs
 
 Next Step: Creative Review of VP-US-005D-HTM-SP-v1.0.
 
+## 2026-08-07 — VP-US-005E HTM Video Production Specification v1.0
+
+Session ID: VP-US-005E-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+
+Approval Status: CREATIVE_REVIEW_REQUIRED
+
+Admission Status: BLOCKED PENDING CREATIVE REVIEW AND REQUIRED REFERENCES
+
+Approval Basis: Supervisor Review commit `18ad7c4` approved VP-US-005D-R1 and entry to VP-US-005E.
+
+Actions: Read approved CPS v1.1 and HTM Script Package; translated Production Intent and Content Logic into provider-neutral AI Production Requirements; defined UGC Native and Smartphone Camera reference styles, functional Camera, conditional Role, Product Lock, Scene, Motion, Reference, Negative and Claim constraints; defined the sole WORK-VIDEO-001 interface; updated project-local governance only.
+
+Result: Added `HTM_VIDEO_PRODUCTION_SPECIFICATION.md` and Session record. No Prompt, full script, Storyboard, Shot List, Provider request, Generation Task, API call or video was created.
+
+Evidence Summary: Product and approval facts remain Observed Evidence; production-style translations remain Inference/Future Test Direction; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0.
+
+Risk Items: First Frame Evidence, Audio Evidence and Scene Timeline Evidence remain missing; role-dependent production and packaging proof are blocked without approved references; paid confounding, Customer Insight limitations and price reverification remain; independent Creative Review required.
+
+Next Step: Creative Review of VP-US-005E-HTM-VPS-v1.0.
+
 ## 2026-08-07 — VP-US-005C-R2 Creative Layer Responsibility Alignment
 
 Session ID: VP-US-005C-R2-20260807

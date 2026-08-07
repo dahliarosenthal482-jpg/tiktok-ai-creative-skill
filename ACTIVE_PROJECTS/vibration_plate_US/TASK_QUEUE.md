@@ -737,3 +737,41 @@ Evidence Boundary: approved Product Truth remains Observed Evidence; strategic/c
 Risk Items: Video Intelligence remains PARTIAL COMPLETE with Quality A = 0. First Frame Evidence Missing means Visual Hook Pattern, Product First Appearance and Opening Visual Structure cannot be validated. Audio Evidence Missing means Voice Pattern, Audio Hook and Music Influence cannot be validated. Scene Timeline Evidence Missing means Scene Sequence, Retention Structure, Product Timing and CTA Timing cannot be validated. AD confounding, the small Amazon Customer Insight sample, Role/packaging reference gaps, temporary-price reverification and Creative Review requirements remain.
 
 Next Action: Creative Review only. No Video Production Specification may be created from this version before approval.
+
+## TASK_REQUEST — VP-US-005E
+
+Task ID: VP-US-005E
+
+Task Name: HTM Video Production Specification v1.0
+
+Task Type: PROJECT_EXECUTION
+
+Approval Basis: Supervisor Review commit `18ad7c4`, decision `APPROVED TO ENTER VP-US-005E`.
+
+Objective: Convert approved CPS v1.1 Production Intent and approved HTM Script Package Content Structure Contract into the sole provider-neutral AI Production Requirements input for WORK-VIDEO-001.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005E-20260807
+
+Status: EXECUTED
+
+Restrictions: Specification only; no Prompt, full script, Storyboard, Shot List, Provider call, Generation Task or video.
+
+## TASK_RESULT — VP-US-005E
+
+Execution Status: EXECUTED
+
+Approval Status: CREATIVE_REVIEW_REQUIRED
+
+Admission Status: BLOCKED PENDING CREATIVE REVIEW AND REQUIRED REFERENCES
+
+Changed Files: added `HTM_VIDEO_PRODUCTION_SPECIFICATION.md` and `SESSIONS/VP-US-005E-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: created the thirteen-section Video Production Specification with Generation Objective, Content Type, UGC/Smartphone style requirements, functional Camera requirements, conditional Role gate, Product Lock, Scene/Motion/Reference requirements, Negative Constraints, Claim restrictions and the sole WORK-VIDEO-001 contract.
+
+Evidence Boundary: UGC style, smartphone-camera realism, framing, motion and content-type choices remain Inference/Future Test Direction; no creative pattern is treated as validated. Video Intelligence remains PARTIAL COMPLETE / Quality A = 0.
+
+Risk Items: First Frame, Audio and Scene Timeline evidence missing; role-dependent production blocked without approved Role Reference; packaging blocked without approved Packaging Reference; paid confounding and small Customer Insight sample; Creative Review required.
+
+Next Action: Creative Review only. Generation Task creation remains prohibited.
