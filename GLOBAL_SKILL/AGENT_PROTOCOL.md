@@ -99,6 +99,23 @@ The Session Agent must match both the Task Executor and Commit Author. A missing
 
 Market Agent 禁止只输出竞品列表。必须同时提供成交数据、内容数据、消费者信号、价格层级竞争、趋势迁移、内容转化和证据支持的策略机会；缺失模块必须明确标记为不完整。
 
+## Video Intelligence 执行规则
+
+所有 Video Intelligence Agent 必须遵守 `SYSTEM_CORE/VIDEO_INTELLIGENCE_STANDARD.md`。任务输出必须包含：
+
+1. Video Dataset
+2. Video Source Matrix
+3. Video Creative Breakdown
+4. Viral Factor Analysis
+5. Trend Adaptation Analysis
+6. Creative Intelligence Output
+7. Evidence Summary
+8. Risk Items
+
+必须区分 High View Content 与 High Conversion Content，并明确 `播放量 ≠ 销售能力`。Observed Evidence、Inference 和 Future Test Direction 必须分开记录。缺少可验证视频、来源或 Commerce 归因时，任务必须标记为 `INCOMPLETE`，不得推测指标、创意结构或销售因果关系。
+
+Creative Intelligence 进入 Script Generation 或 AI Video Generation 前，必须通过 Product Truth、Visual Lock、Claim Boundary、来源权限和 Supervisor Gate。
+
 ## Work 完成流程
 
 任务完成后，必须：

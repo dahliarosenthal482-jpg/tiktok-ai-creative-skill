@@ -76,13 +76,13 @@ Status: Planned
 
 Skill Name: Video Intelligence Skill
 
-Purpose: Analyze video metadata, performance, hooks, scenes, product appearance, CTA, captions, and audio patterns.
+Purpose: Standardize video datasets, creative breakdowns, viral-factor analysis, trend adaptation, conversion evidence, and reusable Creative Intelligence outputs.
 
-Input: Verified video URLs, metadata, performance data, and product links
+Input: Verified video sources, identity and product metadata, performance metrics, commerce evidence, collection dates, and confidence status
 
-Output: Video Intelligence and Creative Breakdown
+Output: Video Dataset, Video Source Matrix, Creative Breakdown, Viral Factor Analysis, Trend Adaptation Analysis, Creative Intelligence Output, Evidence Summary, and Risk Items
 
-Required Capability: Video Research and Creative Analysis
+Required Capability: Video Research, Source Verification, Creative Analysis, and Commerce Evidence Interpretation
 
 Status: Planned
 
