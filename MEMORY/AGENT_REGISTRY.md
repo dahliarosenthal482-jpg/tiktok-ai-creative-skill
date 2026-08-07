@@ -105,7 +105,7 @@ Capability:
 - Video Intelligence Preparation
 - Opportunity Analysis
 
-Scope: PROJECT_EXECUTION only
+Scope: PROJECT_EXECUTION ONLY
 
 Permission:
 
@@ -121,9 +121,9 @@ Restrictions:
 
 Current Project: vibration_plate_US
 
-Current Task: VP-US-002
+Current Task: VP-US-003
 
-Current Assignment: Market Intelligence Upgrade v1.1 Revision
+Current Assignment: Video Intelligence Deep Collection
 
 Status: Active
 
