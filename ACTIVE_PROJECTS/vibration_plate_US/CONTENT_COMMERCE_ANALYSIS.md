@@ -93,3 +93,13 @@ Test a factual CTA sequence: current deal → Black/White selection → Resistan
 ## Required Next Evidence
 
 Capture a bounded set of direct competitor videos with URL, creator, date, duration, views, engagement, product link, per-video GMV/orders, first frame, scene timeline, product-appearance time and CTA timing. Until then, all creative applications remain future tests.
+
+## VP-US-004A Commerce Refinement
+
+The five commerce records total approximately ¥191.3K displayed GMV, 239 Orders and 638.0K Views. Their displayed GMV per thousand Views ranges from about ¥120 to ¥2,077, confirming that reach and commerce efficiency must be analyzed separately.
+
+Observed Evidence: all five records have positive video-specific commerce and all five are AD; captions state different propositions rather than one repeated winner.
+
+Inference: purchase consideration may depend on product-role clarity, value, trust and objection removal after attention is earned.
+
+Future Test Direction: use the eight directions in `COMMERCE_CREATIVE_INTELLIGENCE.md` as controlled hypotheses. Do not infer scenes, actions, hook timing or CTA timing from captions.

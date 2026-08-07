@@ -107,3 +107,17 @@ Proceed to Supervisor Review for the v1.1 project analysis. Before declaring a w
 - Overall Market Intelligence: INCOMPLETE
 
 Execution remains `EXECUTED`, not `APPROVED`.
+
+## VP-US-004A Commerce Creative Intelligence Application
+
+Task ID: VP-US-004A
+
+The approved market layer is now applied to purchase-logic analysis in `COMMERCE_CREATIVE_INTELLIGENCE.md`.
+
+Observed: near-$50 HOPHORSE/ROTAI links show strong units and video contribution; premium/core competitors establish category legitimacy; five Commerce Validation records show positive per-video GMV/orders.
+
+Inference: HTM can potentially convert existing category awareness into a lower-commitment decision through one clear five-minute role, included bands, exact Black/White identity and restrained trust-building.
+
+Future Test Direction: test Attention, Interest, Desire and Action mechanisms separately. No playback-derived creative cause or winning visual structure is asserted.
+
+Status remains `EXECUTED — WAITING SUPERVISOR REVIEW` for VP-US-004A.
