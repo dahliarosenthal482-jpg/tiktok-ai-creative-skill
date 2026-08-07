@@ -8,13 +8,13 @@ Executor: WORK-CREATIVE-001
 
 Status: EXECUTED — WAITING SUPERVISOR REVIEW
 
-Scope: Reusable schema connecting approved Strategy and Creative Production Specification to a future Script Package and Video Agent intake. This framework contains no real product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt or Generation Task.
+Scope: Reusable schema converting approved Creative Strategy into a future Script Package that becomes the content-organization input to a separate Video Production Specification. This framework contains no production parameters, real product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt or Generation Task.
 
 ## Framework flow
 
-`Approved Strategy → Approved Creative Production Specification → Script Package → Creative Review → Video Production Admission`
+`Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`
 
-A Script Package is a structured planning record. It cannot override Product Truth, Audience, Video Objective, Product Lock, Role Lock, Scene requirements, claim restrictions or evidence classifications in its approved source Specification.
+A Script Package is a structured content-organization record. It defines why and how information is organized, then outputs a bounded contract to the Video Production Specification layer. It cannot override Product Truth, Audience, business objective, claim restrictions or evidence classifications in approved sources. It cannot contain production parameters or be handed directly to WORK-VIDEO-001.
 
 # 1. Script Metadata
 
@@ -166,32 +166,42 @@ Forbidden: unapproved functions, effects, medical claims, result guarantees, inv
 
 Missing required sources set the Script Package to `INCOMPLETE` and block review approval.
 
-# 11. Script Package → Video Agent Interface
+# 11. Script Package Output Contract
 
-Only an approved Script Package tied to an approved Creative Production Specification may be passed to WORK-VIDEO-001.
+The sole downstream object of a Script Package is a new, versioned `Video Production Specification`. A Script Package must not be passed directly to WORK-VIDEO-001 and cannot create, request or authorize a Generation Task.
 
-|Interface Field|Required Content|
+|Output Field|Content-Organization Value Passed Forward|
 |---|---|
-|Script Package ID / Version|Exact immutable package identifier|
-|Specification ID / Version|Exact approved upstream specification|
+|Script Package ID / Version|Exact immutable source identifier|
+|Creative Strategy Reference|Exact approved Strategy source and version|
 |Script Objective|Primary objective, Viewer Goal, Business Goal and Measurement Direction|
-|Script Structure ID|Selected logical flow structure|
-|Information Flow|Ordered logical functions without finished wording|
-|Audience Trigger|Selected category and source boundary|
-|Content Type|Approved content-type reference|
-|Message Modules|Core priority, supporting-information requirement, proof and risk fields|
-|Proof Requirement|Type, source, permission and evidence classification|
-|Objection Handling|Concern category, evidence boundary and prohibited interpretations|
-|CTA Purpose|Action purpose, destination and verification requirement|
-|Production Requirement|Approved style, camera, motion and platform requirements|
-|Product Lock|Approved Product Reference and immutable restrictions|
-|Role Lock|Approved Role Reference or explicit `NO ROLE`; unresolved reference blocks role-dependent production|
-|Scene Requirement|Approved scene-planning references; this interface does not create scenes|
-|Generation Constraint|Claim, platform, source-permission and negative constraints|
-|Approval Record|Creative Review decision, reviewer, date and review reference|
-|Risk Items|Unresolved risks and production-admission blockers|
+|Script Structure ID|Selected logical structure identifier|
+|Information Flow|Ordered logical functions without wording or timing parameters|
+|Audience Trigger|Selected category, source classification and boundary|
+|Content Type Direction|Content-format intent for production translation, not a production setting|
+|Message Framework|Core communication priority and supporting-information requirements|
+|Proof Logic|Proof type, source, permission, classification and unresolved limitation|
+|Objection Handling|Concern category, permitted evidence and prohibited interpretations|
+|CTA Purpose|Action purpose, destination class and verification requirement without CTA copy|
+|Claim Boundary Reference|Approved claim source and prohibited-claim reference|
+|Evidence Classification|Observed Evidence, Inference or Future Test Direction for every populated input|
+|Risk Items|Unresolved content, evidence, permission and compliance risks|
 
-WORK-VIDEO-001 may not rewrite Strategy, Product, Claim, Audience, Script Objective or evidence status. The interface is not a Prompt Contract and does not authorize generation.
+The Video Production Specification layer translates this content contract into production requirements. That transformation must preserve the Script Objective, information order, proof logic, claim boundaries and evidence status without adding unsupported facts.
+
+## Script Package prohibitions
+
+A Script Package must not contain:
+
+- Provider or Adapter selection.
+- Model selection or version.
+- Camera parameters, lens values, frame rate, resolution or provider syntax.
+- Visual-generation parameters or motion-generation parameters.
+- Prompt text or Prompt modules.
+- Generation Task fields, lifecycle state or API payload.
+- Production-ready Scene commands, Storyboard, Shot List or Scene timeline.
+
+If any such production field is required, it belongs in the separate Video Production Specification or later authorized production layers, never in the Script Package.
 
 # 12. Evidence Classification
 
@@ -226,23 +236,23 @@ Every Script Package requires independent Creative Review for the exact version.
 
 ## Decisions
 
-- `APPROVED`: the exact Script Package version may be included in subsequent production-admission checks.
+- `APPROVED`: the exact Script Package version may be used as source input to create a Video Production Specification. It may not enter WORK-VIDEO-001 directly.
 - `NEEDS_REVISION`: correctable issues exist; no WORK-VIDEO-001 handoff is allowed.
 - `REJECTED`: source, strategy, claim, permission or feasibility conflict prevents handoff.
 
-Execution status does not equal approval. The executor may not self-approve. Script Package approval does not itself approve a Prompt, Generation Task, provider call or generated asset.
+Execution status does not equal approval. The executor may not self-approve. Script Package approval authorizes only the next specification-conversion step; it does not approve a Video Production Specification, WORK-VIDEO-001 intake, Prompt, Generation Task, provider call or generated asset.
 
 ## Framework evidence boundary
 
 ### Observed Evidence
 
 - System standards define the Creative Production Specification as the only generation handoff and define the Script Framework as logical jobs rather than creative copy.
-- VP-US-005B Supervisor Review approved the exact Creative Production Specification and authorized entry to VP-US-005C.
+- VP-US-005B Supervisor Review approved the upstream production-planning work and authorized entry to VP-US-005C; the VP-US-005C Supervisor Review then required a distinct post-Script Video Production Specification.
 - The approved upstream project records retain Product, Role, Scene, claim, evidence and generation-admission boundaries.
 
 ### Inference
 
-- A normalized Script Package schema can reduce ambiguity between strategy, script planning and video-production intake.
+- A normalized Script Package schema can reduce ambiguity between strategy and content organization when its downstream object is explicitly limited to a Video Production Specification.
 - Separating objective, trigger, information flow, proof, objection and CTA purpose may make reviews more traceable.
 
 ### Future Test Direction
@@ -252,9 +262,9 @@ Execution status does not equal approval. The executor may not self-approve. Scr
 
 ## Risk Items
 
-- This framework is not a populated Script Package and cannot be used as finished creative input.
+- This framework is not a populated Script Package and cannot be used as finished creative or production input.
 - Source standards retain executor-time waiting-review labels; controlling Supervisor records govern project approval.
 - A role-dependent future package remains blocked without an approved Role Reference.
 - Packaging proof remains blocked without an approved packaging reference.
 - Video Intelligence remains `PARTIAL COMPLETE`, Quality A = 0; no Hook, scene, timing, character, style or CTA may be treated as proven.
-- Model selection, budget authorization, Prompt Contract, provider route and Generation Task remain outside this task.
+- Video Production Specification approval, model selection, budget authorization, Prompt Contract, provider route and Generation Task remain separate downstream gates.

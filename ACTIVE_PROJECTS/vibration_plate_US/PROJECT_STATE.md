@@ -6,11 +6,11 @@ Product: HTM Vibration Machine
 
 Market: United States
 
-Current Phase: VP-US-005C Script Package Framework Executed
+Current Phase: VP-US-005C-R1 Creative Pipeline Alignment Executed
 
-Current Task: VP-US-005C — Script Package Framework v1.0
+Current Task: VP-US-005C-R1 — Creative Pipeline Alignment
 
-Task Type: PROJECT_EXECUTION
+Task Type: SYSTEM_ALIGNMENT
 
 Status: EXECUTED
 
@@ -24,16 +24,22 @@ Executor: WORK-CREATIVE-001
 
 Assigned Agent: WORK-CREATIVE-001
 
-Session ID: VP-US-005C-20260807
+Session ID: VP-US-005C-R1-20260807
 
 Last Update: 2026-08-07
 
-Input Status: VP-US-005B Creative Production Specification APPROVED by controlling Supervisor Review; Creative Strategy approved; system standards and project templates used as schema references.
+Review Basis: Supervisor Review commit `60fbd0f9068d7be4002a429c6f299298b9d78fcd`, decision `NEEDS_REVISION`.
 
-Output: `SCRIPT_PACKAGE_FRAMEWORK.md` — reusable, non-populated Script Package schema and gated WORK-VIDEO-001 interface.
+Current Architecture: Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task.
 
-Next Action: Supervisor reviews framework scope, interface completeness, evidence boundary and prohibition compliance. No concrete Script Package, Prompt or Generation Task is authorized.
+Output: revised `SCRIPT_PACKAGE_FRAMEWORK.md` plus new `VIDEO_PRODUCTION_SPECIFICATION_FRAMEWORK.md`.
 
-Protected Inputs: `PRODUCT_PRODUCTION_READY.md`, Product Facts, Selling SKU, Visual Lock, Approved Claims, `CREATIVE_STRATEGY_FRAMEWORK.md`, `CREATIVE_PRODUCTION_SPECIFICATION.md`, System Core and Skills unchanged.
+Next Action: Supervisor re-review. VP-US-005D and every Generation Task remain blocked.
 
-Data Boundary: Framework fields only; no product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt, provider call or video generation.
+Production Variants: Black and White only, by authoritative `PRODUCT_PRODUCTION_READY.md` reference.
+
+Rejected Variant: Silver.
+
+Protected Inputs: Product Production Ready, Product Facts, Selling SKU, Visual Lock, Approved Claims, Video Dataset, Video Evidence, System Core, Global Skill and Skills unchanged.
+
+Data Boundary: Framework and project-flow records only; product data changes 0, market data changes 0, video data changes 0, API calls 0, Prompt generation 0.

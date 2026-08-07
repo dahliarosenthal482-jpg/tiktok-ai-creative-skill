@@ -497,3 +497,27 @@ Evidence Summary: system standards establish the schema/gate boundary; VP-US-005
 Risk Items: the framework is not a populated Script Package; Role Reference and packaging reference gaps persist for applicable future use; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0; production-admission decisions remain downstream and unapproved.
 
 Next Step: Supervisor Review.
+
+## 2026-08-07 — VP-US-005C-R1 Creative Pipeline Alignment
+
+Session ID: VP-US-005C-R1-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Review Basis: Supervisor Review commit `60fbd0f9068d7be4002a429c6f299298b9d78fcd`, decision `NEEDS_REVISION`.
+
+Actions: Removed the Script Package direct-to-WORK-VIDEO-001 handoff; added the Script Package Output Contract; prohibited Provider, Model, camera parameters, Prompt and Generation Task fields in Script Packages; created the separate provider-neutral Video Production Specification Framework; restored visible Black/White and Silver state protection; updated project-local governance only.
+
+Result: The pipeline now reads `Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`. Only an approved Video Production Specification can reach WORK-VIDEO-001, and approval alone still does not create a Generation Task.
+
+Evidence Summary: Supervisor blocking findings are retained as Observed Evidence. Role separation is an architectural inference. Validation of the revised schema remains a Future Test Direction.
+
+Risk Items: no populated production specification exists; Role/packaging references may still block applicable production; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0; provider/model/budget/Prompt decisions remain outside scope.
+
+Data Boundary Check: project framework/flow files only; product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
+
+Next Step: Supervisor re-review.

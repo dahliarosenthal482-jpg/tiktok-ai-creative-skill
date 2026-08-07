@@ -621,3 +621,43 @@ Evidence Boundary: framework categories remain schemas; no field is populated wi
 Risk Items: framework approval does not approve a populated package or generation; role-dependent work needs an approved Role Reference; packaging proof needs an approved reference; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0; model, budget, Prompt and provider decisions remain outside scope.
 
 Next Action: Supervisor Review only.
+
+## TASK_REQUEST — VP-US-005C-R1
+
+Task ID: VP-US-005C-R1
+
+Task Name: Creative Pipeline Alignment
+
+Task Type: SYSTEM_ALIGNMENT
+
+Review Basis: Supervisor Review commit `60fbd0f9068d7be4002a429c6f299298b9d78fcd`, decision `NEEDS_REVISION`.
+
+Objective: Correct the responsibility split and establish `Creative Strategy → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005C-R1-20260807
+
+Status: EXECUTED
+
+Allowed Scope: revise `SCRIPT_PACKAGE_FRAMEWORK.md`; add `VIDEO_PRODUCTION_SPECIFICATION_FRAMEWORK.md`; update project-local flow records.
+
+Restrictions: No product data, market data, video data, Product Fact, Selling SKU, Visual Lock, Approved Claim, System Core, Skill, script, HTM-specific content, spoken copy, Hook wording, Storyboard, Prompt, provider call or Generation Task.
+
+## TASK_RESULT — VP-US-005C-R1
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Changed Files: revised `SCRIPT_PACKAGE_FRAMEWORK.md`; added `VIDEO_PRODUCTION_SPECIFICATION_FRAMEWORK.md` and `SESSIONS/VP-US-005C-R1-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: Script Package now outputs only a content-organization contract to the Video Production Specification layer. The new framework owns production objective, duration, style, camera, character, product, scene, motion, reference, negative, claim and provider-compatibility requirements. WORK-VIDEO-001 accepts only an approved Video Production Specification.
+
+Evidence Boundary: Supervisor findings are Observed Evidence; separation benefits are Inference; workflow validation remains Future Test Direction. No performance hypothesis became fact.
+
+Risk Items: framework instances remain unpopulated; role-dependent production requires an approved Role Reference; packaging proof requires an approved reference; Video Intelligence remains PARTIAL COMPLETE / Quality A = 0; provider compatibility, model, budget, Prompt and Generation Task remain downstream.
+
+Data Boundary Check: product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
+
+Next Action: Supervisor re-review. VP-US-005D is blocked.
