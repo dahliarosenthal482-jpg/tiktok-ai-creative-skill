@@ -1,8 +1,8 @@
 # Review Report
 
-Task ID: VP-US-005C-R2
+Task ID: VP-US-005D
 
-Task Name: Creative Layer Responsibility Alignment Review
+Task Name: HTM Script Package Review
 
 Task Type: SUPERVISOR_REVIEW
 
@@ -10,80 +10,86 @@ Execution Agent: WORK-CREATIVE-001
 
 Reviewer: WORK-SYSTEM-001
 
-Commit: dccec3f6af73d336509034743c2ab5310858ef27
+Commit: 3f2bd37656f202545ade929dd8df39a738ad93bf
 
 Review Date: 2026-08-07
 
 Files Reviewed:
 
 - Commit metadata, Diff, and Changed Files
-- `CREATIVE_PRODUCTION_SPECIFICATION.md` v1.1
-- `SCRIPT_PACKAGE_FRAMEWORK.md`
-- `VIDEO_PRODUCTION_SPECIFICATION_FRAMEWORK.md`
-- `SESSIONS/VP-US-005C-R2-20260807.md`
+- `HTM_SCRIPT_PACKAGE.md`
+- `SESSIONS/VP-US-005D-20260807.md`
 - `PROJECT_STATE.md`
 - `TASK_QUEUE.md`
 - `EXECUTION_LOG.md`
-- Previous Supervisor findings in commit `8e4a196053290b890b598b73dc20c2e2547e2c58`
+- Approved CPS v1.1 and Script Package Framework
+- Video Production Specification Framework
 - Protected Product, Creative Strategy, Video Dataset, and Video Evidence Git objects
 
 ## Review Result
 
-APPROVED
+NEEDS_REVISION
 
 Status: SUPERVISOR_REVIEW_COMPLETE
 
 ## Evidence Summary
 
-- Commit `dccec3f6af73d336509034743c2ab5310858ef27` is authored and committed by `WORK-CREATIVE-001`; Task Executor and Session Agent are also `WORK-CREATIVE-001`.
-- Seven changed files are all within `ACTIVE_PROJECTS/vibration_plate_US/`; `SYSTEM_CORE`, `GLOBAL_SKILL`, and `SKILLS` changes are each zero.
-- The revision defines one canonical path: `Creative Strategy → Creative Production Specification → Script Package → Video Production Specification → Creative Review → WORK-VIDEO-001 → Generation Task`.
-- Creative Production Specification now owns Production Intent only; Script Package owns Content Structure Contract only; Video Production Specification owns AI Production Requirements only.
-- Product Production Ready, Product Facts source files, Visual Profile, Creative Strategy, Video Dataset, Video Intelligence, and Video Evidence objects are unchanged.
+- Commit `3f2bd37656f202545ade929dd8df39a738ad93bf` is authored and committed by `WORK-CREATIVE-001`; Task Executor and Session Agent are also `WORK-CREATIVE-001`.
+- Five changed files are all within `ACTIVE_PROJECTS/vibration_plate_US/`; `SYSTEM_CORE`, `GLOBAL_SKILL`, and `SKILLS` changes are each zero.
+- `HTM_SCRIPT_PACKAGE.md` is a populated Content Structure Contract that consumes approved CPS v1.1 Production Intent and outputs only an interface for a future, separately authorized Video Production Specification.
+- Product Production Ready, Product Facts source files, Visual Profile, Creative Strategy, CPS v1.1, Video Dataset, Video Intelligence, Video Evidence, and Video Production Specification Framework objects are unchanged.
+- The package preserves AD limitations, Customer Insight sample limitations, Role Reference and packaging-reference requirements, but does not explicitly retain the required first-frame, audio, and timeline evidence gaps in Risk Items.
 
 ## Passed Checks
 
 - Scope: PASS. No target-commit change exists outside the authorized project directory; System, Global Skill, and Skill Registry modifications are zero.
 - Agent Identity: PASS. Commit Author, Task Executor, and Session Agent all equal `WORK-CREATIVE-001`.
-- Canonical Pipeline: PASS. The required seven-stage sequence is stated consistently in the three creative-layer records and Project State. Every other path is declared invalid.
-- Bypass Protection: PASS. Creative Production Specification cannot enter WORK-VIDEO-001 or authorize a Generation Task. Script Package cannot enter WORK-VIDEO-001 or create, request, or authorize a Generation Task.
-- Creative Production Specification Responsibility: PASS. CPS v1.1 converts approved Strategy into Production Intent through Creative Objective, Audience Direction, Business Objective, Content Goal, Production Intent, and Content Success Direction.
-- CPS Production Prohibitions: PASS. Camera, Scene, Motion, Provider, Adapter, Model, Prompt, generation parameter, API payload, and Generation Task are excluded.
-- CPS Output: PASS. Its sole downstream output is the versioned Production Intent Contract for Script Package; CPS v1.1 remains unapproved until this exact review decision and supersedes v1.0 only after approval.
-- Script Package Responsibility: PASS. It consumes approved Production Intent and owns Script Objective, Information Flow, Hook category, Message Framework, Proof Logic, Objection Handling, CTA Purpose, and evidence classification.
-- Script Package Prohibitions: PASS. Provider, Model, camera parameters, generation parameters, Prompt modules, API payload, Generation Task fields, Storyboard, Shot List, and Scene timeline are excluded.
-- Script Package Output: PASS. Its sole downstream output is a Content Structure Contract for a new Video Production Specification.
-- Video Production Specification Responsibility: PASS. It consumes approved Production Intent and Content Structure Contract and converts them into AI Production Requirements without redefining Strategy, Audience, Business Objective, Product Claims, Script Objective, or evidence status.
-- VPS Required Fields: PASS. Generation Objective, Content Type, Duration Requirement, Visual Style Requirement, Camera Requirement, Character Requirement, Product Lock/Requirement, Scene Requirement, Motion Requirement, reference-asset requirements, Negative Constraints, Claim restrictions, and provider-neutral compatibility are present.
-- VPS Authority: PASS. It is explicitly the only formal production input accepted by WORK-VIDEO-001 after independent Creative Review approval.
-- WORK-VIDEO-001 Gate: PASS. WORK-VIDEO-001 accepts only an `APPROVED` Video Production Specification and is prohibited from reading CPS or Script Package to create a Generation Task.
-- Downstream Admission: PASS. Valid references, Claim restrictions, source permissions, Generation Objective, model-selection record, budget authorization, Prompt Contract readiness, and all applicable gates remain mandatory; missing conditions set admission to `BLOCKED`.
-- Evidence Boundary: PASS. Observed Evidence, Inference, and Future Test Direction remain separate; workflow benefits remain inference and operational validation remains a future test.
-- Content Boundary: PASS. No real script, spoken copy, Hook wording, Storyboard, Shot List, Scene timeline, AI Prompt, provider request, API payload, Generation Task, or video asset was generated.
-- Product Protection: PASS. Product Production Ready, Product Profile, Product Visual Profile, Selling SKU source, Visual Lock, and Approved Claims are unchanged. Black/White remain allowed and Silver remains prohibited.
-- Claims: PASS. No unapproved selling point, medical expression, or guaranteed effect was introduced.
-- Video Boundary: PASS. Video Intelligence remains `PARTIAL COMPLETE`, Quality A equals zero, and no Hook, Scene, character, camera style, duration, or CTA is described as proven.
+- Script Package Responsibility: PASS. The package contains Script Objective, Audience Trigger, Information Flow, Hook categories, Message, Proof, Objection Handling, CTA, constraints, evidence classifications, and review requirements as Content Logic.
+- Script Boundary: PASS. No complete advertising script, spoken line, subtitle text, title copy, finished Hook sentence, Storyboard, Shot List, or Scene timeline was generated.
+- Production Boundary: PASS. No Camera parameter, duration parameter, AI Prompt, Provider/Model parameter, API payload, Video Production Specification, Generation Task, or video was generated.
+- Three-Layer Input: PASS. The package identifies approved CPS v1.1 as its sole Production Intent input.
+- Three-Layer Output: PASS. The package's sole downstream output is a Content Structure Contract for a future Video Production Specification.
+- Bypass Protection: PASS. The package is not addressed to WORK-VIDEO-001 and cannot create, request, or authorize a Generation Task.
+- Product Protection: PASS. Product Production Ready, Product Profile, Product Visual Profile, Selling SKU source, Visual Lock, and Approved Claims retain identical Git object IDs.
+- Variant Protection: PASS. Black and White remain allowed; Silver remains forbidden.
+- Product/Claim Boundary: PASS. No unapproved function, accessory, medical/treatment expression, automatic fat-burning claim, weight-loss guarantee, result guarantee, or premium-equivalence claim was added.
+- Evidence Classification: PASS. Observed Evidence, Inference, and Future Test Direction remain separate throughout the package.
+- Causality Boundary: PASS. Commerce association, AD data, and Customer Insight are not presented as proof of creative causality, organic performance, Product Truth, or universal customer behavior.
+- Video Intelligence State: PASS. Video Intelligence remains `PARTIAL COMPLETE`; Quality A remains zero.
+- Winning-Pattern Boundary: PASS. No Hook, Information Flow, Scene, character, Camera style, duration, or CTA is described as a validated winning rule.
+- Risk — AD Samples: PASS. All five commerce-validation records are identified as AD and paid association is not generalized to organic or creative causality.
+- Risk — Playback: PASS. Missing playback evidence and the absence of playback-derived creative rules are retained.
+- Risk — Customer Insight: PASS. The small Amazon parent-family sample and lack of TikTok-comment equivalence are retained.
+- Risk — Role Reference: PASS. Role-dependent downstream production remains blocked without an approved Role Reference.
+- Risk — Packaging: PASS. Packaging proof remains blocked without an approved packaging reference.
 
 ## Blocking Issues
 
-None.
+1. Incomplete Video Evidence risk disclosure. `HTM_SCRIPT_PACKAGE.md` Risk Items records missing playback evidence generally but does not explicitly record the required missing first-frame evidence, audio evidence, and Scene/video timeline evidence.
+2. These three gaps materially constrain downstream use: without first-frame evidence no Hook visual pattern is verified; without audio evidence no audio pattern is verified; without timeline evidence no retention, Scene-order, product-appearance, or CTA-timing structure is verified. They must remain explicit rather than be collapsed into a generic playback limitation.
+
+Required Revision:
+
+- Add explicit Risk Items stating that first-frame evidence is unavailable, audio evidence is unavailable, and Scene/video timeline evidence is unavailable.
+- State that these gaps prohibit validated conclusions about visual Hook patterns, audio patterns, Scene sequence, retention structure, product-appearance timing, and CTA timing.
+- Apply the same explicit wording to the VP-US-005D Session, Task Result, and Execution Log risk summaries so the governance records remain consistent.
+- Do not modify Script Objective, Information Flow, Hook categories, Product Truth, Claims, variants, or any protected input while making this risk-only correction.
 
 ## Risk Items
 
-- This approval covers the three framework/layer definitions and CPS v1.1 responsibility alignment; it does not approve a populated HTM Script Package or populated Video Production Specification.
-- Video Intelligence remains `PARTIAL COMPLETE`; Quality A remains zero and no playback-derived creative rule is validated.
-- Role-dependent production remains blocked without an approved Role Reference.
-- Packaging proof remains blocked without an approved packaging reference.
-- Provider compatibility remains abstract and unassessed; no provider or model is selected.
-- Model selection, budget authorization, Prompt Contract, provider route, and Generation Task remain separate downstream gates.
-- Any material change to CPS v1.1, Script Package, or Video Production Specification requires a new version and review; downstream layers cannot silently redefine upstream authority.
+- Video Intelligence remains `PARTIAL COMPLETE`; Quality A remains zero.
+- First-frame, audio, and Scene/video timeline evidence are not explicitly preserved in the current package risk summary.
+- Paid distribution remains a confounder; no creative category or structure is causally validated.
+- Customer Insight remains a small Amazon parent-family sample, not TikTok comment evidence or universal Product behavior.
+- Role-dependent production requires an approved Role Reference.
+- Packaging proof requires an approved packaging reference.
+- Temporary price requires reverification and cannot support invented savings or urgency.
+- Approval of the Script Package would not approve a Video Production Specification, Prompt, provider call, Generation Task, or video.
 
-Decision: APPROVED
+Decision: NEEDS_REVISION
 
-## VP-US-005D Recommendation
+## VP-US-005E Recommendation
 
-APPROVED TO ENTER VP-US-005D HTM SCRIPT PACKAGE.
+NOT APPROVED TO ENTER VP-US-005E.
 
-VP-US-005D may create the separately authorized populated Script Package using the approved CPS v1.1 Production Intent Contract and the reviewed Script Package schema. It must not create a Video Production Specification, Prompt, provider call, Generation Task, or video unless a later, separately authorized task and review permits those outputs.
-
-Any future Script Package must preserve Strategy, Audience, Business Objective, Product Truth, Black/White Visual Lock, Silver prohibition, Approved Claims, evidence classifications, and all unresolved Risk Items. It must pass its own independent review before it may become input to a Video Production Specification.
+VP-US-005D must first complete the risk-only revision above and undergo Supervisor re-review. The revision must not add or change concrete script copy, Hook wording, production parameters, Prompt content, Video Production Specification fields, provider parameters, Generation Task data, or product facts.
