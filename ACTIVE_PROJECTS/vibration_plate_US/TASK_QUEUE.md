@@ -547,3 +547,39 @@ Evidence Summary: applied approved Product, Market and Commerce Creative inputs 
 Risk Items: no playback/scene evidence; eight of ten focus videos are AD; price requires reverification; customer sample is small; no Hook, structure, person or emotion is proven to improve Views or conversion.
 
 Next Action: Supervisor Review. No script, spoken copy, shot execution table, Omni/Kling prompt or video production artifact was created.
+
+## TASK_REQUEST — VP-US-005B
+
+Task ID: VP-US-005B
+
+Task Name: HTM Creative Production Specification v1.0
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Convert approved Product, Market, Customer, Commerce Creative and Creative Strategy inputs plus restricted Video Intelligence into a standardized production specification for later WORK-VIDEO-001 intake.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005B-20260807
+
+Status: EXECUTED
+
+Restrictions: No script, spoken line, finished Hook, storyboard, shot list, AI prompt, provider call, video generation, Product Fact change or unapproved selling point.
+
+## TASK_RESULT — VP-US-005B
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Changed Files: added `CREATIVE_PRODUCTION_SPECIFICATION.md` and `SESSIONS/VP-US-005B-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: created the thirteen-section production specification with AIDA objectives, testable content types and angles, selectable style requirements, Product/Role/Scene locks, constraints and a gated WORK-VIDEO-001 input contract.
+
+Evidence Summary: Product Truth and Black/White Visual Lock are preserved; Customer Insight remains distinct from Product Fact; commerce/video association is not creative causality; directions retain Observed Evidence, Inference or Future Test status.
+
+Risk Items: Video Intelligence is PARTIAL COMPLETE with Quality A = 0; playback evidence is absent; most focus records are AD; Customer Insight is a small Amazon parent-family sample; temporary price requires reverification; no approved packaging reference is identified.
+
+Next Action: Creative Review only. Do not create a WORK-VIDEO-001 Generation Task unless the decision is APPROVED.

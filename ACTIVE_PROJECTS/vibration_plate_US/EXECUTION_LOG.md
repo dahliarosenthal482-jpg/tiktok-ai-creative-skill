@@ -458,3 +458,22 @@ Updated Files:
 Problems: Playback, direct video identity, engagement and scene-level evidence remain unavailable. All Hook, structure, role and emotion recommendations remain Future Tests.
 
 Next Step: Supervisor reviews VP-US-005A. Script generation, shot design and AI prompt generation require separate authorization.
+
+## 2026-08-07 — VP-US-005B HTM Creative Production Specification v1.0
+
+Session ID: VP-US-005B-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Actions: Read the approved Product, Market, Customer, Commerce Creative and Creative Strategy inputs, restricted Video Intelligence and the VP-US-005A Supervisor Review; translated strategy into a thirteen-section production specification; defined selectable content/style directions, Product/Role/Scene locks, compliance constraints and the WORK-VIDEO-001 handoff contract; updated project-local governance only.
+
+Results: Created `CREATIVE_PRODUCTION_SPECIFICATION.md` and Session record. No script, spoken copy, finished Hook, storyboard, shot list, AI prompt, provider call or video asset was produced. Product Facts, Selling SKU, Visual Lock and Approved Claims were not modified.
+
+Evidence Summary: Observed Evidence, Inference and Future Test Direction remain separate. Product evidence is locked; Customer Insight remains non-factual; Quality-B commerce/video association is not treated as causality.
+
+Risk Items: Video Intelligence remains PARTIAL COMPLETE and Quality A is zero; playback and scene evidence are absent; paid distribution confounds most records; the customer sample is small; temporary price requires reverification; packaging lacks an approved reference.
+
+Next Step: Creative Review. WORK-VIDEO-001 Generation Task creation is blocked until approval.

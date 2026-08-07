@@ -6,9 +6,9 @@ Product: HTM Vibration Machine
 
 Market: United States
 
-Current Phase: VP-US-005A Creative Strategy Framework Executed
+Current Phase: VP-US-005B Creative Production Specification Executed
 
-Current Task: VP-US-005A — Creative Strategy Framework v1.0
+Current Task: VP-US-005B — HTM Creative Production Specification v1.0
 
 Task Type: PROJECT_EXECUTION
 
@@ -20,19 +20,19 @@ Approval Status: NOT APPROVED
 
 Owner: ChatGPT Strategy Brain
 
-Executor: WORK-MARKET-001
+Executor: WORK-CREATIVE-001
 
-Assigned Agent: WORK-MARKET-001
+Assigned Agent: WORK-CREATIVE-001
 
-Session ID: VP-US-005A-20260807
+Session ID: VP-US-005B-20260807
 
 Last Update: 2026-08-07
 
-Input Status: Product Intelligence Approved; Market Intelligence Approved; Commerce Creative Intelligence Approved; Video Intelligence PARTIAL COMPLETE.
+Input Status: Product, Market, Customer, Commerce Creative and Creative Strategy approved for bounded use under the VP-US-005A Supervisor Review; Video Intelligence PARTIAL COMPLETE, Quality A = 0.
 
-Output: `CREATIVE_STRATEGY_FRAMEWORK.md` — positioning, content-angle hypotheses, Hook categories, abstract structure models, AIDA conversion logic and AI-production preparation rules.
+Output: `CREATIVE_PRODUCTION_SPECIFICATION.md` — production-level content, style, product, role, scene, compliance and WORK-VIDEO-001 handoff requirements.
 
-Next Action: Supervisor reviews scope, evidence boundaries, Product Truth protection and TikTok Shop AIDA logic. No automatic transition to scripts, prompts, shot design or video production.
+Next Action: Creative Review. WORK-VIDEO-001 intake and every Generation Task remain blocked unless this specification receives APPROVED.
 
 Production Variants: Black and White only
 
@@ -40,4 +40,4 @@ Rejected Variant: Silver
 
 Protected Inputs: `PRODUCT_PRODUCTION_READY.md`, Product Facts, Selling SKU, Visual Lock, Approved Claims, Video Dataset and Video Evidence unchanged.
 
-Data Boundary: Existing approved project evidence only; no new collection, playback claims, causal creative claims, complete scripts, finished Hook lines, shot tables or generation prompts.
+Data Boundary: Existing approved project evidence only; no new collection, playback claims, causal creative claims, scripts, spoken copy, finished Hook lines, storyboards, shot lists or generation prompts.
