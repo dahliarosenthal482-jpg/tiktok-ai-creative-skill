@@ -477,3 +477,23 @@ Evidence Summary: Observed Evidence, Inference and Future Test Direction remain 
 Risk Items: Video Intelligence remains PARTIAL COMPLETE and Quality A is zero; playback and scene evidence are absent; paid distribution confounds most records; the customer sample is small; temporary price requires reverification; packaging lacks an approved reference.
 
 Next Step: Creative Review. WORK-VIDEO-001 Generation Task creation is blocked until approval.
+
+## 2026-08-07 — VP-US-005C Script Package Framework v1.0
+
+Session ID: VP-US-005C-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Actions: Verified VP-US-005B Supervisor approval; read the authorized Creative Execution and Production Pipeline standards, relevant project templates, approved Strategy and approved Production Specification; created a reusable thirteen-section Script Package Framework and gated Video Agent interface; updated only project-local governance.
+
+Results: Added `SCRIPT_PACKAGE_FRAMEWORK.md` and Session record. The framework contains field definitions and review controls only. No product script, spoken copy, caption, Hook sentence, advertising copy, storyboard, shot list, scene timeline, Prompt, Generation Task, provider call or video was created.
+
+Evidence Summary: system standards establish the schema/gate boundary; VP-US-005B approval authorizes VP-US-005C; the framework separates Observed Evidence, Inference and Future Test Direction and preserves all upstream locks by reference.
+
+Risk Items: the framework is not a populated Script Package; Role Reference and packaging reference gaps persist for applicable future use; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0; production-admission decisions remain downstream and unapproved.
+
+Next Step: Supervisor Review.

@@ -583,3 +583,41 @@ Evidence Summary: Product Truth and Black/White Visual Lock are preserved; Custo
 Risk Items: Video Intelligence is PARTIAL COMPLETE with Quality A = 0; playback evidence is absent; most focus records are AD; Customer Insight is a small Amazon parent-family sample; temporary price requires reverification; no approved packaging reference is identified.
 
 Next Action: Creative Review only. Do not create a WORK-VIDEO-001 Generation Task unless the decision is APPROVED.
+
+## TASK_REQUEST — VP-US-005C
+
+Task ID: VP-US-005C
+
+Task Name: Script Package Framework v1.0
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Define a reusable standard interface from approved Strategy and Creative Production Specification through a future Script Package to Video Production intake, without generating concrete creative content.
+
+Input: `SYSTEM_CORE/AI_VIDEO_CREATIVE_EXECUTION_STANDARD.md`, `SYSTEM_CORE/AI_VIDEO_PRODUCTION_PIPELINE_STANDARD.md`, relevant `ACTIVE_PROJECTS/_TEMPLATE` records, approved `CREATIVE_STRATEGY_FRAMEWORK.md`, approved `CREATIVE_PRODUCTION_SPECIFICATION.md`, and the controlling VP-US-005B Supervisor Review.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005C-20260807
+
+Status: EXECUTED
+
+Restrictions: No product script, spoken line, caption, Hook sentence, advertising copy, storyboard, shot list, scene timeline, Prompt, provider call, Generation Task, product change, strategy change or System/Skill modification.
+
+## TASK_RESULT — VP-US-005C
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Changed Files: added `SCRIPT_PACKAGE_FRAMEWORK.md` and `SESSIONS/VP-US-005C-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: created a thirteen-section reusable Script Package schema covering metadata, objectives, audience triggers, information flow, Hook categories, message/proof/objection/CTA modules, constraints, evidence classification, review gate and the WORK-VIDEO-001 interface.
+
+Evidence Boundary: framework categories remain schemas; no field is populated with HTM selling points, audience copy, real proof language, CTA copy or creative causality.
+
+Risk Items: framework approval does not approve a populated package or generation; role-dependent work needs an approved Role Reference; packaging proof needs an approved reference; Video Intelligence remains PARTIAL COMPLETE with Quality A = 0; model, budget, Prompt and provider decisions remain outside scope.
+
+Next Action: Supervisor Review only.

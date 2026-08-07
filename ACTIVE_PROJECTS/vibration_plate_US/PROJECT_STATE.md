@@ -6,9 +6,9 @@ Product: HTM Vibration Machine
 
 Market: United States
 
-Current Phase: VP-US-005B Creative Production Specification Executed
+Current Phase: VP-US-005C Script Package Framework Executed
 
-Current Task: VP-US-005B — HTM Creative Production Specification v1.0
+Current Task: VP-US-005C — Script Package Framework v1.0
 
 Task Type: PROJECT_EXECUTION
 
@@ -24,20 +24,16 @@ Executor: WORK-CREATIVE-001
 
 Assigned Agent: WORK-CREATIVE-001
 
-Session ID: VP-US-005B-20260807
+Session ID: VP-US-005C-20260807
 
 Last Update: 2026-08-07
 
-Input Status: Product, Market, Customer, Commerce Creative and Creative Strategy approved for bounded use under the VP-US-005A Supervisor Review; Video Intelligence PARTIAL COMPLETE, Quality A = 0.
+Input Status: VP-US-005B Creative Production Specification APPROVED by controlling Supervisor Review; Creative Strategy approved; system standards and project templates used as schema references.
 
-Output: `CREATIVE_PRODUCTION_SPECIFICATION.md` — production-level content, style, product, role, scene, compliance and WORK-VIDEO-001 handoff requirements.
+Output: `SCRIPT_PACKAGE_FRAMEWORK.md` — reusable, non-populated Script Package schema and gated WORK-VIDEO-001 interface.
 
-Next Action: Creative Review. WORK-VIDEO-001 intake and every Generation Task remain blocked unless this specification receives APPROVED.
+Next Action: Supervisor reviews framework scope, interface completeness, evidence boundary and prohibition compliance. No concrete Script Package, Prompt or Generation Task is authorized.
 
-Production Variants: Black and White only
+Protected Inputs: `PRODUCT_PRODUCTION_READY.md`, Product Facts, Selling SKU, Visual Lock, Approved Claims, `CREATIVE_STRATEGY_FRAMEWORK.md`, `CREATIVE_PRODUCTION_SPECIFICATION.md`, System Core and Skills unchanged.
 
-Rejected Variant: Silver
-
-Protected Inputs: `PRODUCT_PRODUCTION_READY.md`, Product Facts, Selling SKU, Visual Lock, Approved Claims, Video Dataset and Video Evidence unchanged.
-
-Data Boundary: Existing approved project evidence only; no new collection, playback claims, causal creative claims, scripts, spoken copy, finished Hook lines, storyboards, shot lists or generation prompts.
+Data Boundary: Framework fields only; no product script, advertising copy, spoken line, caption, finished Hook, storyboard, shot list, scene timeline, AI Prompt, provider call or video generation.
