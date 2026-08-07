@@ -116,6 +116,14 @@ Market Agent 禁止只输出竞品列表。必须同时提供成交数据、内�
 
 Creative Intelligence 进入 Script Generation 或 AI Video Generation 前，必须通过 Product Truth、Visual Lock、Claim Boundary、来源权限和 Supervisor Gate。
 
+### Video Collection 执行规则
+
+所有 Video Intelligence 数据采集任务必须同时遵守 `SYSTEM_CORE/VIDEO_COLLECTION_PROTOCOL.md`。采集开始前必须建立 Video Collection Task，逐条应用 Selection Tier、Exclusion Rule 和 Quality Grade，并输出 Video Source Matrix、Video Data Quality Report、Exclusion Log、Evidence Summary 和 Risk Items。
+
+Tier A 用于具有可验证商业结果与商品关联的视频；Tier B 用于具有流量或互动验证及商品关联的视频；Tier C 仅用于商业数据不足的趋势参考。Quality Grade A、B、C 必须与 Selection Tier 分开记录。
+
+无商品关联、来源不可确认、纯娱乐、重复搬运、作者或发布时间不可确认、与目标品类无关的视频不得成为核心训练数据。Observed Evidence、Inference 和 Future Test 必须分离；播放量不得作为唯一评价指标。
+
 ## Work 完成流程
 
 任务完成后，必须：

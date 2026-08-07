@@ -86,6 +86,20 @@ Required Capability: Video Research, Source Verification, Creative Analysis, and
 
 Status: Planned
 
+## Video Collection Skill
+
+Skill Name: Video Collection Skill
+
+Purpose: Standardize video selection tiers, exclusion rules, source verification, data-quality grading, evidence classification, and collection readiness for Video Intelligence.
+
+Input: Authorized collection task, category and market scope, allowed sources, selection rules, required fields, and quality target
+
+Output: Video Dataset, Video Source Matrix, Video Data Quality Report, Exclusion Log, Evidence Summary, and Risk Items
+
+Required Capability: Video Data Collection, Source Verification, Deduplication, and Data Quality Assessment
+
+Status: Planned
+
 ## Commerce Intelligence Skill
 
 Skill Name: Commerce Intelligence Skill
