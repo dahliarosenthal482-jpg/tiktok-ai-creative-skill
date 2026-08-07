@@ -119,12 +119,12 @@ Restrictions:
 - Must not modify `GLOBAL_SKILL/`
 - Must not modify `SKILLS/_REGISTRY.md`
 
-Current Project: None
+Current Project: vibration_plate_US
 
-Current Task: None
+Current Task: VP-US-002
 
-Current Assignment: None
+Current Assignment: Market Intelligence Upgrade v1.1 Revision
 
 Status: Active
 
-Last Update: 2026-08-06
+Last Update: 2026-08-07
