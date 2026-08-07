@@ -1,5 +1,7 @@
 # VP-US-003-R1 Video Evidence Report
 
+> R2 correction: TV-005 schema alignment is repaired and the authoritative ten-record source-to-metric mapping is now `VIDEO_EVIDENCE_INDEX.md`. All five commerce rows were re-read, while screenshot visibility is recorded honestly per row. The attempted R2 Views refresh was interrupted by a Kalodata new-device login notice; unavailable or partial row screenshots remain explicit risks.
+
 Task Type: PROJECT_EXECUTION
 
 Executor: WORK-MARKET-001
@@ -69,5 +71,6 @@ Evidence-enhancement task: `EXECUTED`.
 
 Deep Video Intelligence: `PARTIAL / NOT READY FOR SCENE-LEVEL ANALYSIS`.
 
-Approval: `NOT APPROVED — WAITING SUPERVISOR REVIEW`.
+Video Intelligence status after R2: `PARTIAL COMPLETE`; VP-US-004 remains not approved.
 
+Approval: `NOT APPROVED — WAITING SUPERVISOR REVIEW`.

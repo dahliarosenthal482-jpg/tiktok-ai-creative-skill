@@ -423,3 +423,43 @@ Updated Files: `VIDEO_SOURCE_MATRIX.md`, `VIDEO_DATA_QUALITY_REPORT.md`, `VIDEO_
 Evidence Result: stable Video/Product IDs, displayed per-video commerce/performance, cover paths and ranked-table screenshots retained. Direct TikTok URL, Creator, engagement and playback remain unavailable.
 
 Next Action: Supervisor Review; obtain direct playable records before deep Hook/Scene/Product Integration analysis.
+
+## TASK_REQUEST — VP-US-003-R2
+
+Task ID: VP-US-003-R2
+
+Task Name: Video Evidence Correction
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Correct TV-005 field alignment and build row-level source-to-metric evidence mappings for all ten Verified Set records without expanding collection scope.
+
+Input: VP-US-003-R1 Supervisor Review at commit `dceb6dd`; existing R1 dataset, reports and user-authorized Kalodata source.
+
+Expected Output: Corrected Video Verified Set; new `VIDEO_EVIDENCE_INDEX.md`; consistent Dataset, Source Matrix and Quality Report; project-local state/log/session updates.
+
+Executor: WORK-MARKET-001
+
+Session ID: VP-US-003-R2-20260807
+
+Status: EXECUTED
+
+Restrictions: Project directory only; no Registry/system/global/skill/product/Creative Strategy changes; no expanded sampling; no guessed metrics or scene-level analysis.
+
+## TASK_RESULT — VP-US-003-R2
+
+Task ID: VP-US-003-R2
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Changed Files: corrected `VIDEO_VERIFIED_SET.md`; added `VIDEO_EVIDENCE_INDEX.md`; reconciled Dataset, Source Matrix, Data Quality, Evidence Report and Video Intelligence Report; updated project-local governance and Session; added full-page GMV source snapshot.
+
+Evidence Summary: TV-005 corrected to Views 79.7K, engagement Unavailable, AD, Quality B. All ten records now map Video ID to source, captured date, supported metrics, screenshot coverage, verification status and risk.
+
+Risk Items: R2 Views refresh was interrupted by a Kalodata new-device login notice. TV-003 through TV-005 therefore retain row-level R1 source observations but no committed row screenshots. Playback and engagement remain unavailable.
+
+Next Action: Supervisor Review only. VP-US-004 remains not approved.

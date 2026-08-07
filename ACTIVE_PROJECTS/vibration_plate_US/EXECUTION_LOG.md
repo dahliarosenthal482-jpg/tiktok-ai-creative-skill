@@ -356,3 +356,33 @@ Generated Files:
 Problems: Direct TikTok URLs, Creator/account, engagement metrics and playable video remained unavailable. Covers and screenshots cannot support 0–3s Hook or scene claims.
 
 Next Step: Supervisor reviews the evidence chain and classification correction. Deep video analysis remains blocked on authorized playback evidence.
+
+## 2026-08-07 — VP-US-003-R2 Video Evidence Correction
+
+Date: 2026-08-07
+
+Session ID: VP-US-003-R2-20260807
+
+Task ID: VP-US-003-R2
+
+Task Type: PROJECT_EXECUTION
+
+Executor: WORK-MARKET-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Actions: Read R1 Supervisor Review; re-opened the same signed-in Kalodata source; re-read all five commerce rows and saved a full-page GMV snapshot; attempted the existing Views-descending source; stopped when Kalodata required re-login; corrected TV-005 schema alignment using the retained R1 source row and Supervisor re-audit; rechecked all five Traffic classifications; created a ten-record Evidence Index; synchronized project-local files only.
+
+Results: TV-005 is Views 79.7K, Likes/Comments/Shares Unavailable, GMV ¥11.6K, Orders 27, Date 2026-01-07, Duration 72s, AD, Quality B. Verified Set remains 5 Commerce + 5 Traffic; Quality A=0. Video Intelligence remains PARTIAL COMPLETE.
+
+Generated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_EVIDENCE_INDEX.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/EVIDENCE/kalodata_vibration_plate_gmv_desc_fullpage_20260807.png`
+- `ACTIVE_PROJECTS/vibration_plate_US/SESSIONS/VP-US-003-R2-20260807.md`
+
+Problems: The R2 Views refresh was interrupted by a new-device login notice. No login bypass was attempted. TV-003 through TV-005 retain row-level source observations without committed row screenshots. Direct URL, Creator, engagement and playback remain unavailable.
+
+Next Step: Supervisor reviews R2. Do not enter VP-US-004 or perform frame/shot/scene analysis.

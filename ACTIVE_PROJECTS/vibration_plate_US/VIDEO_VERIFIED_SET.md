@@ -42,7 +42,7 @@ Selection basis: descending Views under the declared benchmark. Positive GMV/ord
 |TV-002|7596936239232683277|1730969865402749631 / vibration plate|Unavailable|Unavailable|Unavailable|115.0K|Unavailable|Unavailable|Unavailable|2026-01-19|12s|¥15.9K|37|Natural/unknown|B|
 |TV-003|7635048871382633741|1730969865402749631 / vibration plate|Unavailable|Unavailable|Unavailable|107.9K|Unavailable|Unavailable|Unavailable|2026-05-01|15s|¥14.6K|34|AD|B|
 |TV-004|7666033402969361695|1730969865402749631 / vibration plate|Caption references Merach; product brand unverified|Unavailable|Unavailable|106.5K|Unavailable|Unavailable|Unavailable|2026-07-25|9s|¥15.0K|35|AD|B|
-|TV-005|7592601750364851486|1730969865402749631 / vibration plate|Caption references Merach; product brand unverified|Unavailable|Unavailable|Unavailable|79.7K|Unavailable|Unavailable|Unavailable|2026-01-07|72s|¥11.6K|27|AD|B|
+|TV-005|7592601750364851486|1730969865402749631 / vibration plate|Caption references Merach; product brand unverified|Unavailable|Unavailable|79.7K|Unavailable|Unavailable|Unavailable|2026-01-07|72s|¥11.6K|27|AD|B|
 
 ## Visual Evidence
 
@@ -61,11 +61,23 @@ Selection basis: descending Views under the declared benchmark. Positive GMV/ord
 |TV-004|Kalodata US Video & Ads|`https://www.kalodata.com/video`|Unavailable|Unavailable|Unavailable|`https://img.kalocdn.com/tiktok.video/7666033402969361695/cover.png`|Unavailable|Views-descending screenshot|Unavailable|
 |TV-005|Kalodata US Video & Ads|`https://www.kalodata.com/video`|Unavailable|Unavailable|Unavailable|`https://img.kalocdn.com/tiktok.video/7592601750364851486/cover.png`|Unavailable|Views-descending screenshot|Unavailable|
 
-The Source Screenshot column maps to `EVIDENCE/kalodata_vibration_plate_gmv_desc_20260807.png` or `EVIDENCE/kalodata_vibration_plate_views_desc_20260807.png`.
+The Source Screenshot column maps to `EVIDENCE/kalodata_vibration_plate_gmv_desc_fullpage_20260807.png`, `EVIDENCE/kalodata_vibration_plate_gmv_desc_20260807.png` or `EVIDENCE/kalodata_vibration_plate_views_desc_20260807.png`. Per-record mapping and screenshot coverage limits are recorded in `VIDEO_EVIDENCE_INDEX.md`.
 
 |Set|Cover Image|First Frame|Screenshot|Product Appearance|
 |---|---|---|---|---|
-|All 10 records|Observed Kalodata cover asset: `https://img.kalocdn.com/tiktok.video/{Video ID}/cover.png`|Unavailable — cover was not treated as the first frame|`EVIDENCE/kalodata_vibration_plate_gmv_desc_20260807.png` and `EVIDENCE/kalodata_vibration_plate_views_desc_20260807.png`|Cover and separate product thumbnails are visible in source screenshots; playback-level product appearance remains Unavailable|
+|All 10 records|Observed Kalodata cover asset: `https://img.kalocdn.com/tiktok.video/{Video ID}/cover.png`|Unavailable — cover was not treated as the first frame|See per-record coverage in `VIDEO_EVIDENCE_INDEX.md`|Cover and separate product thumbnails are visible where a row is included in a screenshot; playback-level product appearance remains Unavailable|
+
+## R2 Traffic Reconfirmation
+
+|Set ID|Views|Likes|Comments|Shares|Selection Reason|Traffic Classification|Quality|
+|---|---:|---|---|---|---|---|---|
+|TV-001|160.2K|Unavailable|Unavailable|Unavailable|Views rank 3 in the retained descending-Views result|Natural/unknown|B|
+|TV-002|115.0K|Unavailable|Unavailable|Unavailable|Views rank 5 in the retained descending-Views result|Natural/unknown|B|
+|TV-003|107.9K|Unavailable|Unavailable|Unavailable|Views rank 6 in the retained descending-Views result|AD|B|
+|TV-004|106.5K|Unavailable|Unavailable|Unavailable|Views rank 7 in the retained descending-Views result|AD|B|
+|TV-005|79.7K|Unavailable|Unavailable|Unavailable|Views rank 9 in the retained descending-Views result; R1 schema shift corrected|AD|B|
+
+The R2 recheck did not promote any record to Quality A and did not interpret AD traffic as organic performance.
 
 The screenshot is page-level evidence, not proof of a scene sequence. No scene was inferred from a cover thumbnail.
 

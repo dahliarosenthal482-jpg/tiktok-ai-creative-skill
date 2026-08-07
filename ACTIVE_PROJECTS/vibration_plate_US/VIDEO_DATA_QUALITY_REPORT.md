@@ -1,5 +1,7 @@
 # VP-US-003-R1 Video Data Quality Report
 
+> R2 correction: TV-005 Views=`79.7K`; Likes/Comments/Shares=`Unavailable`; Traffic Type=`AD`; Quality=`B`. All ten focus records now have a per-record entry in `VIDEO_EVIDENCE_INDEX.md`. Quality A remains 0.
+
 Review Date: 2026-08-07
 
 Original Dataset: 30 unique videos
@@ -41,5 +43,7 @@ Downgraded count: 15.
 Task status: `EXECUTED`.
 
 Deep Video Intelligence status: `PARTIAL / INCOMPLETE`.
+
+Video Intelligence phase: `PARTIAL COMPLETE` — no VP-US-004 approval, Frame Analysis, Shot Timeline or Visual Recreation authorized.
 
 No record was promoted to Quality A merely because it had GMV, Orders, high Views or a cover thumbnail.

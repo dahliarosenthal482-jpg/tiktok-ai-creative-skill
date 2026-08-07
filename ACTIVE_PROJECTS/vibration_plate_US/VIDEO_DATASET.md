@@ -2,6 +2,8 @@
 
 > VP-US-003-R1 classification override (2026-08-07): VPV-011–VPV-025 are downgraded from Tier B to Tier C. Corrected original distribution is Tier A=10, Tier B=0, Tier C=20. The replacement five-record traffic-validated set is recorded in `VIDEO_VERIFIED_SET.md`; the original section labels below are historical and no longer authoritative.
 
+> VP-US-003-R2 reconciliation: the separate Traffic Validation set remains TV-001 through TV-005 with Views 160.2K, 115.0K, 107.9K, 106.5K and 79.7K respectively. Likes, Comments and Shares are `Unavailable` for all five. TV-005 is AD / Quality B; the R1 column-shift error is corrected in `VIDEO_VERIFIED_SET.md` and traced in `VIDEO_EVIDENCE_INDEX.md`.
+
 Project: vibration_plate_US
 
 Collection Date: 2026-08-07

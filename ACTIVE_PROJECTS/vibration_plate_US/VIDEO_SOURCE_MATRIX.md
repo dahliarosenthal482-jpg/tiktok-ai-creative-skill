@@ -47,3 +47,9 @@ Kalodata exposed stable Video IDs and cover-asset identities but did not expose 
 |Traffic Validation|7656098323740265742; 7596936239232683277; 7635048871382633741; 7666033402969361695; 7592601750364851486|Kalodata US Video & Ads search, Views descending|Five highest-view eligible product-associated records remaining after commerce reservation; 79.7K–160.2K Views|`EVIDENCE/kalodata_vibration_plate_views_desc_20260807.png`|Verified, Quality B|
 
 Every verified record has an observed cover path in the form `https://img.kalocdn.com/tiktok.video/{Video ID}/cover.png`. This is a cover asset, not a direct TikTok video URL or verified first frame.
+
+## VP-US-003-R2 Evidence Index
+
+`VIDEO_EVIDENCE_INDEX.md` is the authoritative per-record mapping for all ten Verified Set records. It maps each Video ID to source row/rank, source type, captured date, supported metrics, screenshot coverage, verification status and risk.
+
+TV-005 reconciliation: Video ID 7592601750364851486; Product ID 1730969865402749631; Views 79.7K; Likes/Comments/Shares `Unavailable`; GMV ¥11.6K; Orders 27; Date 2026-01-07; Duration 72s; Traffic Type AD; Quality B.
