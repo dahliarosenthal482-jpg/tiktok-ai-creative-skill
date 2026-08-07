@@ -267,3 +267,60 @@ Updated Files:
 Problems: Full global Project Registry synchronization requires a separately authorized governance change outside the permitted project directory.
 
 Next Step: Supervisor re-reviews this dedicated revision commit and decides APPROVED / NEEDS_REVISION / REJECTED.
+
+## 2026-08-07 — VP-US-003 Video Intelligence Deep Collection
+
+Date: 2026-08-07
+
+Session ID: VP-US-003-20260807
+
+Task ID: VP-US-003
+
+Task Type: PROJECT_EXECUTION
+
+Executor: WORK-MARKET-001
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Actions: Read Video Intelligence Standard v1.0 and Video Collection Protocol v1.0; created collection task and Session before browser work; used the user's authorized Kalodata session; collected the global US `vibration plate` video table and the RELIFE product-detail video table; retained stable Video IDs and Product IDs from visible cover identities; recorded displayed performance/commerce; deduplicated 40 RELIFE rows to 25 unique IDs; selected 10 Tier A, 15 Tier B and 5 Tier C; separated Quality Grade from Selection Tier; documented missing fields, exclusions, evidence classes and claims risks.
+
+Results: 30 unique videos selected. Tier A=10, Tier B=15, Tier C=5. Grade A=0, Grade B=25, Grade C=5. Collection is executed; full Video Intelligence is incomplete.
+
+Generated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_COLLECTION_TASK.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_DATASET.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_SOURCE_MATRIX.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_INTELLIGENCE_REPORT.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_DATA_QUALITY_REPORT.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/VIDEO_EXCLUSION_LOG.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/SESSIONS/VP-US-003-20260807.md`
+
+Updated Files:
+
+- `ACTIVE_PROJECTS/vibration_plate_US/PROJECT_STATE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/TASK_QUEUE.md`
+- `ACTIVE_PROJECTS/vibration_plate_US/EXECUTION_LOG.md`
+
+### Evidence Summary
+
+- Observed: Video IDs, source/product association, captions, duration, views, publish date and video-specific displayed GMV/orders where exposed.
+- Inference: why a caption mechanism may create attention/retention/desire and why Tier A may have converted.
+- Future Test: every proposed HTM hook, routine series, FAQ, demo, character or CTA adaptation.
+- High Conversion Evidence: Tier A has attributable displayed GMV/orders, but scene-level causality is not established.
+- High/Relative View Evidence: Tier B is ranked only within the accessible RELIFE zero-order subset and is not conversion evidence.
+
+### Risk Items
+
+- Direct Video URLs, Creator/ID/account/followers, Likes, Comments, Shares and Saves unavailable.
+- No playable video/audio, 0–3s verification, scene timeline or first product appearance time.
+- Tier A currency displayed in `¥`; no exchange-rate conversion or USD assumption.
+- Nine Tier-A rows labeled AD, limiting organic-transfer conclusions.
+- Frequent competitor health/outcome language is incompatible with HTM claims and was rejected from adaptation.
+- Source media usage permission is read-only analysis; no copying or republishing authorized.
+
+Problems: TikTok direct metadata route was inaccessible; Kalodata tables did not expose the missing identity/engagement/playback fields. No substitute videos were used.
+
+Next Step: Supervisor Review; obtain direct playable records and engagement/creator metadata before scene-level intelligence or production release.

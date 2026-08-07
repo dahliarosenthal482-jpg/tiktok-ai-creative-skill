@@ -8,7 +8,17 @@ Market: United States TikTok Shop
 
 Executor: WORK-MARKET-001
 
-Status: EXECUTED — INCOMPLETE DATA — WAITING SUPERVISOR REVIEW
+Status: VP-US-003 COLLECTION EXECUTED — CREATIVE PLAYBACK DATA INCOMPLETE — WAITING SUPERVISOR REVIEW
+
+## VP-US-003 Dataset Update — 2026-08-07
+
+The VP-US-002 sections below are retained as the historical pre-collection assessment. VP-US-003 has now added 30 unique records in `VIDEO_DATASET.md`, with traceability in `VIDEO_SOURCE_MATRIX.md` and analysis in `VIDEO_INTELLIGENCE_REPORT.md`.
+
+Newly available at per-video level: Video ID, duration, caption, product association, views, publish date and video-specific GMV/orders where displayed.
+
+Still unavailable: direct TikTok Video URL, Creator/ID/account/followers, Likes, Comments, Shares, Saves, playable audio, verified 0–3s visual hook, scene timeline and first product appearance time.
+
+Quality result: Tier A=10, Tier B=15, Tier C=5; Grade A=0, Grade B=25, Grade C=5. Full Video Intelligence remains `INCOMPLETE` and must not be represented as scene-level or causal proof.
 
 ## Data Boundary
 

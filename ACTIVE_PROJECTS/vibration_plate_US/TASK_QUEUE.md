@@ -317,3 +317,59 @@ Governance Boundary: `WORK-MARKET-001` is now registered by the Supervisor basel
 Protected Content: Product Facts, Selling SKU, Black/White Visual Lock, Silver Reject Rule, Approved Claims, `PRODUCT_PRODUCTION_READY.md` and Creative Strategy were not modified.
 
 Next Action: Supervisor reviews this dedicated revision commit. VP-US-003 remains blocked pending approval.
+
+## TASK_REQUEST — VP-US-003
+
+Task ID: VP-US-003
+
+Task Name: VP-US-003 Video Intelligence Deep Collection
+
+Task Type: PROJECT_EXECUTION
+
+Project: vibration_plate_US
+
+Objective: Build the first 30-video US TikTok Shop vibration-plate Video Intelligence Dataset for later Creative Strategy, Script Generation and AI Video Production inputs.
+
+Input: Approved VP-US-002 Market Intelligence, Product Production Ready, Video Intelligence standards and user-authorized platform access.
+
+Expected Output: Video Collection Task, Dataset, Source Matrix, Intelligence Report, Data Quality Report, Exclusion Log, Session, Evidence Summary and Risk Items.
+
+Executor: WORK-MARKET-001
+
+Session ID: VP-US-003-20260807
+
+Status: EXECUTED
+
+Restrictions: Project directory only; no product/global/system changes; no fabricated or aggregate-as-video data; no creative matrix substitution.
+
+## TASK_RESULT — VP-US-003
+
+Task ID: VP-US-003
+
+Execution Status: EXECUTED
+
+Approval Status: NOT APPROVED — WAITING SUPERVISOR REVIEW
+
+Collected: 30 unique selected videos after duplicate removal.
+
+Tier Distribution: A=10, B=15, C=5.
+
+Quality Distribution: A=0, B=25, C=5.
+
+Generated Files:
+
+- `VIDEO_COLLECTION_TASK.md`
+- `VIDEO_DATASET.md`
+- `VIDEO_SOURCE_MATRIX.md`
+- `VIDEO_INTELLIGENCE_REPORT.md`
+- `VIDEO_DATA_QUALITY_REPORT.md`
+- `VIDEO_EXCLUSION_LOG.md`
+- `SESSIONS/VP-US-003-20260807.md`
+
+Evidence Result: Video ID, source, product association, duration, caption, views, date and video-specific commerce where displayed were retained. Creator, direct TikTok URL, engagement, audio and scene timelines were unavailable and not inferred.
+
+Completion Boundary: Collection Protocol completion gate passed for `EXECUTED`; full Video Intelligence remains `INCOMPLETE` because playable evidence and Quality A records are absent.
+
+Protected Content: Product Production Ready, Product Facts, Selling SKU, Visual Lock, Approved Claims and Creative Strategy unchanged.
+
+Next Action: Supervisor Review; authorize a focused playable-video/creator/engagement supplement before production use.
