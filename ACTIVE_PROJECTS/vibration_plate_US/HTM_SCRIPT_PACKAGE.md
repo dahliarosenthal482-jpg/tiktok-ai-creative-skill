@@ -243,6 +243,9 @@ Execution is not approval. This package cannot enter WORK-VIDEO-001.
 ## Risk Items
 
 - Video Intelligence remains `PARTIAL COMPLETE`; Quality A remains zero and no playback-derived creative rule is validated.
+- First Frame Evidence Missing: no verified first-frame evidence is available; Visual Hook Pattern, Product First Appearance and Opening Visual Structure cannot be validated.
+- Audio Evidence Missing: no verified audio evidence is available; Voice Pattern, Audio Hook and Music Influence cannot be validated.
+- Scene Timeline Evidence Missing: no verified Scene/video timeline evidence is available; Scene Sequence, Retention Structure, Product Timing and CTA Timing cannot be validated.
 - All five commerce-validation records are AD; paid association cannot establish organic or creative causality.
 - Customer Insight is a small Amazon parent-family sample and not TikTok comment evidence or universal product behavior.
 - A future role-dependent Video Production Specification remains blocked without an approved Role Reference.

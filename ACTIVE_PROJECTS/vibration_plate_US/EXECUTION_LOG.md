@@ -540,7 +540,7 @@ Result: Added `HTM_SCRIPT_PACKAGE.md` and Session record. No complete advertisin
 
 Evidence Summary: Observed Product Truth remains source-locked; Customer/Commerce/Video signals retain their limitations; all content-logic selections remain Inference or Future Test Direction rather than validated creative rules.
 
-Risk Items: Video Intelligence PARTIAL COMPLETE / Quality A = 0; paid confounding; small Customer Insight sample; missing Role/packaging references for applicable downstream use; temporary price reverification; independent review required.
+Risk Items: Video Intelligence remains PARTIAL COMPLETE with Quality A = 0. First Frame Evidence Missing means Visual Hook Pattern, Product First Appearance and Opening Visual Structure cannot be validated. Audio Evidence Missing means Voice Pattern, Audio Hook and Music Influence cannot be validated. Scene Timeline Evidence Missing means Scene Sequence, Retention Structure, Product Timing and CTA Timing cannot be validated. Paid confounding, the small Customer Insight sample, missing Role/packaging references, temporary-price reverification and independent review requirements remain.
 
 Next Step: Creative Review of VP-US-005D-HTM-SP-v1.0.
 
