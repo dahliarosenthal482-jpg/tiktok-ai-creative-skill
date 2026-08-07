@@ -6,6 +6,8 @@ Scope: Cross-project governance, contracts, lifecycle, provider abstraction, ass
 
 Quality and cost controls for model selection, generation budgets, retry limits, Prompt versions, scoring, and production learning are defined in `SYSTEM_CORE/AI_VIDEO_QUALITY_COST_CONTROL_STANDARD.md`.
 
+The standard conversion from Creative Strategy to an approved Creative Production Specification and Video Production Input is defined in `SYSTEM_CORE/AI_VIDEO_CREATIVE_EXECUTION_STANDARD.md`.
+
 ## Pipeline Architecture
 
 `Market Intelligence Agent → Creative Production Agent → Video Production Agent → Review Agent`

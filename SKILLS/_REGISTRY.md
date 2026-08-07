@@ -156,6 +156,20 @@ Required Capability: Model Evaluation, Cost Governance, Retry Analysis, Prompt V
 
 Status: Planned
 
+## AI Video Creative Execution Skill
+
+Skill Name: AI Video Creative Execution Skill
+
+Purpose: Standardize conversion of approved Creative Strategy into a governed Creative Production Specification, Script Framework, Scene Planning records, Prompt Assembly manifest, and production-admission package.
+
+Input: Approved Creative Strategy, valid Product and Role references, claim restrictions, platform requirements, Evidence Summary, and Risk Items
+
+Output: Reviewable Creative Production Specification and structured Video Production Input
+
+Required Capability: Creative Specification Design, Script Logic Planning, Scene Planning, Prompt Contract Assembly, and Creative Compliance Review
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:

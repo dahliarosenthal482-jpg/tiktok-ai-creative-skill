@@ -24,6 +24,17 @@ All future AI video generation tasks must also comply with `SYSTEM_CORE/AI_VIDEO
 6. Failed assets, attempts, costs, Prompt versions, and correction reasons must remain traceable; overwriting is prohibited.
 7. Production learning must be abstracted and independently approved before entering system rules; real project knowledge remains isolated.
 
+## AI Video Creative Execution Rules
+
+All future conversion of Creative Strategy into production inputs must comply with `SYSTEM_CORE/AI_VIDEO_CREATIVE_EXECUTION_STANDARD.md`.
+
+1. Creative Production Specification is the only standard handoff from Creative Agent to Video Production Agent.
+2. Script Framework and Scene Planning records define logic and constraints only; they must not contain finished copy, production scripts, or provider instructions unless separately authorized.
+3. Prompt Assembly must preserve module provenance and cannot add facts or weaken Product, Role, Scene, Claim, or Negative Constraint locks.
+4. Creative Review must check Strategy Alignment, Product Truth, Audience Match, Content Goal, Platform Fit, Claim Compliance, and Production Feasibility.
+5. No Generation Task may be created unless the exact Specification version is approved and Product Reference, Role Reference, claim restrictions, and Generation Objective are valid.
+6. Creative Agent output status is `EXECUTED`; only the independent reviewer may issue a Creative Review decision.
+
 ## System Core 启动流程
 
 任何 Work 启动时，必须按以下顺序完成系统级上下文恢复：

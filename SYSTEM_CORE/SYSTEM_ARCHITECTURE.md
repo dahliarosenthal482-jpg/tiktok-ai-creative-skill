@@ -10,6 +10,8 @@ An approved Creative Production Specification is the single admission point to g
 
 Model selection, cost authorization, retries, Prompt versions, quality scoring, and the abstract learning loop form a control plane around this path. The control plane is defined in `SYSTEM_CORE/AI_VIDEO_QUALITY_COST_CONTROL_STANDARD.md` and cannot bypass Specification, budget, or Review gates.
 
+Creative Strategy enters production only through the Creative Execution conversion layer: `Creative Strategy → Creative Production Specification → Creative Review Gate → Video Production Input`. The layer is defined in `SYSTEM_CORE/AI_VIDEO_CREATIVE_EXECUTION_STANDARD.md`.
+
 ## System
 
 AI TikTok Shop Operating System 由五个相互隔离、通过 GitHub 仓库同步的层组成。
