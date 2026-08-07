@@ -1,5 +1,17 @@
 # Agent Protocol
 
+## AI Video Production Execution Rules
+
+All future AI video production work must comply with `SYSTEM_CORE/AI_VIDEO_PRODUCTION_PIPELINE_STANDARD.md`.
+
+1. Video Generation must not start without a versioned Creative Production Specification approved by an authorized reviewer.
+2. The Generation Task must reference the approved Specification, Prompt Version, reference Asset IDs, Generation Decision, and Provider Adapter.
+3. Agents must not bind directly to provider APIs or store provider credentials in Git-managed files.
+4. Product Lock, Role Lock, Scene Lock, Camera Style, and Negative Constraints must survive provider translation.
+5. `GENERATED` means an output exists and does not mean approval. Every candidate must pass Product Consistency, Character Consistency, Scene Consistency, Claim Compliance, and Technical Quality checks.
+6. Only the Review Agent may issue the final asset decision. A failed or incomplete Review Gate prevents Final Asset admission.
+7. Every transition, Prompt version, reference asset, output asset, Evidence Summary, and Risk Item must remain traceable.
+
 ## System Core 启动流程
 
 任何 Work 启动时，必须按以下顺序完成系统级上下文恢复：

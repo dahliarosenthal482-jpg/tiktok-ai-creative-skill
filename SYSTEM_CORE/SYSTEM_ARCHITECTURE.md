@@ -1,5 +1,13 @@
 # System Architecture
 
+## AI Video Production Pipeline
+
+The provider-neutral production path is:
+
+`Market Intelligence Agent → Creative Production Agent → Video Production Agent → Review Agent`
+
+An approved Creative Production Specification is the single admission point to generation. The Video Production Agent must route an authorized Generation Task through the Generation Decision Engine and a Provider Adapter. Generated outputs remain candidate assets until the Review Agent passes the Quality Review Gate. Full rules are defined in `SYSTEM_CORE/AI_VIDEO_PRODUCTION_PIPELINE_STANDARD.md`.
+
 ## System
 
 AI TikTok Shop Operating System 由五个相互隔离、通过 GitHub 仓库同步的层组成。

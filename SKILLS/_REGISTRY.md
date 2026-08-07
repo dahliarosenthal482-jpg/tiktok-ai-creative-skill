@@ -128,6 +128,20 @@ Required Capability: Content Commerce Analysis and Evidence Verification
 
 Status: Planned
 
+## AI Video Production Pipeline Skill
+
+Skill Name: AI Video Production Pipeline Skill
+
+Purpose: Standardize approved creative specifications, generation decisions, provider-neutral task routing, prompt contracts, asset traceability, and post-generation quality gates.
+
+Input: Approved Creative Production Specification, authorized reference assets, Generation Decision, Prompt Contract, Evidence Summary, and Risk Items
+
+Output: Provider-neutral Generation Task, normalized candidate assets, Video Asset Registry entries, and Quality Review package
+
+Required Capability: Creative Production Governance, Provider Adapter Operation, Asset Management, and Video Quality Review
+
+Status: Planned
+
 ## Skill Entry Template
 
 Skill Name:
