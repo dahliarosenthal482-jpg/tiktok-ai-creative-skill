@@ -701,3 +701,39 @@ Risk Items: Creative Production Specification v1.1 requires approval before supe
 Data Boundary Check: product data 0; market data 0; video data 0; API calls 0; Prompt generation 0.
 
 Next Action: Supervisor re-review. VP-US-005D remains blocked.
+
+## TASK_REQUEST — VP-US-005D
+
+Task ID: VP-US-005D
+
+Task Name: HTM Script Package v1.0
+
+Task Type: PROJECT_EXECUTION
+
+Approval Basis: Supervisor Review commit `f2cd23f`, decision `APPROVED TO ENTER VP-US-005D`.
+
+Objective: Convert approved CPS v1.1 Production Intent and approved bounded inputs into an HTM Content Structure Contract.
+
+Executor: WORK-CREATIVE-001
+
+Session ID: VP-US-005D-20260807
+
+Status: EXECUTED
+
+Restrictions: Script Package only; no complete script, spoken line, subtitle, title copy, finished Hook, Storyboard, Shot List, Scene timeline, duration/Camera parameter, Prompt, Provider parameter, Video Production Specification or Generation Task.
+
+## TASK_RESULT — VP-US-005D
+
+Execution Status: EXECUTED
+
+Approval Status: CREATIVE_REVIEW_REQUIRED
+
+Changed Files: added `HTM_SCRIPT_PACKAGE.md` and `SESSIONS/VP-US-005D-20260807.md`; updated Project State, Task Queue and Execution Log.
+
+Result: created the thirteen-section HTM Script Package with objectives, audience triggers, information flow, Hook categories, message/proof/objection/CTA logic, constraints, evidence classification and a Video Production Specification output contract.
+
+Evidence Boundary: approved Product Truth remains Observed Evidence; strategic/content interpretation remains Inference; selected logic and category applications remain Future Test Direction. Video Intelligence remains PARTIAL COMPLETE / Quality A = 0.
+
+Risk Items: no playback-derived creative rule; AD confounding; small Amazon Customer Insight sample; Role/packaging reference gaps; temporary price reverification; package is unapproved until Creative Review.
+
+Next Action: Creative Review only. No Video Production Specification may be created from this version before approval.

@@ -522,6 +522,28 @@ Data Boundary Check: project framework/flow files only; product data 0; market d
 
 Next Step: Supervisor re-review.
 
+## 2026-08-07 — VP-US-005D HTM Script Package v1.0
+
+Session ID: VP-US-005D-20260807
+
+Executor: WORK-CREATIVE-001
+
+Execution Status: EXECUTED
+
+Approval Status: CREATIVE_REVIEW_REQUIRED
+
+Approval Basis: Supervisor Review commit `f2cd23f` approved CPS v1.1 and entry to VP-US-005D.
+
+Actions: Verified the approval/evidence/source status of Creative Strategy, CPS v1.1, Commerce Creative Intelligence, restricted Video Intelligence and Product Production Ready; created a populated HTM Content Structure Contract; preserved Black/White allowance, Silver prohibition, approved claims and evidence classifications; updated project-local governance only.
+
+Result: Added `HTM_SCRIPT_PACKAGE.md` and Session record. No complete advertising script, spoken line, subtitle, title, finished Hook, Storyboard, Shot List, Scene timeline, duration/Camera parameter, Prompt, Provider parameter, Video Production Specification, Generation Task, API call or video was created.
+
+Evidence Summary: Observed Product Truth remains source-locked; Customer/Commerce/Video signals retain their limitations; all content-logic selections remain Inference or Future Test Direction rather than validated creative rules.
+
+Risk Items: Video Intelligence PARTIAL COMPLETE / Quality A = 0; paid confounding; small Customer Insight sample; missing Role/packaging references for applicable downstream use; temporary price reverification; independent review required.
+
+Next Step: Creative Review of VP-US-005D-HTM-SP-v1.0.
+
 ## 2026-08-07 — VP-US-005C-R2 Creative Layer Responsibility Alignment
 
 Session ID: VP-US-005C-R2-20260807
