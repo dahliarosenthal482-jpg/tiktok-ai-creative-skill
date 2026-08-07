@@ -121,9 +121,9 @@ Restrictions:
 
 Current Project: vibration_plate_US
 
-Current Task: VP-US-003
+Current Task: VP-US-003-R2
 
-Current Assignment: Video Intelligence Deep Collection
+Current Assignment: Video Evidence Correction Complete
 
 Status: Active
 
